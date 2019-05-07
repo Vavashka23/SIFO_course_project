@@ -1,181 +1,325 @@
-|RON_Block
-data_OUT[0] <= lpm_bustri0:inst21.tridata[0]
-data_OUT[1] <= lpm_bustri0:inst21.tridata[1]
-data_OUT[2] <= lpm_bustri0:inst21.tridata[2]
-data_OUT[3] <= lpm_bustri0:inst21.tridata[3]
-data_OUT[4] <= lpm_bustri0:inst21.tridata[4]
-data_OUT[5] <= lpm_bustri0:inst21.tridata[5]
-data_OUT[6] <= lpm_bustri0:inst21.tridata[6]
-data_OUT[7] <= lpm_bustri0:inst21.tridata[7]
-data_OUT[8] <= lpm_bustri0:inst21.tridata[8]
-data_OUT[9] <= lpm_bustri0:inst21.tridata[9]
-Read => lpm_bustri0:inst21.enabledt
+|STEAK
+EMPTY <= lpm_compare9:inst21.aeb
+push => lpm_counter6:inst18.updown
+push => inst20.IN1
+push => lpm_decode5:inst19.enable
+clk => lpm_counter6:inst18.clock
+clk => inst28.IN0
 clk => lpm_dff0:inst.clock
-clk => lpm_dff0:inst10.clock
-clk => lpm_dff0:inst11.clock
-clk => lpm_dff0:inst12.clock
-clk => lpm_dff0:inst13.clock
-clk => lpm_dff0:inst1.clock
-clk => lpm_dff0:inst2.clock
-clk => lpm_dff0:inst3.clock
-clk => lpm_dff0:inst4.clock
-clk => lpm_dff0:inst5.clock
 clk => lpm_dff0:inst6.clock
 clk => lpm_dff0:inst7.clock
 clk => lpm_dff0:inst8.clock
 clk => lpm_dff0:inst9.clock
-Write => lpm_decode4:inst19.enable
-reg_address[0] => lpm_decode4:inst19.data[0]
-reg_address[0] => lpm_mux5:inst20.sel[0]
-reg_address[1] => lpm_decode4:inst19.data[1]
-reg_address[1] => lpm_mux5:inst20.sel[1]
-reg_address[2] => lpm_decode4:inst19.data[2]
-reg_address[2] => lpm_mux5:inst20.sel[2]
-reg_address[3] => lpm_decode4:inst19.data[3]
-reg_address[3] => lpm_mux5:inst20.sel[3]
-data_IN[0] => lpm_dff0:inst.data[0]
-data_IN[0] => lpm_dff0:inst10.data[0]
-data_IN[0] => lpm_dff0:inst11.data[0]
-data_IN[0] => lpm_dff0:inst12.data[0]
-data_IN[0] => lpm_dff0:inst13.data[0]
-data_IN[0] => lpm_dff0:inst1.data[0]
-data_IN[0] => lpm_dff0:inst2.data[0]
-data_IN[0] => lpm_dff0:inst3.data[0]
-data_IN[0] => lpm_dff0:inst4.data[0]
-data_IN[0] => lpm_dff0:inst5.data[0]
-data_IN[0] => lpm_dff0:inst6.data[0]
-data_IN[0] => lpm_dff0:inst7.data[0]
-data_IN[0] => lpm_dff0:inst8.data[0]
-data_IN[0] => lpm_dff0:inst9.data[0]
-data_IN[1] => lpm_dff0:inst.data[1]
-data_IN[1] => lpm_dff0:inst10.data[1]
-data_IN[1] => lpm_dff0:inst11.data[1]
-data_IN[1] => lpm_dff0:inst12.data[1]
-data_IN[1] => lpm_dff0:inst13.data[1]
-data_IN[1] => lpm_dff0:inst1.data[1]
-data_IN[1] => lpm_dff0:inst2.data[1]
-data_IN[1] => lpm_dff0:inst3.data[1]
-data_IN[1] => lpm_dff0:inst4.data[1]
-data_IN[1] => lpm_dff0:inst5.data[1]
-data_IN[1] => lpm_dff0:inst6.data[1]
-data_IN[1] => lpm_dff0:inst7.data[1]
-data_IN[1] => lpm_dff0:inst8.data[1]
-data_IN[1] => lpm_dff0:inst9.data[1]
-data_IN[2] => lpm_dff0:inst.data[2]
-data_IN[2] => lpm_dff0:inst10.data[2]
-data_IN[2] => lpm_dff0:inst11.data[2]
-data_IN[2] => lpm_dff0:inst12.data[2]
-data_IN[2] => lpm_dff0:inst13.data[2]
-data_IN[2] => lpm_dff0:inst1.data[2]
-data_IN[2] => lpm_dff0:inst2.data[2]
-data_IN[2] => lpm_dff0:inst3.data[2]
-data_IN[2] => lpm_dff0:inst4.data[2]
-data_IN[2] => lpm_dff0:inst5.data[2]
-data_IN[2] => lpm_dff0:inst6.data[2]
-data_IN[2] => lpm_dff0:inst7.data[2]
-data_IN[2] => lpm_dff0:inst8.data[2]
-data_IN[2] => lpm_dff0:inst9.data[2]
-data_IN[3] => lpm_dff0:inst.data[3]
-data_IN[3] => lpm_dff0:inst10.data[3]
-data_IN[3] => lpm_dff0:inst11.data[3]
-data_IN[3] => lpm_dff0:inst12.data[3]
-data_IN[3] => lpm_dff0:inst13.data[3]
-data_IN[3] => lpm_dff0:inst1.data[3]
-data_IN[3] => lpm_dff0:inst2.data[3]
-data_IN[3] => lpm_dff0:inst3.data[3]
-data_IN[3] => lpm_dff0:inst4.data[3]
-data_IN[3] => lpm_dff0:inst5.data[3]
-data_IN[3] => lpm_dff0:inst6.data[3]
-data_IN[3] => lpm_dff0:inst7.data[3]
-data_IN[3] => lpm_dff0:inst8.data[3]
-data_IN[3] => lpm_dff0:inst9.data[3]
-data_IN[4] => lpm_dff0:inst.data[4]
-data_IN[4] => lpm_dff0:inst10.data[4]
-data_IN[4] => lpm_dff0:inst11.data[4]
-data_IN[4] => lpm_dff0:inst12.data[4]
-data_IN[4] => lpm_dff0:inst13.data[4]
-data_IN[4] => lpm_dff0:inst1.data[4]
-data_IN[4] => lpm_dff0:inst2.data[4]
-data_IN[4] => lpm_dff0:inst3.data[4]
-data_IN[4] => lpm_dff0:inst4.data[4]
-data_IN[4] => lpm_dff0:inst5.data[4]
-data_IN[4] => lpm_dff0:inst6.data[4]
-data_IN[4] => lpm_dff0:inst7.data[4]
-data_IN[4] => lpm_dff0:inst8.data[4]
-data_IN[4] => lpm_dff0:inst9.data[4]
-data_IN[5] => lpm_dff0:inst.data[5]
-data_IN[5] => lpm_dff0:inst10.data[5]
-data_IN[5] => lpm_dff0:inst11.data[5]
-data_IN[5] => lpm_dff0:inst12.data[5]
-data_IN[5] => lpm_dff0:inst13.data[5]
-data_IN[5] => lpm_dff0:inst1.data[5]
-data_IN[5] => lpm_dff0:inst2.data[5]
-data_IN[5] => lpm_dff0:inst3.data[5]
-data_IN[5] => lpm_dff0:inst4.data[5]
-data_IN[5] => lpm_dff0:inst5.data[5]
-data_IN[5] => lpm_dff0:inst6.data[5]
-data_IN[5] => lpm_dff0:inst7.data[5]
-data_IN[5] => lpm_dff0:inst8.data[5]
-data_IN[5] => lpm_dff0:inst9.data[5]
-data_IN[6] => lpm_dff0:inst.data[6]
-data_IN[6] => lpm_dff0:inst10.data[6]
-data_IN[6] => lpm_dff0:inst11.data[6]
-data_IN[6] => lpm_dff0:inst12.data[6]
-data_IN[6] => lpm_dff0:inst13.data[6]
-data_IN[6] => lpm_dff0:inst1.data[6]
-data_IN[6] => lpm_dff0:inst2.data[6]
-data_IN[6] => lpm_dff0:inst3.data[6]
-data_IN[6] => lpm_dff0:inst4.data[6]
-data_IN[6] => lpm_dff0:inst5.data[6]
-data_IN[6] => lpm_dff0:inst6.data[6]
-data_IN[6] => lpm_dff0:inst7.data[6]
-data_IN[6] => lpm_dff0:inst8.data[6]
-data_IN[6] => lpm_dff0:inst9.data[6]
-data_IN[7] => lpm_dff0:inst.data[7]
-data_IN[7] => lpm_dff0:inst10.data[7]
-data_IN[7] => lpm_dff0:inst11.data[7]
-data_IN[7] => lpm_dff0:inst12.data[7]
-data_IN[7] => lpm_dff0:inst13.data[7]
-data_IN[7] => lpm_dff0:inst1.data[7]
-data_IN[7] => lpm_dff0:inst2.data[7]
-data_IN[7] => lpm_dff0:inst3.data[7]
-data_IN[7] => lpm_dff0:inst4.data[7]
-data_IN[7] => lpm_dff0:inst5.data[7]
-data_IN[7] => lpm_dff0:inst6.data[7]
-data_IN[7] => lpm_dff0:inst7.data[7]
-data_IN[7] => lpm_dff0:inst8.data[7]
-data_IN[7] => lpm_dff0:inst9.data[7]
-data_IN[8] => lpm_dff0:inst.data[8]
-data_IN[8] => lpm_dff0:inst10.data[8]
-data_IN[8] => lpm_dff0:inst11.data[8]
-data_IN[8] => lpm_dff0:inst12.data[8]
-data_IN[8] => lpm_dff0:inst13.data[8]
-data_IN[8] => lpm_dff0:inst1.data[8]
-data_IN[8] => lpm_dff0:inst2.data[8]
-data_IN[8] => lpm_dff0:inst3.data[8]
-data_IN[8] => lpm_dff0:inst4.data[8]
-data_IN[8] => lpm_dff0:inst5.data[8]
-data_IN[8] => lpm_dff0:inst6.data[8]
-data_IN[8] => lpm_dff0:inst7.data[8]
-data_IN[8] => lpm_dff0:inst8.data[8]
-data_IN[8] => lpm_dff0:inst9.data[8]
-data_IN[9] => lpm_dff0:inst.data[9]
-data_IN[9] => lpm_dff0:inst10.data[9]
-data_IN[9] => lpm_dff0:inst11.data[9]
-data_IN[9] => lpm_dff0:inst12.data[9]
-data_IN[9] => lpm_dff0:inst13.data[9]
-data_IN[9] => lpm_dff0:inst1.data[9]
-data_IN[9] => lpm_dff0:inst2.data[9]
-data_IN[9] => lpm_dff0:inst3.data[9]
-data_IN[9] => lpm_dff0:inst4.data[9]
-data_IN[9] => lpm_dff0:inst5.data[9]
-data_IN[9] => lpm_dff0:inst6.data[9]
-data_IN[9] => lpm_dff0:inst7.data[9]
-data_IN[9] => lpm_dff0:inst8.data[9]
-data_IN[9] => lpm_dff0:inst9.data[9]
+clk => lpm_dff0:inst10.clock
+clk => lpm_dff0:inst11.clock
+clk => lpm_dff0:inst12.clock
+clk => lpm_dff0:inst13.clock
+clk => lpm_dff0:inst14.clock
+pop => lpm_dff3:inst22.data
+pop => lpm_bustri0:inst17.enabledt
+FULL <= lpm_compare10:inst23.aeb
+data_out[0] <= lpm_bustri0:inst17.tridata[0]
+data_out[1] <= lpm_bustri0:inst17.tridata[1]
+data_out[2] <= lpm_bustri0:inst17.tridata[2]
+data_out[3] <= lpm_bustri0:inst17.tridata[3]
+data_out[4] <= lpm_bustri0:inst17.tridata[4]
+data_out[5] <= lpm_bustri0:inst17.tridata[5]
+data_out[6] <= lpm_bustri0:inst17.tridata[6]
+data_out[7] <= lpm_bustri0:inst17.tridata[7]
+data_out[8] <= lpm_bustri0:inst17.tridata[8]
+data_out[9] <= lpm_bustri0:inst17.tridata[9]
+data_in[0] => lpm_dff0:inst.data[0]
+data_in[0] => lpm_dff0:inst6.data[0]
+data_in[0] => lpm_dff0:inst7.data[0]
+data_in[0] => lpm_dff0:inst8.data[0]
+data_in[0] => lpm_dff0:inst9.data[0]
+data_in[0] => lpm_dff0:inst10.data[0]
+data_in[0] => lpm_dff0:inst11.data[0]
+data_in[0] => lpm_dff0:inst12.data[0]
+data_in[0] => lpm_dff0:inst13.data[0]
+data_in[0] => lpm_dff0:inst14.data[0]
+data_in[1] => lpm_dff0:inst.data[1]
+data_in[1] => lpm_dff0:inst6.data[1]
+data_in[1] => lpm_dff0:inst7.data[1]
+data_in[1] => lpm_dff0:inst8.data[1]
+data_in[1] => lpm_dff0:inst9.data[1]
+data_in[1] => lpm_dff0:inst10.data[1]
+data_in[1] => lpm_dff0:inst11.data[1]
+data_in[1] => lpm_dff0:inst12.data[1]
+data_in[1] => lpm_dff0:inst13.data[1]
+data_in[1] => lpm_dff0:inst14.data[1]
+data_in[2] => lpm_dff0:inst.data[2]
+data_in[2] => lpm_dff0:inst6.data[2]
+data_in[2] => lpm_dff0:inst7.data[2]
+data_in[2] => lpm_dff0:inst8.data[2]
+data_in[2] => lpm_dff0:inst9.data[2]
+data_in[2] => lpm_dff0:inst10.data[2]
+data_in[2] => lpm_dff0:inst11.data[2]
+data_in[2] => lpm_dff0:inst12.data[2]
+data_in[2] => lpm_dff0:inst13.data[2]
+data_in[2] => lpm_dff0:inst14.data[2]
+data_in[3] => lpm_dff0:inst.data[3]
+data_in[3] => lpm_dff0:inst6.data[3]
+data_in[3] => lpm_dff0:inst7.data[3]
+data_in[3] => lpm_dff0:inst8.data[3]
+data_in[3] => lpm_dff0:inst9.data[3]
+data_in[3] => lpm_dff0:inst10.data[3]
+data_in[3] => lpm_dff0:inst11.data[3]
+data_in[3] => lpm_dff0:inst12.data[3]
+data_in[3] => lpm_dff0:inst13.data[3]
+data_in[3] => lpm_dff0:inst14.data[3]
+data_in[4] => lpm_dff0:inst.data[4]
+data_in[4] => lpm_dff0:inst6.data[4]
+data_in[4] => lpm_dff0:inst7.data[4]
+data_in[4] => lpm_dff0:inst8.data[4]
+data_in[4] => lpm_dff0:inst9.data[4]
+data_in[4] => lpm_dff0:inst10.data[4]
+data_in[4] => lpm_dff0:inst11.data[4]
+data_in[4] => lpm_dff0:inst12.data[4]
+data_in[4] => lpm_dff0:inst13.data[4]
+data_in[4] => lpm_dff0:inst14.data[4]
+data_in[5] => lpm_dff0:inst.data[5]
+data_in[5] => lpm_dff0:inst6.data[5]
+data_in[5] => lpm_dff0:inst7.data[5]
+data_in[5] => lpm_dff0:inst8.data[5]
+data_in[5] => lpm_dff0:inst9.data[5]
+data_in[5] => lpm_dff0:inst10.data[5]
+data_in[5] => lpm_dff0:inst11.data[5]
+data_in[5] => lpm_dff0:inst12.data[5]
+data_in[5] => lpm_dff0:inst13.data[5]
+data_in[5] => lpm_dff0:inst14.data[5]
+data_in[6] => lpm_dff0:inst.data[6]
+data_in[6] => lpm_dff0:inst6.data[6]
+data_in[6] => lpm_dff0:inst7.data[6]
+data_in[6] => lpm_dff0:inst8.data[6]
+data_in[6] => lpm_dff0:inst9.data[6]
+data_in[6] => lpm_dff0:inst10.data[6]
+data_in[6] => lpm_dff0:inst11.data[6]
+data_in[6] => lpm_dff0:inst12.data[6]
+data_in[6] => lpm_dff0:inst13.data[6]
+data_in[6] => lpm_dff0:inst14.data[6]
+data_in[7] => lpm_dff0:inst.data[7]
+data_in[7] => lpm_dff0:inst6.data[7]
+data_in[7] => lpm_dff0:inst7.data[7]
+data_in[7] => lpm_dff0:inst8.data[7]
+data_in[7] => lpm_dff0:inst9.data[7]
+data_in[7] => lpm_dff0:inst10.data[7]
+data_in[7] => lpm_dff0:inst11.data[7]
+data_in[7] => lpm_dff0:inst12.data[7]
+data_in[7] => lpm_dff0:inst13.data[7]
+data_in[7] => lpm_dff0:inst14.data[7]
+data_in[8] => lpm_dff0:inst.data[8]
+data_in[8] => lpm_dff0:inst6.data[8]
+data_in[8] => lpm_dff0:inst7.data[8]
+data_in[8] => lpm_dff0:inst8.data[8]
+data_in[8] => lpm_dff0:inst9.data[8]
+data_in[8] => lpm_dff0:inst10.data[8]
+data_in[8] => lpm_dff0:inst11.data[8]
+data_in[8] => lpm_dff0:inst12.data[8]
+data_in[8] => lpm_dff0:inst13.data[8]
+data_in[8] => lpm_dff0:inst14.data[8]
+data_in[9] => lpm_dff0:inst.data[9]
+data_in[9] => lpm_dff0:inst6.data[9]
+data_in[9] => lpm_dff0:inst7.data[9]
+data_in[9] => lpm_dff0:inst8.data[9]
+data_in[9] => lpm_dff0:inst9.data[9]
+data_in[9] => lpm_dff0:inst10.data[9]
+data_in[9] => lpm_dff0:inst11.data[9]
+data_in[9] => lpm_dff0:inst12.data[9]
+data_in[9] => lpm_dff0:inst13.data[9]
+data_in[9] => lpm_dff0:inst14.data[9]
 
 
-|RON_Block|lpm_bustri0:inst21
+|STEAK|lpm_compare9:inst21
+dataa[0] => lpm_compare:lpm_compare_component.dataa[0]
+dataa[1] => lpm_compare:lpm_compare_component.dataa[1]
+dataa[2] => lpm_compare:lpm_compare_component.dataa[2]
+dataa[3] => lpm_compare:lpm_compare_component.dataa[3]
+AeB <= lpm_compare:lpm_compare_component.AeB
+
+
+|STEAK|lpm_compare9:inst21|lpm_compare:lpm_compare_component
+dataa[0] => cmpr_mni:auto_generated.dataa[0]
+dataa[1] => cmpr_mni:auto_generated.dataa[1]
+dataa[2] => cmpr_mni:auto_generated.dataa[2]
+dataa[3] => cmpr_mni:auto_generated.dataa[3]
+datab[0] => ~NO_FANOUT~
+datab[1] => ~NO_FANOUT~
+datab[2] => ~NO_FANOUT~
+datab[3] => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+alb <= <GND>
+aeb <= cmpr_mni:auto_generated.aeb
+agb <= <GND>
+aleb <= <GND>
+aneb <= <GND>
+ageb <= <GND>
+
+
+|STEAK|lpm_compare9:inst21|lpm_compare:lpm_compare_component|cmpr_mni:auto_generated
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0]~2.IN0
+dataa[1] => data_wire[0]~3.IN0
+dataa[2] => data_wire[1]~0.IN0
+dataa[3] => data_wire[1]~1.IN0
+
+
+|STEAK|lpm_counter6:inst18
+clk_en => lpm_counter:lpm_counter_component.clk_en
+clock => lpm_counter:lpm_counter_component.clock
+updown => lpm_counter:lpm_counter_component.updown
+q[0] <= lpm_counter:lpm_counter_component.q[0]
+q[1] <= lpm_counter:lpm_counter_component.q[1]
+q[2] <= lpm_counter:lpm_counter_component.q[2]
+q[3] <= lpm_counter:lpm_counter_component.q[3]
+
+
+|STEAK|lpm_counter6:inst18|lpm_counter:lpm_counter_component
+clock => cntr_h1h:auto_generated.clock
+clk_en => cntr_h1h:auto_generated.clk_en
+cnt_en => ~NO_FANOUT~
+updown => cntr_h1h:auto_generated.updown
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_h1h:auto_generated.q[0]
+q[1] <= cntr_h1h:auto_generated.q[1]
+q[2] <= cntr_h1h:auto_generated.q[2]
+q[3] <= cntr_h1h:auto_generated.q[3]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|STEAK|lpm_counter6:inst18|lpm_counter:lpm_counter_component|cntr_h1h:auto_generated
+clk_en => counter_reg_bit1a[3]~4.IN0
+clock => counter_reg_bit1a[3].CLK
+clock => counter_reg_bit1a[2].CLK
+clock => counter_reg_bit1a[1].CLK
+clock => counter_reg_bit1a[0].CLK
+q[0] <= counter_reg_bit1a[0].REGOUT
+q[1] <= counter_reg_bit1a[1].REGOUT
+q[2] <= counter_reg_bit1a[2].REGOUT
+q[3] <= counter_reg_bit1a[3].REGOUT
+updown => updown_other_bits.IN1
+updown => counter_comb_bita0.DATAF
+
+
+|STEAK|lpm_dff3:inst25
+clock => lpm_ff:lpm_ff_component.clock
+data => lpm_ff:lpm_ff_component.data[0]
+enable => lpm_ff:lpm_ff_component.enable
+q <= lpm_ff:lpm_ff_component.q[0]
+
+
+|STEAK|lpm_dff3:inst25|lpm_ff:lpm_ff_component
+data[0] => dffs[0].DATAIN
+clock => dffs[0].CLK
+enable => dffs[0].ENA
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|STEAK|lpm_dff3:inst22
+clock => lpm_ff:lpm_ff_component.clock
+data => lpm_ff:lpm_ff_component.data[0]
+enable => lpm_ff:lpm_ff_component.enable
+q <= lpm_ff:lpm_ff_component.q[0]
+
+
+|STEAK|lpm_dff3:inst22|lpm_ff:lpm_ff_component
+data[0] => dffs[0].DATAIN
+clock => dffs[0].CLK
+enable => dffs[0].ENA
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|STEAK|lpm_constant1:inst24
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+
+
+|STEAK|lpm_constant1:inst24|lpm_constant:lpm_constant_component
+result[0] <= <VCC>
+
+
+|STEAK|lpm_compare10:inst23
+dataa[0] => lpm_compare:lpm_compare_component.dataa[0]
+dataa[1] => lpm_compare:lpm_compare_component.dataa[1]
+dataa[2] => lpm_compare:lpm_compare_component.dataa[2]
+dataa[3] => lpm_compare:lpm_compare_component.dataa[3]
+AeB <= lpm_compare:lpm_compare_component.AeB
+
+
+|STEAK|lpm_compare10:inst23|lpm_compare:lpm_compare_component
+dataa[0] => cmpr_i8j:auto_generated.dataa[0]
+dataa[1] => cmpr_i8j:auto_generated.dataa[1]
+dataa[2] => cmpr_i8j:auto_generated.dataa[2]
+dataa[3] => cmpr_i8j:auto_generated.dataa[3]
+datab[0] => cmpr_i8j:auto_generated.datab[0]
+datab[1] => cmpr_i8j:auto_generated.datab[1]
+datab[2] => cmpr_i8j:auto_generated.datab[2]
+datab[3] => cmpr_i8j:auto_generated.datab[3]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+alb <= <GND>
+aeb <= cmpr_i8j:auto_generated.aeb
+agb <= <GND>
+aleb <= <GND>
+aneb <= <GND>
+ageb <= <GND>
+
+
+|STEAK|lpm_compare10:inst23|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0]~2.IN0
+dataa[1] => data_wire[0]~3.IN0
+dataa[2] => data_wire[1]~0.IN0
+dataa[3] => data_wire[1]~1.IN0
+datab[0] => data_wire[0]~2.IN1
+datab[1] => data_wire[0]~3.IN1
+datab[2] => data_wire[1]~0.IN1
+datab[3] => data_wire[1]~1.IN1
+
+
+|STEAK|lpm_bustri0:inst17
 data[0] => lpm_bustri:lpm_bustri_component.data[0]
 data[1] => lpm_bustri:lpm_bustri_component.data[1]
 data[2] => lpm_bustri:lpm_bustri_component.data[2]
@@ -199,7 +343,7 @@ tridata[8] <> lpm_bustri:lpm_bustri_component.tridata[8]
 tridata[9] <> lpm_bustri:lpm_bustri_component.tridata[9]
 
 
-|RON_Block|lpm_bustri0:inst21|lpm_bustri:lpm_bustri_component
+|STEAK|lpm_bustri0:inst17|lpm_bustri:lpm_bustri_component
 tridata[0] <> dout[0]
 tridata[1] <> dout[1]
 tridata[2] <> dout[2]
@@ -243,7 +387,7 @@ result[8] <= result[8]~1.DB_MAX_OUTPUT_PORT_TYPE
 result[9] <= result[9]~0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|RON_Block|lpm_mux5:inst20
+|STEAK|lpm_mux5:inst16
 data0x[0] => LPM_MUX:lpm_mux_component.DATA[0][0]
 data0x[1] => LPM_MUX:lpm_mux_component.DATA[0][1]
 data0x[2] => LPM_MUX:lpm_mux_component.DATA[0][2]
@@ -420,7 +564,7 @@ result[8] <= LPM_MUX:lpm_mux_component.RESULT[8]
 result[9] <= LPM_MUX:lpm_mux_component.RESULT[9]
 
 
-|RON_Block|lpm_mux5:inst20|LPM_MUX:lpm_mux_component
+|STEAK|lpm_mux5:inst16|LPM_MUX:lpm_mux_component
 data[0][0] => mux_a7e:auto_generated.data[0]
 data[0][1] => mux_a7e:auto_generated.data[1]
 data[0][2] => mux_a7e:auto_generated.data[2]
@@ -600,7 +744,7 @@ result[8] <= mux_a7e:auto_generated.result[8]
 result[9] <= mux_a7e:auto_generated.result[9]
 
 
-|RON_Block|lpm_mux5:inst20|LPM_MUX:lpm_mux_component|mux_a7e:auto_generated
+|STEAK|lpm_mux5:inst16|LPM_MUX:lpm_mux_component|mux_a7e:auto_generated
 data[0] => l1_w0_n0_mux_dataout~1.IN1
 data[1] => l1_w1_n0_mux_dataout~1.IN1
 data[2] => l1_w2_n0_mux_dataout~1.IN1
@@ -1073,7 +1217,7 @@ sel[3] => l4_w9_n0_mux_dataout~0.IN0
 sel[3] => _~149.IN0
 
 
-|RON_Block|lpm_dff0:inst
+|STEAK|lpm_dff0:inst
 clock => lpm_ff:lpm_ff_component.clock
 data[0] => lpm_ff:lpm_ff_component.data[0]
 data[1] => lpm_ff:lpm_ff_component.data[1]
@@ -1098,7 +1242,7 @@ q[8] <= lpm_ff:lpm_ff_component.q[8]
 q[9] <= lpm_ff:lpm_ff_component.q[9]
 
 
-|RON_Block|lpm_dff0:inst|lpm_ff:lpm_ff_component
+|STEAK|lpm_dff0:inst|lpm_ff:lpm_ff_component
 data[0] => dffs[0].DATAIN
 data[1] => dffs[1].DATAIN
 data[2] => dffs[2].DATAIN
@@ -1147,7 +1291,7 @@ q[8] <= dffs[8].DB_MAX_OUTPUT_PORT_TYPE
 q[9] <= dffs[9].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|RON_Block|lpm_decode4:inst19
+|STEAK|lpm_decode5:inst19
 data[0] => lpm_decode:lpm_decode_component.data[0]
 data[1] => lpm_decode:lpm_decode_component.data[1]
 data[2] => lpm_decode:lpm_decode_component.data[2]
@@ -1155,10 +1299,6 @@ data[3] => lpm_decode:lpm_decode_component.data[3]
 enable => lpm_decode:lpm_decode_component.enable
 eq0 <= lpm_decode:lpm_decode_component.eq[0]
 eq1 <= lpm_decode:lpm_decode_component.eq[1]
-eq10 <= lpm_decode:lpm_decode_component.eq[10]
-eq11 <= lpm_decode:lpm_decode_component.eq[11]
-eq12 <= lpm_decode:lpm_decode_component.eq[12]
-eq13 <= lpm_decode:lpm_decode_component.eq[13]
 eq2 <= lpm_decode:lpm_decode_component.eq[2]
 eq3 <= lpm_decode:lpm_decode_component.eq[3]
 eq4 <= lpm_decode:lpm_decode_component.eq[4]
@@ -1169,7 +1309,7 @@ eq8 <= lpm_decode:lpm_decode_component.eq[8]
 eq9 <= lpm_decode:lpm_decode_component.eq[9]
 
 
-|RON_Block|lpm_decode4:inst19|lpm_decode:lpm_decode_component
+|STEAK|lpm_decode5:inst19|lpm_decode:lpm_decode_component
 data[0] => decode_ltf:auto_generated.data[0]
 data[1] => decode_ltf:auto_generated.data[1]
 data[2] => decode_ltf:auto_generated.data[2]
@@ -1196,7 +1336,7 @@ eq[14] <= decode_ltf:auto_generated.eq[14]
 eq[15] <= decode_ltf:auto_generated.eq[15]
 
 
-|RON_Block|lpm_decode4:inst19|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+|STEAK|lpm_decode5:inst19|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
 data[0] => w_anode108w[1]~2.IN0
 data[0] => w_anode119w[1].IN1
 data[0] => w_anode129w[1]~1.IN0
@@ -1267,7 +1407,7 @@ eq[14] <= w_anode169w[3].DB_MAX_OUTPUT_PORT_TYPE
 eq[15] <= w_anode179w[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|RON_Block|lpm_dff0:inst10
+|STEAK|lpm_dff0:inst6
 clock => lpm_ff:lpm_ff_component.clock
 data[0] => lpm_ff:lpm_ff_component.data[0]
 data[1] => lpm_ff:lpm_ff_component.data[1]
@@ -1292,7 +1432,7 @@ q[8] <= lpm_ff:lpm_ff_component.q[8]
 q[9] <= lpm_ff:lpm_ff_component.q[9]
 
 
-|RON_Block|lpm_dff0:inst10|lpm_ff:lpm_ff_component
+|STEAK|lpm_dff0:inst6|lpm_ff:lpm_ff_component
 data[0] => dffs[0].DATAIN
 data[1] => dffs[1].DATAIN
 data[2] => dffs[2].DATAIN
@@ -1341,7 +1481,7 @@ q[8] <= dffs[8].DB_MAX_OUTPUT_PORT_TYPE
 q[9] <= dffs[9].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|RON_Block|lpm_dff0:inst11
+|STEAK|lpm_dff0:inst7
 clock => lpm_ff:lpm_ff_component.clock
 data[0] => lpm_ff:lpm_ff_component.data[0]
 data[1] => lpm_ff:lpm_ff_component.data[1]
@@ -1366,7 +1506,7 @@ q[8] <= lpm_ff:lpm_ff_component.q[8]
 q[9] <= lpm_ff:lpm_ff_component.q[9]
 
 
-|RON_Block|lpm_dff0:inst11|lpm_ff:lpm_ff_component
+|STEAK|lpm_dff0:inst7|lpm_ff:lpm_ff_component
 data[0] => dffs[0].DATAIN
 data[1] => dffs[1].DATAIN
 data[2] => dffs[2].DATAIN
@@ -1415,7 +1555,7 @@ q[8] <= dffs[8].DB_MAX_OUTPUT_PORT_TYPE
 q[9] <= dffs[9].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|RON_Block|lpm_dff0:inst12
+|STEAK|lpm_dff0:inst8
 clock => lpm_ff:lpm_ff_component.clock
 data[0] => lpm_ff:lpm_ff_component.data[0]
 data[1] => lpm_ff:lpm_ff_component.data[1]
@@ -1440,7 +1580,7 @@ q[8] <= lpm_ff:lpm_ff_component.q[8]
 q[9] <= lpm_ff:lpm_ff_component.q[9]
 
 
-|RON_Block|lpm_dff0:inst12|lpm_ff:lpm_ff_component
+|STEAK|lpm_dff0:inst8|lpm_ff:lpm_ff_component
 data[0] => dffs[0].DATAIN
 data[1] => dffs[1].DATAIN
 data[2] => dffs[2].DATAIN
@@ -1489,7 +1629,7 @@ q[8] <= dffs[8].DB_MAX_OUTPUT_PORT_TYPE
 q[9] <= dffs[9].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|RON_Block|lpm_dff0:inst13
+|STEAK|lpm_dff0:inst9
 clock => lpm_ff:lpm_ff_component.clock
 data[0] => lpm_ff:lpm_ff_component.data[0]
 data[1] => lpm_ff:lpm_ff_component.data[1]
@@ -1514,7 +1654,7 @@ q[8] <= lpm_ff:lpm_ff_component.q[8]
 q[9] <= lpm_ff:lpm_ff_component.q[9]
 
 
-|RON_Block|lpm_dff0:inst13|lpm_ff:lpm_ff_component
+|STEAK|lpm_dff0:inst9|lpm_ff:lpm_ff_component
 data[0] => dffs[0].DATAIN
 data[1] => dffs[1].DATAIN
 data[2] => dffs[2].DATAIN
@@ -1563,7 +1703,7 @@ q[8] <= dffs[8].DB_MAX_OUTPUT_PORT_TYPE
 q[9] <= dffs[9].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|RON_Block|lpm_dff0:inst1
+|STEAK|lpm_dff0:inst10
 clock => lpm_ff:lpm_ff_component.clock
 data[0] => lpm_ff:lpm_ff_component.data[0]
 data[1] => lpm_ff:lpm_ff_component.data[1]
@@ -1588,7 +1728,7 @@ q[8] <= lpm_ff:lpm_ff_component.q[8]
 q[9] <= lpm_ff:lpm_ff_component.q[9]
 
 
-|RON_Block|lpm_dff0:inst1|lpm_ff:lpm_ff_component
+|STEAK|lpm_dff0:inst10|lpm_ff:lpm_ff_component
 data[0] => dffs[0].DATAIN
 data[1] => dffs[1].DATAIN
 data[2] => dffs[2].DATAIN
@@ -1637,7 +1777,7 @@ q[8] <= dffs[8].DB_MAX_OUTPUT_PORT_TYPE
 q[9] <= dffs[9].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|RON_Block|lpm_dff0:inst2
+|STEAK|lpm_dff0:inst11
 clock => lpm_ff:lpm_ff_component.clock
 data[0] => lpm_ff:lpm_ff_component.data[0]
 data[1] => lpm_ff:lpm_ff_component.data[1]
@@ -1662,7 +1802,7 @@ q[8] <= lpm_ff:lpm_ff_component.q[8]
 q[9] <= lpm_ff:lpm_ff_component.q[9]
 
 
-|RON_Block|lpm_dff0:inst2|lpm_ff:lpm_ff_component
+|STEAK|lpm_dff0:inst11|lpm_ff:lpm_ff_component
 data[0] => dffs[0].DATAIN
 data[1] => dffs[1].DATAIN
 data[2] => dffs[2].DATAIN
@@ -1711,7 +1851,7 @@ q[8] <= dffs[8].DB_MAX_OUTPUT_PORT_TYPE
 q[9] <= dffs[9].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|RON_Block|lpm_dff0:inst3
+|STEAK|lpm_dff0:inst12
 clock => lpm_ff:lpm_ff_component.clock
 data[0] => lpm_ff:lpm_ff_component.data[0]
 data[1] => lpm_ff:lpm_ff_component.data[1]
@@ -1736,7 +1876,7 @@ q[8] <= lpm_ff:lpm_ff_component.q[8]
 q[9] <= lpm_ff:lpm_ff_component.q[9]
 
 
-|RON_Block|lpm_dff0:inst3|lpm_ff:lpm_ff_component
+|STEAK|lpm_dff0:inst12|lpm_ff:lpm_ff_component
 data[0] => dffs[0].DATAIN
 data[1] => dffs[1].DATAIN
 data[2] => dffs[2].DATAIN
@@ -1785,7 +1925,7 @@ q[8] <= dffs[8].DB_MAX_OUTPUT_PORT_TYPE
 q[9] <= dffs[9].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|RON_Block|lpm_dff0:inst4
+|STEAK|lpm_dff0:inst13
 clock => lpm_ff:lpm_ff_component.clock
 data[0] => lpm_ff:lpm_ff_component.data[0]
 data[1] => lpm_ff:lpm_ff_component.data[1]
@@ -1810,7 +1950,7 @@ q[8] <= lpm_ff:lpm_ff_component.q[8]
 q[9] <= lpm_ff:lpm_ff_component.q[9]
 
 
-|RON_Block|lpm_dff0:inst4|lpm_ff:lpm_ff_component
+|STEAK|lpm_dff0:inst13|lpm_ff:lpm_ff_component
 data[0] => dffs[0].DATAIN
 data[1] => dffs[1].DATAIN
 data[2] => dffs[2].DATAIN
@@ -1859,7 +1999,7 @@ q[8] <= dffs[8].DB_MAX_OUTPUT_PORT_TYPE
 q[9] <= dffs[9].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|RON_Block|lpm_dff0:inst5
+|STEAK|lpm_dff0:inst14
 clock => lpm_ff:lpm_ff_component.clock
 data[0] => lpm_ff:lpm_ff_component.data[0]
 data[1] => lpm_ff:lpm_ff_component.data[1]
@@ -1884,7 +2024,7 @@ q[8] <= lpm_ff:lpm_ff_component.q[8]
 q[9] <= lpm_ff:lpm_ff_component.q[9]
 
 
-|RON_Block|lpm_dff0:inst5|lpm_ff:lpm_ff_component
+|STEAK|lpm_dff0:inst14|lpm_ff:lpm_ff_component
 data[0] => dffs[0].DATAIN
 data[1] => dffs[1].DATAIN
 data[2] => dffs[2].DATAIN
@@ -1933,299 +2073,51 @@ q[8] <= dffs[8].DB_MAX_OUTPUT_PORT_TYPE
 q[9] <= dffs[9].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|RON_Block|lpm_dff0:inst6
-clock => lpm_ff:lpm_ff_component.clock
-data[0] => lpm_ff:lpm_ff_component.data[0]
-data[1] => lpm_ff:lpm_ff_component.data[1]
-data[2] => lpm_ff:lpm_ff_component.data[2]
-data[3] => lpm_ff:lpm_ff_component.data[3]
-data[4] => lpm_ff:lpm_ff_component.data[4]
-data[5] => lpm_ff:lpm_ff_component.data[5]
-data[6] => lpm_ff:lpm_ff_component.data[6]
-data[7] => lpm_ff:lpm_ff_component.data[7]
-data[8] => lpm_ff:lpm_ff_component.data[8]
-data[9] => lpm_ff:lpm_ff_component.data[9]
-enable => lpm_ff:lpm_ff_component.enable
-q[0] <= lpm_ff:lpm_ff_component.q[0]
-q[1] <= lpm_ff:lpm_ff_component.q[1]
-q[2] <= lpm_ff:lpm_ff_component.q[2]
-q[3] <= lpm_ff:lpm_ff_component.q[3]
-q[4] <= lpm_ff:lpm_ff_component.q[4]
-q[5] <= lpm_ff:lpm_ff_component.q[5]
-q[6] <= lpm_ff:lpm_ff_component.q[6]
-q[7] <= lpm_ff:lpm_ff_component.q[7]
-q[8] <= lpm_ff:lpm_ff_component.q[8]
-q[9] <= lpm_ff:lpm_ff_component.q[9]
+|STEAK|lpm_add_sub0:inst30
+dataa[0] => lpm_add_sub:lpm_add_sub_component.dataa[0]
+dataa[1] => lpm_add_sub:lpm_add_sub_component.dataa[1]
+dataa[2] => lpm_add_sub:lpm_add_sub_component.dataa[2]
+dataa[3] => lpm_add_sub:lpm_add_sub_component.dataa[3]
+result[0] <= lpm_add_sub:lpm_add_sub_component.result[0]
+result[1] <= lpm_add_sub:lpm_add_sub_component.result[1]
+result[2] <= lpm_add_sub:lpm_add_sub_component.result[2]
+result[3] <= lpm_add_sub:lpm_add_sub_component.result[3]
 
 
-|RON_Block|lpm_dff0:inst6|lpm_ff:lpm_ff_component
-data[0] => dffs[0].DATAIN
-data[1] => dffs[1].DATAIN
-data[2] => dffs[2].DATAIN
-data[3] => dffs[3].DATAIN
-data[4] => dffs[4].DATAIN
-data[5] => dffs[5].DATAIN
-data[6] => dffs[6].DATAIN
-data[7] => dffs[7].DATAIN
-data[8] => dffs[8].DATAIN
-data[9] => dffs[9].DATAIN
-clock => dffs[9].CLK
-clock => dffs[8].CLK
-clock => dffs[7].CLK
-clock => dffs[6].CLK
-clock => dffs[5].CLK
-clock => dffs[4].CLK
-clock => dffs[3].CLK
-clock => dffs[2].CLK
-clock => dffs[1].CLK
-clock => dffs[0].CLK
-enable => dffs[9].ENA
-enable => dffs[8].ENA
-enable => dffs[7].ENA
-enable => dffs[6].ENA
-enable => dffs[5].ENA
-enable => dffs[4].ENA
-enable => dffs[3].ENA
-enable => dffs[2].ENA
-enable => dffs[1].ENA
-enable => dffs[0].ENA
+|STEAK|lpm_add_sub0:inst30|lpm_add_sub:lpm_add_sub_component
+dataa[0] => add_sub_vph:auto_generated.dataa[0]
+dataa[1] => add_sub_vph:auto_generated.dataa[1]
+dataa[2] => add_sub_vph:auto_generated.dataa[2]
+dataa[3] => add_sub_vph:auto_generated.dataa[3]
+datab[0] => add_sub_vph:auto_generated.datab[0]
+datab[1] => add_sub_vph:auto_generated.datab[1]
+datab[2] => add_sub_vph:auto_generated.datab[2]
+datab[3] => add_sub_vph:auto_generated.datab[3]
+cin => ~NO_FANOUT~
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
 aclr => ~NO_FANOUT~
-aset => ~NO_FANOUT~
-aload => ~NO_FANOUT~
-sclr => ~NO_FANOUT~
-sset => ~NO_FANOUT~
-sload => ~NO_FANOUT~
-q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
-q[1] <= dffs[1].DB_MAX_OUTPUT_PORT_TYPE
-q[2] <= dffs[2].DB_MAX_OUTPUT_PORT_TYPE
-q[3] <= dffs[3].DB_MAX_OUTPUT_PORT_TYPE
-q[4] <= dffs[4].DB_MAX_OUTPUT_PORT_TYPE
-q[5] <= dffs[5].DB_MAX_OUTPUT_PORT_TYPE
-q[6] <= dffs[6].DB_MAX_OUTPUT_PORT_TYPE
-q[7] <= dffs[7].DB_MAX_OUTPUT_PORT_TYPE
-q[8] <= dffs[8].DB_MAX_OUTPUT_PORT_TYPE
-q[9] <= dffs[9].DB_MAX_OUTPUT_PORT_TYPE
+clken => ~NO_FANOUT~
+result[0] <= add_sub_vph:auto_generated.result[0]
+result[1] <= add_sub_vph:auto_generated.result[1]
+result[2] <= add_sub_vph:auto_generated.result[2]
+result[3] <= add_sub_vph:auto_generated.result[3]
+cout <= <GND>
+overflow <= <GND>
 
 
-|RON_Block|lpm_dff0:inst7
-clock => lpm_ff:lpm_ff_component.clock
-data[0] => lpm_ff:lpm_ff_component.data[0]
-data[1] => lpm_ff:lpm_ff_component.data[1]
-data[2] => lpm_ff:lpm_ff_component.data[2]
-data[3] => lpm_ff:lpm_ff_component.data[3]
-data[4] => lpm_ff:lpm_ff_component.data[4]
-data[5] => lpm_ff:lpm_ff_component.data[5]
-data[6] => lpm_ff:lpm_ff_component.data[6]
-data[7] => lpm_ff:lpm_ff_component.data[7]
-data[8] => lpm_ff:lpm_ff_component.data[8]
-data[9] => lpm_ff:lpm_ff_component.data[9]
-enable => lpm_ff:lpm_ff_component.enable
-q[0] <= lpm_ff:lpm_ff_component.q[0]
-q[1] <= lpm_ff:lpm_ff_component.q[1]
-q[2] <= lpm_ff:lpm_ff_component.q[2]
-q[3] <= lpm_ff:lpm_ff_component.q[3]
-q[4] <= lpm_ff:lpm_ff_component.q[4]
-q[5] <= lpm_ff:lpm_ff_component.q[5]
-q[6] <= lpm_ff:lpm_ff_component.q[6]
-q[7] <= lpm_ff:lpm_ff_component.q[7]
-q[8] <= lpm_ff:lpm_ff_component.q[8]
-q[9] <= lpm_ff:lpm_ff_component.q[9]
-
-
-|RON_Block|lpm_dff0:inst7|lpm_ff:lpm_ff_component
-data[0] => dffs[0].DATAIN
-data[1] => dffs[1].DATAIN
-data[2] => dffs[2].DATAIN
-data[3] => dffs[3].DATAIN
-data[4] => dffs[4].DATAIN
-data[5] => dffs[5].DATAIN
-data[6] => dffs[6].DATAIN
-data[7] => dffs[7].DATAIN
-data[8] => dffs[8].DATAIN
-data[9] => dffs[9].DATAIN
-clock => dffs[9].CLK
-clock => dffs[8].CLK
-clock => dffs[7].CLK
-clock => dffs[6].CLK
-clock => dffs[5].CLK
-clock => dffs[4].CLK
-clock => dffs[3].CLK
-clock => dffs[2].CLK
-clock => dffs[1].CLK
-clock => dffs[0].CLK
-enable => dffs[9].ENA
-enable => dffs[8].ENA
-enable => dffs[7].ENA
-enable => dffs[6].ENA
-enable => dffs[5].ENA
-enable => dffs[4].ENA
-enable => dffs[3].ENA
-enable => dffs[2].ENA
-enable => dffs[1].ENA
-enable => dffs[0].ENA
-aclr => ~NO_FANOUT~
-aset => ~NO_FANOUT~
-aload => ~NO_FANOUT~
-sclr => ~NO_FANOUT~
-sset => ~NO_FANOUT~
-sload => ~NO_FANOUT~
-q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
-q[1] <= dffs[1].DB_MAX_OUTPUT_PORT_TYPE
-q[2] <= dffs[2].DB_MAX_OUTPUT_PORT_TYPE
-q[3] <= dffs[3].DB_MAX_OUTPUT_PORT_TYPE
-q[4] <= dffs[4].DB_MAX_OUTPUT_PORT_TYPE
-q[5] <= dffs[5].DB_MAX_OUTPUT_PORT_TYPE
-q[6] <= dffs[6].DB_MAX_OUTPUT_PORT_TYPE
-q[7] <= dffs[7].DB_MAX_OUTPUT_PORT_TYPE
-q[8] <= dffs[8].DB_MAX_OUTPUT_PORT_TYPE
-q[9] <= dffs[9].DB_MAX_OUTPUT_PORT_TYPE
-
-
-|RON_Block|lpm_dff0:inst8
-clock => lpm_ff:lpm_ff_component.clock
-data[0] => lpm_ff:lpm_ff_component.data[0]
-data[1] => lpm_ff:lpm_ff_component.data[1]
-data[2] => lpm_ff:lpm_ff_component.data[2]
-data[3] => lpm_ff:lpm_ff_component.data[3]
-data[4] => lpm_ff:lpm_ff_component.data[4]
-data[5] => lpm_ff:lpm_ff_component.data[5]
-data[6] => lpm_ff:lpm_ff_component.data[6]
-data[7] => lpm_ff:lpm_ff_component.data[7]
-data[8] => lpm_ff:lpm_ff_component.data[8]
-data[9] => lpm_ff:lpm_ff_component.data[9]
-enable => lpm_ff:lpm_ff_component.enable
-q[0] <= lpm_ff:lpm_ff_component.q[0]
-q[1] <= lpm_ff:lpm_ff_component.q[1]
-q[2] <= lpm_ff:lpm_ff_component.q[2]
-q[3] <= lpm_ff:lpm_ff_component.q[3]
-q[4] <= lpm_ff:lpm_ff_component.q[4]
-q[5] <= lpm_ff:lpm_ff_component.q[5]
-q[6] <= lpm_ff:lpm_ff_component.q[6]
-q[7] <= lpm_ff:lpm_ff_component.q[7]
-q[8] <= lpm_ff:lpm_ff_component.q[8]
-q[9] <= lpm_ff:lpm_ff_component.q[9]
-
-
-|RON_Block|lpm_dff0:inst8|lpm_ff:lpm_ff_component
-data[0] => dffs[0].DATAIN
-data[1] => dffs[1].DATAIN
-data[2] => dffs[2].DATAIN
-data[3] => dffs[3].DATAIN
-data[4] => dffs[4].DATAIN
-data[5] => dffs[5].DATAIN
-data[6] => dffs[6].DATAIN
-data[7] => dffs[7].DATAIN
-data[8] => dffs[8].DATAIN
-data[9] => dffs[9].DATAIN
-clock => dffs[9].CLK
-clock => dffs[8].CLK
-clock => dffs[7].CLK
-clock => dffs[6].CLK
-clock => dffs[5].CLK
-clock => dffs[4].CLK
-clock => dffs[3].CLK
-clock => dffs[2].CLK
-clock => dffs[1].CLK
-clock => dffs[0].CLK
-enable => dffs[9].ENA
-enable => dffs[8].ENA
-enable => dffs[7].ENA
-enable => dffs[6].ENA
-enable => dffs[5].ENA
-enable => dffs[4].ENA
-enable => dffs[3].ENA
-enable => dffs[2].ENA
-enable => dffs[1].ENA
-enable => dffs[0].ENA
-aclr => ~NO_FANOUT~
-aset => ~NO_FANOUT~
-aload => ~NO_FANOUT~
-sclr => ~NO_FANOUT~
-sset => ~NO_FANOUT~
-sload => ~NO_FANOUT~
-q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
-q[1] <= dffs[1].DB_MAX_OUTPUT_PORT_TYPE
-q[2] <= dffs[2].DB_MAX_OUTPUT_PORT_TYPE
-q[3] <= dffs[3].DB_MAX_OUTPUT_PORT_TYPE
-q[4] <= dffs[4].DB_MAX_OUTPUT_PORT_TYPE
-q[5] <= dffs[5].DB_MAX_OUTPUT_PORT_TYPE
-q[6] <= dffs[6].DB_MAX_OUTPUT_PORT_TYPE
-q[7] <= dffs[7].DB_MAX_OUTPUT_PORT_TYPE
-q[8] <= dffs[8].DB_MAX_OUTPUT_PORT_TYPE
-q[9] <= dffs[9].DB_MAX_OUTPUT_PORT_TYPE
-
-
-|RON_Block|lpm_dff0:inst9
-clock => lpm_ff:lpm_ff_component.clock
-data[0] => lpm_ff:lpm_ff_component.data[0]
-data[1] => lpm_ff:lpm_ff_component.data[1]
-data[2] => lpm_ff:lpm_ff_component.data[2]
-data[3] => lpm_ff:lpm_ff_component.data[3]
-data[4] => lpm_ff:lpm_ff_component.data[4]
-data[5] => lpm_ff:lpm_ff_component.data[5]
-data[6] => lpm_ff:lpm_ff_component.data[6]
-data[7] => lpm_ff:lpm_ff_component.data[7]
-data[8] => lpm_ff:lpm_ff_component.data[8]
-data[9] => lpm_ff:lpm_ff_component.data[9]
-enable => lpm_ff:lpm_ff_component.enable
-q[0] <= lpm_ff:lpm_ff_component.q[0]
-q[1] <= lpm_ff:lpm_ff_component.q[1]
-q[2] <= lpm_ff:lpm_ff_component.q[2]
-q[3] <= lpm_ff:lpm_ff_component.q[3]
-q[4] <= lpm_ff:lpm_ff_component.q[4]
-q[5] <= lpm_ff:lpm_ff_component.q[5]
-q[6] <= lpm_ff:lpm_ff_component.q[6]
-q[7] <= lpm_ff:lpm_ff_component.q[7]
-q[8] <= lpm_ff:lpm_ff_component.q[8]
-q[9] <= lpm_ff:lpm_ff_component.q[9]
-
-
-|RON_Block|lpm_dff0:inst9|lpm_ff:lpm_ff_component
-data[0] => dffs[0].DATAIN
-data[1] => dffs[1].DATAIN
-data[2] => dffs[2].DATAIN
-data[3] => dffs[3].DATAIN
-data[4] => dffs[4].DATAIN
-data[5] => dffs[5].DATAIN
-data[6] => dffs[6].DATAIN
-data[7] => dffs[7].DATAIN
-data[8] => dffs[8].DATAIN
-data[9] => dffs[9].DATAIN
-clock => dffs[9].CLK
-clock => dffs[8].CLK
-clock => dffs[7].CLK
-clock => dffs[6].CLK
-clock => dffs[5].CLK
-clock => dffs[4].CLK
-clock => dffs[3].CLK
-clock => dffs[2].CLK
-clock => dffs[1].CLK
-clock => dffs[0].CLK
-enable => dffs[9].ENA
-enable => dffs[8].ENA
-enable => dffs[7].ENA
-enable => dffs[6].ENA
-enable => dffs[5].ENA
-enable => dffs[4].ENA
-enable => dffs[3].ENA
-enable => dffs[2].ENA
-enable => dffs[1].ENA
-enable => dffs[0].ENA
-aclr => ~NO_FANOUT~
-aset => ~NO_FANOUT~
-aload => ~NO_FANOUT~
-sclr => ~NO_FANOUT~
-sset => ~NO_FANOUT~
-sload => ~NO_FANOUT~
-q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
-q[1] <= dffs[1].DB_MAX_OUTPUT_PORT_TYPE
-q[2] <= dffs[2].DB_MAX_OUTPUT_PORT_TYPE
-q[3] <= dffs[3].DB_MAX_OUTPUT_PORT_TYPE
-q[4] <= dffs[4].DB_MAX_OUTPUT_PORT_TYPE
-q[5] <= dffs[5].DB_MAX_OUTPUT_PORT_TYPE
-q[6] <= dffs[6].DB_MAX_OUTPUT_PORT_TYPE
-q[7] <= dffs[7].DB_MAX_OUTPUT_PORT_TYPE
-q[8] <= dffs[8].DB_MAX_OUTPUT_PORT_TYPE
-q[9] <= dffs[9].DB_MAX_OUTPUT_PORT_TYPE
+|STEAK|lpm_add_sub0:inst30|lpm_add_sub:lpm_add_sub_component|add_sub_vph:auto_generated
+dataa[0] => op_1.IN7
+dataa[1] => op_1.IN5
+dataa[2] => op_1.IN3
+dataa[3] => op_1.IN1
+datab[0] => op_1.IN8
+datab[1] => op_1.IN6
+datab[2] => op_1.IN4
+datab[3] => op_1.IN2
+result[0] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 
 
