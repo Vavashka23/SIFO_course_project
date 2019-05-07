@@ -1,0 +1,171 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+//#pragma file_not_in_maxplusii_format
+(header "graphic" (version "1.3"))
+(pin
+	(input)
+	(rect 184 336 384 352)
+	(text "INPUT" (rect 165 0 193 10)(font "Arial" (font_size 6)))
+	(text "control_from_cpu[5..0]" (rect 5 0 117 12)(font "Arial" ))
+	(pt 200 8)
+	(drawing
+		(line (pt 124 12)(pt 149 12)(line_width 1))
+		(line (pt 124 4)(pt 149 4)(line_width 1))
+		(line (pt 153 8)(pt 200 8)(line_width 1))
+		(line (pt 124 12)(pt 124 4)(line_width 1))
+		(line (pt 149 4)(pt 153 8)(line_width 1))
+		(line (pt 149 12)(pt 153 8)(line_width 1))
+	)
+	(text "VCC" (rect 168 7 188 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 184 400 392 416)
+	(text "INPUT" (rect 173 0 201 10)(font "Arial" (font_size 6)))
+	(text "address_from_cpu[10..0]" (rect 5 0 128 12)(font "Arial" ))
+	(pt 208 8)
+	(drawing
+		(line (pt 132 12)(pt 157 12)(line_width 1))
+		(line (pt 132 4)(pt 157 4)(line_width 1))
+		(line (pt 161 8)(pt 208 8)(line_width 1))
+		(line (pt 132 12)(pt 132 4)(line_width 1))
+		(line (pt 157 4)(pt 161 8)(line_width 1))
+		(line (pt 157 12)(pt 161 8)(line_width 1))
+	)
+	(text "VCC" (rect 176 7 196 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 920 376 1136 392)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "control_to_memory[3..0]" (rect 90 0 211 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
+	(output)
+	(rect 928 592 1109 608)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "commands[16..0]" (rect 90 0 176 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
+	(output)
+	(rect 904 440 1132 456)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "address_to_memory[10..0]" (rect 90 0 223 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
+	(bidir)
+	(rect 160 240 352 256)
+	(text "BIDIR" (rect 167 0 191 10)(font "Arial" (font_size 6)))
+	(text "memory_data[9..0]" (rect 5 0 99 12)(font "Arial" ))
+	(pt 192 8)
+	(drawing
+		(line (pt 136 4)(pt 114 4)(line_width 1))
+		(line (pt 192 8)(pt 140 8)(line_width 1))
+		(line (pt 136 12)(pt 114 12)(line_width 1))
+		(line (pt 114 4)(pt 110 8)(line_width 1))
+		(line (pt 114 12)(pt 110 8)(line_width 1))
+		(line (pt 136 4)(pt 140 8)(line_width 1))
+		(line (pt 140 8)(pt 136 12)(line_width 1))
+	)
+	(flipy)
+	(text "VCC" (rect 168 7 188 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(bidir)
+	(rect 904 528 1080 544)
+	(text "BIDIR" (rect 1 0 25 10)(font "Arial" (font_size 6)))
+	(text "cpu_data[9..0]" (rect 90 0 160 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 56 4)(pt 78 4)(line_width 1))
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 56 12)(pt 78 12)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+		(line (pt 56 4)(pt 52 8)(line_width 1))
+		(line (pt 52 8)(pt 56 12)(line_width 1))
+	)
+	(text "VCC" (rect 4 7 24 17)(font "Arial" (font_size 6)))
+)
+(symbol
+	(rect 536 568 856 664)
+	(text "Command_decoder" (rect 5 0 114 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 80 25 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "data_to_decode[9..0]" (rect 0 0 120 14)(font "Arial" (font_size 8)))
+		(text "data_to_decode[9..0]" (rect 21 27 141 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "enable" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "enable" (rect 21 43 58 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 320 32)
+		(output)
+		(text "decoded_command[16..0]" (rect 0 0 146 14)(font "Arial" (font_size 8)))
+		(text "decoded_command[16..0]" (rect 153 27 299 41)(font "Arial" (font_size 8)))
+		(line (pt 320 32)(pt 304 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 304 80)(line_width 1))
+	)
+)
+(connector
+	(pt 856 600)
+	(pt 928 600)
+	(bus)
+)
