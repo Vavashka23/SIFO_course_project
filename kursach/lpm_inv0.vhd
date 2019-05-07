@@ -42,15 +42,15 @@ USE lpm.all;
 ENTITY lpm_inv0 IS
 	PORT
 	(
-		data		: IN STD_LOGIC_VECTOR (3 DOWNTO 0);
-		result		: OUT STD_LOGIC_VECTOR (3 DOWNTO 0)
+		data		: IN STD_LOGIC_VECTOR (9 DOWNTO 0);
+		result		: OUT STD_LOGIC_VECTOR (9 DOWNTO 0)
 	);
 END lpm_inv0;
 
 
 ARCHITECTURE SYN OF lpm_inv0 IS
 
-	SIGNAL sub_wire0	: STD_LOGIC_VECTOR (3 DOWNTO 0);
+	SIGNAL sub_wire0	: STD_LOGIC_VECTOR (9 DOWNTO 0);
 
 
 
@@ -60,18 +60,18 @@ ARCHITECTURE SYN OF lpm_inv0 IS
 		lpm_width		: NATURAL
 	);
 	PORT (
-			data	: IN STD_LOGIC_VECTOR (3 DOWNTO 0);
-			result	: OUT STD_LOGIC_VECTOR (3 DOWNTO 0)
+			data	: IN STD_LOGIC_VECTOR (9 DOWNTO 0);
+			result	: OUT STD_LOGIC_VECTOR (9 DOWNTO 0)
 	);
 	END COMPONENT;
 
 BEGIN
-	result    <= sub_wire0(3 DOWNTO 0);
+	result    <= sub_wire0(9 DOWNTO 0);
 
 	lpm_inv_component : lpm_inv
 	GENERIC MAP (
 		lpm_type => "LPM_INV",
-		lpm_width => 4
+		lpm_width => 10
 	)
 	PORT MAP (
 		data => data,
@@ -87,13 +87,13 @@ END SYN;
 -- ============================================================
 -- Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Stratix II"
 -- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
--- Retrieval info: PRIVATE: nBit NUMERIC "4"
+-- Retrieval info: PRIVATE: nBit NUMERIC "10"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_INV"
--- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "4"
--- Retrieval info: USED_PORT: data 0 0 4 0 INPUT NODEFVAL data[3..0]
--- Retrieval info: USED_PORT: result 0 0 4 0 OUTPUT NODEFVAL result[3..0]
--- Retrieval info: CONNECT: @data 0 0 4 0 data 0 0 4 0
--- Retrieval info: CONNECT: result 0 0 4 0 @result 0 0 4 0
+-- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "10"
+-- Retrieval info: USED_PORT: data 0 0 10 0 INPUT NODEFVAL data[9..0]
+-- Retrieval info: USED_PORT: result 0 0 10 0 OUTPUT NODEFVAL result[9..0]
+-- Retrieval info: CONNECT: @data 0 0 10 0 data 0 0 10 0
+-- Retrieval info: CONNECT: result 0 0 10 0 @result 0 0 10 0
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_inv0.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_inv0.inc TRUE

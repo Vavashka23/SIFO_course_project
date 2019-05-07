@@ -15,9 +15,9 @@
 
 FUNCTION lpm_inv0 
 (
-	data[3..0]
+	data[9..0]
 )
 
 RETURNS (
-	result[3..0]
+	result[9..0]
 );

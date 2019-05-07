@@ -10426,6 +10426,8 @@ applicable agreement for further details.
 (line (pt 288 1808)(pt 288 1560)(line_width 1))
 (line (pt 2160 1408)(pt 3040 1408)(line_width 1))
 (line (pt 1504 1192)(pt 1504 1808)(line_width 1))
+(line (pt 3040 1408)(pt 3040 1808)(line_width 1))
+(line (pt 1504 1808)(pt 3040 1808)(line_width 1))
 (rectangle (rect 128 -48 2160 1176))
 (rectangle (rect -616 -48 112 472))
 (rectangle (rect -512 488 112 824))

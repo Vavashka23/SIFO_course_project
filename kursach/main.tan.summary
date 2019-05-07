@@ -5,29 +5,29 @@ Timing Analyzer Summary
 Type           : Worst-case tsu
 Slack          : N/A
 Required Time  : None
-Actual Time    : 5.379 ns
-From           : push
-To             : lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[0]
+Actual Time    : 3.468 ns
+From           : second_operand[0]
+To             : lpm_dff3:inst11|lpm_ff:lpm_ff_component|dffs[0]
 From Clock     : --
-To Clock       : clk
+To Clock       : clk_in
 Failed Paths   : 0
 
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 10.845 ns
-From           : lpm_counter6:inst18|lpm_counter:lpm_counter_component|cntr_h1h:auto_generated|safe_q[1]
-To             : data_out[2]
-From Clock     : clk
+Actual Time    : 11.073 ns
+From           : lpm_dff3:inst|lpm_ff:lpm_ff_component|dffs[0]
+To             : Result[6]
+From Clock     : OR
 To Clock       : --
 Failed Paths   : 0
 
 Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : 7.883 ns
-From           : pop
-To             : data_out[0]
+Actual Time    : 12.424 ns
+From           : second_operand[0]
+To             : Result[6]
 From Clock     : --
 To Clock       : --
 Failed Paths   : 0
@@ -35,21 +35,61 @@ Failed Paths   : 0
 Type           : Worst-case th
 Slack          : N/A
 Required Time  : None
-Actual Time    : 0.155 ns
-From           : data_in[4]
-To             : lpm_dff0:inst14|lpm_ff:lpm_ff_component|dffs[4]
+Actual Time    : -0.423 ns
+From           : second_operand[8]
+To             : lpm_dff3:inst11|lpm_ff:lpm_ff_component|dffs[0]
 From Clock     : --
-To Clock       : clk
+To Clock       : OR
 Failed Paths   : 0
 
-Type           : Clock Setup: 'clk'
+Type           : Clock Setup: 'ADDC'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 358.42 MHz ( period = 2.790 ns )
-From           : lpm_dff3:inst25|lpm_ff:lpm_ff_component|dffs[0]
-To             : lpm_counter6:inst18|lpm_counter:lpm_counter_component|cntr_h1h:auto_generated|safe_q[0]
-From Clock     : clk
-To Clock       : clk
+Actual Time    : 383.73 MHz ( period = 2.606 ns )
+From           : lpm_dff3:inst|lpm_ff:lpm_ff_component|dffs[0]
+To             : lpm_dff3:inst11|lpm_ff:lpm_ff_component|dffs[0]
+From Clock     : ADDC
+To Clock       : ADDC
+Failed Paths   : 0
+
+Type           : Clock Setup: 'OR'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 383.73 MHz ( period = 2.606 ns )
+From           : lpm_dff3:inst|lpm_ff:lpm_ff_component|dffs[0]
+To             : lpm_dff3:inst11|lpm_ff:lpm_ff_component|dffs[0]
+From Clock     : OR
+To Clock       : OR
+Failed Paths   : 0
+
+Type           : Clock Setup: 'SLA'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 383.73 MHz ( period = 2.606 ns )
+From           : lpm_dff3:inst|lpm_ff:lpm_ff_component|dffs[0]
+To             : lpm_dff3:inst11|lpm_ff:lpm_ff_component|dffs[0]
+From Clock     : SLA
+To Clock       : SLA
+Failed Paths   : 0
+
+Type           : Clock Setup: 'NOR'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 383.73 MHz ( period = 2.606 ns )
+From           : lpm_dff3:inst|lpm_ff:lpm_ff_component|dffs[0]
+To             : lpm_dff3:inst11|lpm_ff:lpm_ff_component|dffs[0]
+From Clock     : NOR
+To Clock       : NOR
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk_in'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 383.73 MHz ( period = 2.606 ns )
+From           : lpm_dff3:inst|lpm_ff:lpm_ff_component|dffs[0]
+To             : lpm_dff3:inst11|lpm_ff:lpm_ff_component|dffs[0]
+From Clock     : clk_in
+To Clock       : clk_in
 Failed Paths   : 0
 
 Type           : Total number of failed paths
