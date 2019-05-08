@@ -117,6 +117,22 @@ applicable agreement for further details.
 	)
 )
 (pin
+	(output)
+	(rect 3080 920 3256 936)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "Word_out[9..0]" (rect 90 0 163 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
 	(bidir)
 	(rect -488 584 -296 600)
 	(text "BIDIR" (rect 167 0 191 10)(font "Arial" (font_size 6)))
@@ -7810,18 +7826,6 @@ applicable agreement for further details.
 	(pt 1760 944)
 )
 (connector
-	(text "word_from_cash[9..0]" (rect -150 680 -43 692)(font "Arial" ))
-	(pt -160 696)
-	(pt -48 696)
-	(bus)
-)
-(connector
-	(text "word_from_cash[9..0]" (rect -142 576 -35 588)(font "Arial" ))
-	(pt -152 592)
-	(pt -40 592)
-	(bus)
-)
-(connector
 	(pt 2856 456)
 	(pt 2856 392)
 )
@@ -10061,11 +10065,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 2848 872)
-	(pt 2888 872)
-	(bus)
-)
-(connector
 	(pt 2928 888)
 	(pt 2928 936)
 )
@@ -10169,11 +10168,6 @@ applicable agreement for further details.
 	(pt 2672 1328)
 )
 (connector
-	(text "lru_for_flags_top" (rect 2778 1208 2861 1220)(font "Arial" ))
-	(pt 2768 1224)
-	(pt 2848 1224)
-)
-(connector
 	(text "hz_zachem" (rect 778 1768 832 1780)(font "Arial" ))
 	(pt 768 1784)
 	(pt 832 1784)
@@ -10200,24 +10194,8 @@ applicable agreement for further details.
 	(pt 456 1752)
 )
 (connector
-	(text "lru_for_flags_top" (rect 322 1744 405 1756)(font "Arial" ))
-	(pt 312 1760)
-	(pt 392 1760)
-)
-(connector
 	(pt 832 1768)
 	(pt 752 1768)
-)
-(connector
-	(text "lru_for_flags_top" (rect 626 1752 709 1764)(font "Arial" ))
-	(pt 616 1768)
-	(pt 704 1768)
-)
-(connector
-	(text "word_from_cash[9..0]" (rect 3034 856 3141 868)(font "Arial" ))
-	(pt 2968 872)
-	(pt 3136 872)
-	(bus)
 )
 (connector
 	(pt 2808 1424)
@@ -10250,6 +10228,59 @@ applicable agreement for further details.
 (connector
 	(pt 2592 1480)
 	(pt 2592 1536)
+	(bus)
+)
+(connector
+	(text "word_from_cash[9..0]" (rect -150 680 -43 692)(font "Arial" ))
+	(pt -160 696)
+	(pt -48 696)
+	(bus)
+)
+(connector
+	(text "word_from_cash[9..0]" (rect -150 576 -43 588)(font "Arial" ))
+	(pt -152 592)
+	(pt -48 592)
+	(bus)
+)
+(connector
+	(text "word_from_cash[9..0]" (rect 2986 856 3093 868)(font "Arial" ))
+	(pt 2968 872)
+	(pt 3088 872)
+	(bus)
+)
+(connector
+	(text "lru_for_flags_top" (rect 2770 1208 2853 1220)(font "Arial" ))
+	(pt 2768 1224)
+	(pt 2840 1224)
+)
+(connector
+	(text "lru_for_flags_top" (rect 314 1744 397 1756)(font "Arial" ))
+	(pt 392 1760)
+	(pt 304 1760)
+)
+(connector
+	(text "lru_for_flags_top" (rect 618 1752 701 1764)(font "Arial" ))
+	(pt 704 1768)
+	(pt 608 1768)
+)
+(connector
+	(pt 3080 928)
+	(pt 2856 928)
+	(bus)
+)
+(connector
+	(pt 2856 928)
+	(pt 2856 872)
+	(bus)
+)
+(connector
+	(pt 2848 872)
+	(pt 2856 872)
+	(bus)
+)
+(connector
+	(pt 2856 872)
+	(pt 2888 872)
 	(bus)
 )
 (junction (pt -112 200))
@@ -10289,6 +10320,7 @@ applicable agreement for further details.
 (junction (pt 2072 1576))
 (junction (pt -320 1496))
 (junction (pt -184 1560))
+(junction (pt 2856 872))
 (text "КЭШ (16 сетов по 2 строки в каждом)" (rect 208 -40 763 -8)(font "Arial" (font_size 20)))
 (text "Parsing block" (rect -440 -32 -248 0)(font "Arial" (font_size 20)))
 (text "Input/Output pins" (rect -488 504 -242 536)(font "Arial" (font_size 20)))

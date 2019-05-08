@@ -1693,5 +1693,5 @@ applicable agreement for further details.
 (text "R10" (rect 880 80 902 94)(font "Arial" (font_size 8)))
 (text "R11" (rect 880 184 902 198)(font "Arial" (font_size 8)))
 (text "R12" (rect 880 288 902 302)(font "Arial" (font_size 8)))
-(text "R13" (rect 880 392 902 406)(font "Arial" (font_size 8)))
 (text "R0" (rect 536 -232 551 -218)(font "Arial" (font_size 8)))
+(text "SI" (rect 880 392 890 406)(font "Arial" (font_size 8)))

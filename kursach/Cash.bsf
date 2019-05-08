@@ -54,16 +54,23 @@ applicable agreement for further details.
 	(port
 		(pt 352 96)
 		(output)
-		(text "CONTROL_FOR_MEM[3..0]" (rect 0 0 151 14)(font "Arial" (font_size 8)))
-		(text "CONTROL_FOR_MEM[3..0]" (rect 180 91 331 105)(font "Arial" (font_size 8)))
+		(text "Word_out[9..0]" (rect 0 0 83 14)(font "Arial" (font_size 8)))
+		(text "Word_out[9..0]" (rect 248 91 331 105)(font "Arial" (font_size 8)))
 		(line (pt 352 96)(pt 336 96)(line_width 3))
 	)
 	(port
 		(pt 352 112)
 		(output)
-		(text "ADDRESS_OUT[10..0]" (rect 0 0 125 14)(font "Arial" (font_size 8)))
-		(text "ADDRESS_OUT[10..0]" (rect 206 107 331 121)(font "Arial" (font_size 8)))
+		(text "CONTROL_FOR_MEM[3..0]" (rect 0 0 151 14)(font "Arial" (font_size 8)))
+		(text "CONTROL_FOR_MEM[3..0]" (rect 180 107 331 121)(font "Arial" (font_size 8)))
 		(line (pt 352 112)(pt 336 112)(line_width 3))
+	)
+	(port
+		(pt 352 128)
+		(output)
+		(text "ADDRESS_OUT[10..0]" (rect 0 0 125 14)(font "Arial" (font_size 8)))
+		(text "ADDRESS_OUT[10..0]" (rect 206 123 331 137)(font "Arial" (font_size 8)))
+		(line (pt 352 128)(pt 336 128)(line_width 3))
 	)
 	(port
 		(pt 352 64)

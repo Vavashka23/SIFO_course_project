@@ -18,9 +18,9 @@ FUNCTION lpm_counter7
 	aload,
 	clk_en,
 	clock,
-	data[9..0]
+	data[10..0]
 )
 
 RETURNS (
-	q[9..0]
+	q[10..0]
 );

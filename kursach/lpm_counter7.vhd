@@ -45,15 +45,15 @@ ENTITY lpm_counter7 IS
 		aload		: IN STD_LOGIC ;
 		clk_en		: IN STD_LOGIC ;
 		clock		: IN STD_LOGIC ;
-		data		: IN STD_LOGIC_VECTOR (9 DOWNTO 0);
-		q		: OUT STD_LOGIC_VECTOR (9 DOWNTO 0)
+		data		: IN STD_LOGIC_VECTOR (10 DOWNTO 0);
+		q		: OUT STD_LOGIC_VECTOR (10 DOWNTO 0)
 	);
 END lpm_counter7;
 
 
 ARCHITECTURE SYN OF lpm_counter7 IS
 
-	SIGNAL sub_wire0	: STD_LOGIC_VECTOR (9 DOWNTO 0);
+	SIGNAL sub_wire0	: STD_LOGIC_VECTOR (10 DOWNTO 0);
 
 
 
@@ -68,20 +68,20 @@ ARCHITECTURE SYN OF lpm_counter7 IS
 			aload	: IN STD_LOGIC ;
 			clk_en	: IN STD_LOGIC ;
 			clock	: IN STD_LOGIC ;
-			q	: OUT STD_LOGIC_VECTOR (9 DOWNTO 0);
-			data	: IN STD_LOGIC_VECTOR (9 DOWNTO 0)
+			q	: OUT STD_LOGIC_VECTOR (10 DOWNTO 0);
+			data	: IN STD_LOGIC_VECTOR (10 DOWNTO 0)
 	);
 	END COMPONENT;
 
 BEGIN
-	q    <= sub_wire0(9 DOWNTO 0);
+	q    <= sub_wire0(10 DOWNTO 0);
 
 	lpm_counter_component : lpm_counter
 	GENERIC MAP (
 		lpm_direction => "UP",
 		lpm_port_updown => "PORT_UNUSED",
 		lpm_type => "LPM_COUNTER",
-		lpm_width => 10
+		lpm_width => 11
 	)
 	PORT MAP (
 		aload => aload,
@@ -115,21 +115,21 @@ END SYN;
 -- Retrieval info: PRIVATE: SSET NUMERIC "0"
 -- Retrieval info: PRIVATE: SSET_ALL1 NUMERIC "1"
 -- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
--- Retrieval info: PRIVATE: nBit NUMERIC "10"
+-- Retrieval info: PRIVATE: nBit NUMERIC "11"
 -- Retrieval info: CONSTANT: LPM_DIRECTION STRING "UP"
 -- Retrieval info: CONSTANT: LPM_PORT_UPDOWN STRING "PORT_UNUSED"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_COUNTER"
--- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "10"
+-- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "11"
 -- Retrieval info: USED_PORT: aload 0 0 0 0 INPUT NODEFVAL aload
 -- Retrieval info: USED_PORT: clk_en 0 0 0 0 INPUT NODEFVAL clk_en
 -- Retrieval info: USED_PORT: clock 0 0 0 0 INPUT NODEFVAL clock
--- Retrieval info: USED_PORT: data 0 0 10 0 INPUT NODEFVAL data[9..0]
--- Retrieval info: USED_PORT: q 0 0 10 0 OUTPUT NODEFVAL q[9..0]
+-- Retrieval info: USED_PORT: data 0 0 11 0 INPUT NODEFVAL data[10..0]
+-- Retrieval info: USED_PORT: q 0 0 11 0 OUTPUT NODEFVAL q[10..0]
 -- Retrieval info: CONNECT: @clock 0 0 0 0 clock 0 0 0 0
--- Retrieval info: CONNECT: q 0 0 10 0 @q 0 0 10 0
+-- Retrieval info: CONNECT: q 0 0 11 0 @q 0 0 11 0
 -- Retrieval info: CONNECT: @clk_en 0 0 0 0 clk_en 0 0 0 0
 -- Retrieval info: CONNECT: @aload 0 0 0 0 aload 0 0 0 0
--- Retrieval info: CONNECT: @data 0 0 10 0 data 0 0 10 0
+-- Retrieval info: CONNECT: @data 0 0 11 0 data 0 0 11 0
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter7.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter7.inc TRUE
