@@ -4,14 +4,16 @@ ADDC => inst24.IN0
 ADDC => inst18.IN0
 ADDC => lpm_dff3:inst11.enable
 OR => inst24.IN1
-OR => inst24.IN2
 OR => inst18.IN1
 OR => inst20.IN0
 OR => inst23.IN0
+SLA => lpm_dff3:inst15.data
+clk_in => inst13.IN0
+clk_in => lpm_dff3:inst11.clock
+clk_in => lpm_shiftreg0:inst1.clock
 NOR => inst24.IN3
 NOR => inst18.IN3
 NOR => inst21.IN0
-cin <= <GND>
 Result[0] <= lpm_bustri0:inst25.tridata[0]
 Result[1] <= lpm_bustri0:inst25.tridata[1]
 Result[2] <= lpm_bustri0:inst25.tridata[2]
@@ -22,40 +24,46 @@ Result[6] <= lpm_bustri0:inst25.tridata[6]
 Result[7] <= lpm_bustri0:inst25.tridata[7]
 Result[8] <= lpm_bustri0:inst25.tridata[8]
 Result[9] <= lpm_bustri0:inst25.tridata[9]
-SLA => inst18.IN2
-SLA => inst22.IN0
-SLA => inst23.IN1
-clk_in => inst19.IN0
 first_operand[0] => lpm_add_sub1:inst9.dataa[0]
 first_operand[0] => lpm_or0:inst27.data0x[0]
 first_operand[0] => lpm_or0:inst26.data0x[0]
+first_operand[0] => lpm_shiftreg0:inst1.data[0]
 first_operand[1] => lpm_add_sub1:inst9.dataa[1]
 first_operand[1] => lpm_or0:inst27.data0x[1]
 first_operand[1] => lpm_or0:inst26.data0x[1]
+first_operand[1] => lpm_shiftreg0:inst1.data[1]
 first_operand[2] => lpm_add_sub1:inst9.dataa[2]
 first_operand[2] => lpm_or0:inst27.data0x[2]
 first_operand[2] => lpm_or0:inst26.data0x[2]
+first_operand[2] => lpm_shiftreg0:inst1.data[2]
 first_operand[3] => lpm_add_sub1:inst9.dataa[3]
 first_operand[3] => lpm_or0:inst27.data0x[3]
 first_operand[3] => lpm_or0:inst26.data0x[3]
+first_operand[3] => lpm_shiftreg0:inst1.data[3]
 first_operand[4] => lpm_add_sub1:inst9.dataa[4]
 first_operand[4] => lpm_or0:inst27.data0x[4]
 first_operand[4] => lpm_or0:inst26.data0x[4]
+first_operand[4] => lpm_shiftreg0:inst1.data[4]
 first_operand[5] => lpm_add_sub1:inst9.dataa[5]
 first_operand[5] => lpm_or0:inst27.data0x[5]
 first_operand[5] => lpm_or0:inst26.data0x[5]
+first_operand[5] => lpm_shiftreg0:inst1.data[5]
 first_operand[6] => lpm_add_sub1:inst9.dataa[6]
 first_operand[6] => lpm_or0:inst27.data0x[6]
 first_operand[6] => lpm_or0:inst26.data0x[6]
+first_operand[6] => lpm_shiftreg0:inst1.data[6]
 first_operand[7] => lpm_add_sub1:inst9.dataa[7]
 first_operand[7] => lpm_or0:inst27.data0x[7]
 first_operand[7] => lpm_or0:inst26.data0x[7]
+first_operand[7] => lpm_shiftreg0:inst1.data[7]
 first_operand[8] => lpm_add_sub1:inst9.dataa[8]
 first_operand[8] => lpm_or0:inst27.data0x[8]
 first_operand[8] => lpm_or0:inst26.data0x[8]
+first_operand[8] => lpm_shiftreg0:inst1.data[8]
 first_operand[9] => lpm_add_sub1:inst9.dataa[9]
 first_operand[9] => lpm_or0:inst27.data0x[9]
 first_operand[9] => lpm_or0:inst26.data0x[9]
+first_operand[9] => lpm_shiftreg0:inst1.data[9]
 second_operand[0] => lpm_add_sub1:inst9.datab[0]
 second_operand[0] => lpm_or0:inst27.data1x[0]
 second_operand[0] => lpm_or0:inst26.data1x[0]
@@ -86,6 +94,74 @@ second_operand[8] => lpm_or0:inst26.data1x[8]
 second_operand[9] => lpm_add_sub1:inst9.datab[9]
 second_operand[9] => lpm_or0:inst27.data1x[9]
 second_operand[9] => lpm_or0:inst26.data1x[9]
+
+
+|ALU|lpm_dff3:inst4
+clock => lpm_ff:lpm_ff_component.clock
+data => lpm_ff:lpm_ff_component.data[0]
+enable => lpm_ff:lpm_ff_component.enable
+q <= lpm_ff:lpm_ff_component.q[0]
+
+
+|ALU|lpm_dff3:inst4|lpm_ff:lpm_ff_component
+data[0] => dffs[0].DATAIN
+clock => dffs[0].CLK
+enable => dffs[0].ENA
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|lpm_dff3:inst3
+clock => lpm_ff:lpm_ff_component.clock
+data => lpm_ff:lpm_ff_component.data[0]
+enable => lpm_ff:lpm_ff_component.enable
+q <= lpm_ff:lpm_ff_component.q[0]
+
+
+|ALU|lpm_dff3:inst3|lpm_ff:lpm_ff_component
+data[0] => dffs[0].DATAIN
+clock => dffs[0].CLK
+enable => dffs[0].ENA
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|lpm_dff3:inst15
+clock => lpm_ff:lpm_ff_component.clock
+data => lpm_ff:lpm_ff_component.data[0]
+enable => lpm_ff:lpm_ff_component.enable
+q <= lpm_ff:lpm_ff_component.q[0]
+
+
+|ALU|lpm_dff3:inst15|lpm_ff:lpm_ff_component
+data[0] => dffs[0].DATAIN
+clock => dffs[0].CLK
+enable => dffs[0].ENA
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|lpm_constant1:inst16
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+
+
+|ALU|lpm_constant1:inst16|lpm_constant:lpm_constant_component
+result[0] <= <VCC>
 
 
 |ALU|lpm_bustri0:inst25
@@ -717,5 +793,102 @@ result[6] <= or_node[6][1].DB_MAX_OUTPUT_PORT_TYPE
 result[7] <= or_node[7][1].DB_MAX_OUTPUT_PORT_TYPE
 result[8] <= or_node[8][1].DB_MAX_OUTPUT_PORT_TYPE
 result[9] <= or_node[9][1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|lpm_shiftreg0:inst1
+clock => lpm_shiftreg:lpm_shiftreg_component.clock
+data[0] => lpm_shiftreg:lpm_shiftreg_component.data[0]
+data[1] => lpm_shiftreg:lpm_shiftreg_component.data[1]
+data[2] => lpm_shiftreg:lpm_shiftreg_component.data[2]
+data[3] => lpm_shiftreg:lpm_shiftreg_component.data[3]
+data[4] => lpm_shiftreg:lpm_shiftreg_component.data[4]
+data[5] => lpm_shiftreg:lpm_shiftreg_component.data[5]
+data[6] => lpm_shiftreg:lpm_shiftreg_component.data[6]
+data[7] => lpm_shiftreg:lpm_shiftreg_component.data[7]
+data[8] => lpm_shiftreg:lpm_shiftreg_component.data[8]
+data[9] => lpm_shiftreg:lpm_shiftreg_component.data[9]
+enable => lpm_shiftreg:lpm_shiftreg_component.enable
+load => lpm_shiftreg:lpm_shiftreg_component.load
+shiftin => lpm_shiftreg:lpm_shiftreg_component.shiftin
+q[0] <= lpm_shiftreg:lpm_shiftreg_component.q[0]
+q[1] <= lpm_shiftreg:lpm_shiftreg_component.q[1]
+q[2] <= lpm_shiftreg:lpm_shiftreg_component.q[2]
+q[3] <= lpm_shiftreg:lpm_shiftreg_component.q[3]
+q[4] <= lpm_shiftreg:lpm_shiftreg_component.q[4]
+q[5] <= lpm_shiftreg:lpm_shiftreg_component.q[5]
+q[6] <= lpm_shiftreg:lpm_shiftreg_component.q[6]
+q[7] <= lpm_shiftreg:lpm_shiftreg_component.q[7]
+q[8] <= lpm_shiftreg:lpm_shiftreg_component.q[8]
+q[9] <= lpm_shiftreg:lpm_shiftreg_component.q[9]
+shiftout <= lpm_shiftreg:lpm_shiftreg_component.shiftout
+
+
+|ALU|lpm_shiftreg0:inst1|lpm_shiftreg:lpm_shiftreg_component
+data[0] => _~21.IN1
+data[1] => _~20.IN1
+data[2] => _~19.IN1
+data[3] => _~18.IN1
+data[4] => _~17.IN1
+data[5] => _~16.IN1
+data[6] => _~15.IN1
+data[7] => _~14.IN1
+data[8] => _~13.IN1
+data[9] => _~12.IN1
+clock => dffs[9].CLK
+clock => dffs[8].CLK
+clock => dffs[7].CLK
+clock => dffs[6].CLK
+clock => dffs[5].CLK
+clock => dffs[4].CLK
+clock => dffs[3].CLK
+clock => dffs[2].CLK
+clock => dffs[1].CLK
+clock => dffs[0].CLK
+enable => dffs[9].ENA
+enable => dffs[8].ENA
+enable => dffs[7].ENA
+enable => dffs[6].ENA
+enable => dffs[5].ENA
+enable => dffs[4].ENA
+enable => dffs[3].ENA
+enable => dffs[2].ENA
+enable => dffs[1].ENA
+enable => dffs[0].ENA
+shiftin => _~11.IN1
+load => _~1.IN0
+load => _~12.IN0
+load => _~13.IN0
+load => _~14.IN0
+load => _~15.IN0
+load => _~16.IN0
+load => _~17.IN0
+load => _~18.IN0
+load => _~19.IN0
+load => _~20.IN0
+load => _~21.IN0
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+sclr => _~0.IN0
+sset => _~32.IN0
+sset => _~33.IN0
+sset => _~34.IN0
+sset => _~35.IN0
+sset => _~36.IN0
+sset => _~37.IN0
+sset => _~38.IN0
+sset => _~39.IN0
+sset => _~40.IN0
+sset => _~41.IN0
+q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= dffs[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= dffs[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= dffs[3].DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= dffs[4].DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= dffs[5].DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= dffs[6].DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= dffs[7].DB_MAX_OUTPUT_PORT_TYPE
+q[8] <= dffs[8].DB_MAX_OUTPUT_PORT_TYPE
+q[9] <= dffs[9].DB_MAX_OUTPUT_PORT_TYPE
+shiftout <= dffs[9].DB_MAX_OUTPUT_PORT_TYPE
 
 

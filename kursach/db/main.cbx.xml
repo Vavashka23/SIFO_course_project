@@ -3,6 +3,7 @@
 	<PROJECT NAME="main">
 		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|lpm_add_sub1:inst9|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_5ui.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|lpm_constant1:inst12|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_4e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|lpm_constant1:inst16|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_4e6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|lpm_mux1:inst14|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_l5e.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

@@ -3965,7 +3965,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "cin";
+		SIGNAL = "SRABOTALO";
 		INDEX = 34;
 		FORMAT = E;
 		SCALE = 1;
@@ -3973,7 +3973,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "SRABOTALO";
+		SIGNAL = "ADDC";
 		INDEX = 35;
 		FORMAT = E;
 		SCALE = 1;
@@ -3981,7 +3981,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ADDC";
+		SIGNAL = "NOR";
 		INDEX = 36;
 		FORMAT = E;
 		SCALE = 1;
@@ -3989,7 +3989,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "NOR";
+		SIGNAL = "OR";
 		INDEX = 37;
 		FORMAT = E;
 		SCALE = 1;
@@ -3997,19 +3997,30 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "OR";
+		SIGNAL = "SLA";
 		INDEX = 38;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
-	LINE{
-		SIGNAL = "SLA";
-		INDEX = 39;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
+}
+
+VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/CPU.vwf")
+{
+	ZOOM{
+		ZBEGIN = 0;
+		ZEND = 148600;
+		NUMERATOR = 1486;
+		DENOMINATOR = 148600;
+		TOP_INDEX = 0;
+	}
+	CLOCK{
+		PERIOD = 10000;
+		OFFSET = 0;
+		DUTY_CYCLE = 50;
+	}
+	RANDOM_VALUE{
+		INTERVAL_TYPE = HALF_GRID;
 	}
 }
