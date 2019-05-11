@@ -1,5 +1,5 @@
 Assembler report for main
-Wed May 08 23:38:31 2019
+Sat May 11 20:14:12 2019
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Wed May 08 23:38:31 2019 ;
+; Assembler Status      ; Successful - Sat May 11 20:14:12 2019 ;
 ; Revision Name         ; main                                  ;
 ; Top-level Entity Name ; main                                  ;
 ; Family                ; Stratix II                            ;
@@ -96,7 +96,7 @@ applicable agreement for further details.
 +----------------+------------------------------------------------------------------------------------+
 ; Device         ; EP2S15F484C3                                                                       ;
 ; JTAG usercode  ; 0xFFFFFFFF                                                                         ;
-; Checksum       ; 0x0045062B                                                                         ;
+; Checksum       ; 0x00460BAC                                                                         ;
 +----------------+------------------------------------------------------------------------------------+
 
 
@@ -107,7 +107,7 @@ applicable agreement for further details.
 +--------------------+--------------------------------------------------------------------------------+
 ; Device             ; EPC16                                                                          ;
 ; JTAG usercode      ; 0xFFFFFFFF                                                                     ;
-; Checksum           ; 0x1E8C85E8                                                                     ;
+; Checksum           ; 0x1E8C6AD9                                                                     ;
 ; Compression Ratio  ; 2                                                                              ;
 +--------------------+--------------------------------------------------------------------------------+
 
@@ -118,13 +118,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Wed May 08 23:38:29 2019
+    Info: Processing started: Sat May 11 20:14:10 2019
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off main -c main
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 254 megabytes
-    Info: Processing ended: Wed May 08 23:38:31 2019
+    Info: Peak virtual memory: 255 megabytes
+    Info: Processing ended: Sat May 11 20:14:12 2019
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
