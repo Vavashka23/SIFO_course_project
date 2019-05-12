@@ -16,10 +16,10 @@
 FUNCTION lpm_counter8 
 (
 	aclr,
+	aload,
 	clk_en,
 	clock,
-	data[1..0],
-	sload
+	data[1..0]
 )
 
 RETURNS (

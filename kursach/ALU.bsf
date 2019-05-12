@@ -82,8 +82,8 @@ applicable agreement for further details.
 	(port
 		(pt 256 48)
 		(output)
-		(text "SRABOTALO" (rect 0 0 76 14)(font "Arial" (font_size 8)))
-		(text "SRABOTALO" (rect 159 43 235 57)(font "Arial" (font_size 8)))
+		(text "SLA_worked" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "SLA_worked" (rect 160 43 235 57)(font "Arial" (font_size 8)))
 		(line (pt 256 48)(pt 240 48)(line_width 1))
 	)
 	(port

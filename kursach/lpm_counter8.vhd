@@ -43,10 +43,10 @@ ENTITY lpm_counter8 IS
 	PORT
 	(
 		aclr		: IN STD_LOGIC ;
+		aload		: IN STD_LOGIC ;
 		clk_en		: IN STD_LOGIC ;
 		clock		: IN STD_LOGIC ;
 		data		: IN STD_LOGIC_VECTOR (1 DOWNTO 0);
-		sload		: IN STD_LOGIC ;
 		q		: OUT STD_LOGIC_VECTOR (1 DOWNTO 0)
 	);
 END lpm_counter8;
@@ -66,7 +66,7 @@ ARCHITECTURE SYN OF lpm_counter8 IS
 		lpm_width		: NATURAL
 	);
 	PORT (
-			sload	: IN STD_LOGIC ;
+			aload	: IN STD_LOGIC ;
 			clk_en	: IN STD_LOGIC ;
 			aclr	: IN STD_LOGIC ;
 			clock	: IN STD_LOGIC ;
@@ -86,7 +86,7 @@ BEGIN
 		lpm_width => 2
 	)
 	PORT MAP (
-		sload => sload,
+		aload => aload,
 		clk_en => clk_en,
 		aclr => aclr,
 		clock => clock,
@@ -102,7 +102,7 @@ END SYN;
 -- CNX file retrieval info
 -- ============================================================
 -- Retrieval info: PRIVATE: ACLR NUMERIC "1"
--- Retrieval info: PRIVATE: ALOAD NUMERIC "0"
+-- Retrieval info: PRIVATE: ALOAD NUMERIC "1"
 -- Retrieval info: PRIVATE: ASET NUMERIC "0"
 -- Retrieval info: PRIVATE: ASET_ALL1 NUMERIC "1"
 -- Retrieval info: PRIVATE: CLK_EN NUMERIC "1"
@@ -114,7 +114,7 @@ END SYN;
 -- Retrieval info: PRIVATE: ModulusCounter NUMERIC "0"
 -- Retrieval info: PRIVATE: ModulusValue NUMERIC "0"
 -- Retrieval info: PRIVATE: SCLR NUMERIC "0"
--- Retrieval info: PRIVATE: SLOAD NUMERIC "1"
+-- Retrieval info: PRIVATE: SLOAD NUMERIC "0"
 -- Retrieval info: PRIVATE: SSET NUMERIC "0"
 -- Retrieval info: PRIVATE: SSET_ALL1 NUMERIC "1"
 -- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
@@ -124,16 +124,16 @@ END SYN;
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_COUNTER"
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "2"
 -- Retrieval info: USED_PORT: aclr 0 0 0 0 INPUT NODEFVAL aclr
+-- Retrieval info: USED_PORT: aload 0 0 0 0 INPUT NODEFVAL aload
 -- Retrieval info: USED_PORT: clk_en 0 0 0 0 INPUT NODEFVAL clk_en
 -- Retrieval info: USED_PORT: clock 0 0 0 0 INPUT NODEFVAL clock
 -- Retrieval info: USED_PORT: data 0 0 2 0 INPUT NODEFVAL data[1..0]
 -- Retrieval info: USED_PORT: q 0 0 2 0 OUTPUT NODEFVAL q[1..0]
--- Retrieval info: USED_PORT: sload 0 0 0 0 INPUT NODEFVAL sload
 -- Retrieval info: CONNECT: @clock 0 0 0 0 clock 0 0 0 0
 -- Retrieval info: CONNECT: q 0 0 2 0 @q 0 0 2 0
 -- Retrieval info: CONNECT: @clk_en 0 0 0 0 clk_en 0 0 0 0
--- Retrieval info: CONNECT: @sload 0 0 0 0 sload 0 0 0 0
 -- Retrieval info: CONNECT: @aclr 0 0 0 0 aclr 0 0 0 0
+-- Retrieval info: CONNECT: @aload 0 0 0 0 aload 0 0 0 0
 -- Retrieval info: CONNECT: @data 0 0 2 0 data 0 0 2 0
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter8.vhd TRUE

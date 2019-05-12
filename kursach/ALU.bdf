@@ -150,9 +150,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1432 144 1608 160)
+	(rect 1664 672 1840 688)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "SRABOTALO" (rect 90 0 154 12)(font "Arial" ))
+	(text "For_JAZ" (rect 90 0 132 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -166,9 +166,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1664 672 1840 688)
+	(rect 1432 144 1608 160)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "For_JAZ" (rect 90 0 132 12)(font "Arial" ))
+	(text "SLA_worked" (rect 90 0 150 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -620,55 +620,6 @@ applicable agreement for further details.
 		(line (pt 8 12)(pt 16 20)(line_width 1))
 	)
 	(flipx)
-)
-(symbol
-	(rect 1336 112 1400 192)
-	(text "OR4" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "inst24" (rect 3 69 32 81)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 13 16)(line_width 1))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "IN3" (rect 2 39 19 51)(font "Courier New" (bold))(invisible))
-		(text "IN3" (rect 2 39 19 51)(font "Courier New" (bold))(invisible))
-		(line (pt 0 48)(pt 15 48)(line_width 1))
-	)
-	(port
-		(pt 0 64)
-		(input)
-		(text "IN4" (rect 2 55 19 67)(font "Courier New" (bold))(invisible))
-		(text "IN4" (rect 2 55 19 67)(font "Courier New" (bold))(invisible))
-		(line (pt 0 64)(pt 13 64)(line_width 1))
-	)
-	(port
-		(pt 0 32)
-		(input)
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(line (pt 0 32)(pt 15 32)(line_width 1))
-	)
-	(port
-		(pt 64 40)
-		(output)
-		(text "OUT" (rect 48 31 65 43)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 31 65 43)(font "Courier New" (bold))(invisible))
-		(line (pt 48 40)(pt 64 40)(line_width 1))
-	)
-	(drawing
-		(line (pt 13 67)(pt 13 51)(line_width 1))
-		(line (pt 25 52)(pt 13 52)(line_width 1))
-		(line (pt 13 12)(pt 13 29)(line_width 1))
-		(line (pt 13 29)(pt 25 29)(line_width 1))
-		(arc (pt 7 45)(pt 7 35)(rect -14 24 19 57)(line_width 1))
-		(arc (pt 49 40)(pt 25 29)(rect -6 29 57 92)(line_width 1))
-		(arc (pt 25 51)(pt 49 40)(rect -6 -11 57 52)(line_width 1))
-	)
 )
 (symbol
 	(rect 552 344 616 408)
@@ -1442,30 +1393,6 @@ applicable agreement for further details.
 	(pt 152 392)
 )
 (connector
-	(text "ADDC" (rect 1298 112 1329 124)(font "Arial" ))
-	(pt 1288 128)
-	(pt 1336 128)
-)
-(connector
-	(pt 1432 152)
-	(pt 1400 152)
-)
-(connector
-	(text "OR" (rect 1306 144 1322 156)(font "Arial" ))
-	(pt 1296 160)
-	(pt 1336 160)
-)
-(connector
-	(text "NOR" (rect 1298 128 1322 140)(font "Arial" ))
-	(pt 1288 144)
-	(pt 1336 144)
-)
-(connector
-	(text "sla_3" (rect 1298 160 1323 172)(font "Arial" ))
-	(pt 1288 176)
-	(pt 1336 176)
-)
-(connector
 	(text "result_addc[9..0]" (rect 1426 392 1508 404)(font "Arial" ))
 	(pt 1416 408)
 	(pt 1512 408)
@@ -1636,6 +1563,11 @@ applicable agreement for further details.
 (connector
 	(pt 1640 680)
 	(pt 1664 680)
+)
+(connector
+	(text "sla_3" (rect 1378 136 1403 148)(font "Arial" ))
+	(pt 1368 152)
+	(pt 1432 152)
 )
 (junction (pt 648 528))
 (junction (pt 488 552))

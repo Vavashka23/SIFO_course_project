@@ -4353,6 +4353,345 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/Cash.vw
 	}
 }
 
+VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf")
+{
+	ZOOM{
+		ZBEGIN = 0;
+		ZEND = 125000;
+		NUMERATOR = 1486;
+		DENOMINATOR = 125000;
+		TOP_INDEX = 3;
+	}
+	CLOCK{
+		PERIOD = 10000;
+		OFFSET = 0;
+		DUTY_CYCLE = 50;
+	}
+	RANDOM_VALUE{
+		INTERVAL_TYPE = HALF_GRID;
+	}
+	LINE{
+		SIGNAL = "clk_in";
+		INDEX = 0;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand";
+		INDEX = 1;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[9]";
+		INDEX = 2;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[8]";
+		INDEX = 3;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[7]";
+		INDEX = 4;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[6]";
+		INDEX = 5;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[5]";
+		INDEX = 6;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[4]";
+		INDEX = 7;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[3]";
+		INDEX = 8;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[2]";
+		INDEX = 9;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[1]";
+		INDEX = 10;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[0]";
+		INDEX = 11;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand";
+		INDEX = 12;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[9]";
+		INDEX = 13;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[8]";
+		INDEX = 14;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[7]";
+		INDEX = 15;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[6]";
+		INDEX = 16;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[5]";
+		INDEX = 17;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[4]";
+		INDEX = 18;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[3]";
+		INDEX = 19;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[2]";
+		INDEX = 20;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[1]";
+		INDEX = 21;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[0]";
+		INDEX = 22;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result";
+		INDEX = 23;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[9]";
+		INDEX = 24;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[8]";
+		INDEX = 25;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[7]";
+		INDEX = 26;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[6]";
+		INDEX = 27;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[5]";
+		INDEX = 28;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[4]";
+		INDEX = 29;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[3]";
+		INDEX = 30;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[2]";
+		INDEX = 31;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[1]";
+		INDEX = 32;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[0]";
+		INDEX = 33;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "SRABOTALO";
+		INDEX = 34;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ADDC";
+		INDEX = 35;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "NOR";
+		INDEX = 36;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "OR";
+		INDEX = 37;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "SLA";
+		INDEX = 38;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "For_JAZ";
+		INDEX = 39;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+}
+
 VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vwf")
 {
 	ZOOM{
@@ -5339,8 +5678,16 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "count_check";
+		SIGNAL = "READ_FROM_CASH";
 		INDEX = 121;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "count_check";
+		INDEX = 122;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5348,14 +5695,6 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "count_check[1]";
-		INDEX = 122;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "count_check[0]";
 		INDEX = 123;
 		FORMAT = E;
 		SCALE = 1;
@@ -5363,7 +5702,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "READ_FROM_CASH";
+		SIGNAL = "count_check[0]";
 		INDEX = 124;
 		FORMAT = E;
 		SCALE = 1;
@@ -5459,7 +5798,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON9";
+		SIGNAL = "ALU_data";
 		INDEX = 136;
 		FORMAT = T;
 		SCALE = 1;
@@ -5467,7 +5806,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON9[9]";
+		SIGNAL = "ALU_data[9]";
 		INDEX = 137;
 		FORMAT = E;
 		SCALE = 1;
@@ -5475,7 +5814,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON9[8]";
+		SIGNAL = "ALU_data[8]";
 		INDEX = 138;
 		FORMAT = E;
 		SCALE = 1;
@@ -5483,7 +5822,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON9[7]";
+		SIGNAL = "ALU_data[7]";
 		INDEX = 139;
 		FORMAT = E;
 		SCALE = 1;
@@ -5491,7 +5830,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON9[6]";
+		SIGNAL = "ALU_data[6]";
 		INDEX = 140;
 		FORMAT = E;
 		SCALE = 1;
@@ -5499,7 +5838,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON9[5]";
+		SIGNAL = "ALU_data[5]";
 		INDEX = 141;
 		FORMAT = E;
 		SCALE = 1;
@@ -5507,7 +5846,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON9[4]";
+		SIGNAL = "ALU_data[4]";
 		INDEX = 142;
 		FORMAT = E;
 		SCALE = 1;
@@ -5515,7 +5854,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON9[3]";
+		SIGNAL = "ALU_data[3]";
 		INDEX = 143;
 		FORMAT = E;
 		SCALE = 1;
@@ -5523,7 +5862,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON9[2]";
+		SIGNAL = "ALU_data[2]";
 		INDEX = 144;
 		FORMAT = E;
 		SCALE = 1;
@@ -5531,7 +5870,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON9[1]";
+		SIGNAL = "ALU_data[1]";
 		INDEX = 145;
 		FORMAT = E;
 		SCALE = 1;
@@ -5539,7 +5878,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON9[0]";
+		SIGNAL = "ALU_data[0]";
 		INDEX = 146;
 		FORMAT = E;
 		SCALE = 1;
@@ -5547,435 +5886,8 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "addc";
+		SIGNAL = "final_commands";
 		INDEX = 147;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ALU_data";
-		INDEX = 148;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ALU_data[9]";
-		INDEX = 149;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ALU_data[8]";
-		INDEX = 150;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ALU_data[7]";
-		INDEX = 151;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ALU_data[6]";
-		INDEX = 152;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ALU_data[5]";
-		INDEX = 153;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ALU_data[4]";
-		INDEX = 154;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ALU_data[3]";
-		INDEX = 155;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ALU_data[2]";
-		INDEX = 156;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ALU_data[1]";
-		INDEX = 157;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ALU_data[0]";
-		INDEX = 158;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-}
-
-VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf")
-{
-	ZOOM{
-		ZBEGIN = 0;
-		ZEND = 125000;
-		NUMERATOR = 1486;
-		DENOMINATOR = 125000;
-		TOP_INDEX = 3;
-	}
-	CLOCK{
-		PERIOD = 10000;
-		OFFSET = 0;
-		DUTY_CYCLE = 50;
-	}
-	RANDOM_VALUE{
-		INTERVAL_TYPE = HALF_GRID;
-	}
-	LINE{
-		SIGNAL = "clk_in";
-		INDEX = 0;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand";
-		INDEX = 1;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[9]";
-		INDEX = 2;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[8]";
-		INDEX = 3;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[7]";
-		INDEX = 4;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[6]";
-		INDEX = 5;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[5]";
-		INDEX = 6;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[4]";
-		INDEX = 7;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[3]";
-		INDEX = 8;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[2]";
-		INDEX = 9;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[1]";
-		INDEX = 10;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[0]";
-		INDEX = 11;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "second_operand";
-		INDEX = 12;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "second_operand[9]";
-		INDEX = 13;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "second_operand[8]";
-		INDEX = 14;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "second_operand[7]";
-		INDEX = 15;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "second_operand[6]";
-		INDEX = 16;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "second_operand[5]";
-		INDEX = 17;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "second_operand[4]";
-		INDEX = 18;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "second_operand[3]";
-		INDEX = 19;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "second_operand[2]";
-		INDEX = 20;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "second_operand[1]";
-		INDEX = 21;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "second_operand[0]";
-		INDEX = 22;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "Result";
-		INDEX = 23;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "Result[9]";
-		INDEX = 24;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "Result[8]";
-		INDEX = 25;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "Result[7]";
-		INDEX = 26;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "Result[6]";
-		INDEX = 27;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "Result[5]";
-		INDEX = 28;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "Result[4]";
-		INDEX = 29;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "Result[3]";
-		INDEX = 30;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "Result[2]";
-		INDEX = 31;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "Result[1]";
-		INDEX = 32;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "Result[0]";
-		INDEX = 33;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "SRABOTALO";
-		INDEX = 34;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ADDC";
-		INDEX = 35;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "NOR";
-		INDEX = 36;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "OR";
-		INDEX = 37;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "SLA";
-		INDEX = 38;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "For_JAZ";
-		INDEX = 39;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
