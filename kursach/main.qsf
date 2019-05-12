@@ -73,9 +73,7 @@ set_global_assignment -name QIP_FILE lpm_constant0.qip
 set_global_assignment -name QIP_FILE lpm_dff1.qip
 set_global_assignment -name QIP_FILE lpm_dff2.qip
 set_global_assignment -name QIP_FILE lpm_constant1.qip
-set_global_assignment -name BDF_FILE test_block.bdf
 set_global_assignment -name QIP_FILE lpm_counter0.qip
-set_global_assignment -name VECTOR_WAVEFORM_FILE test_block.vwf
 set_global_assignment -name QIP_FILE lpm_dff3.qip
 set_global_assignment -name BDF_FILE One_Set.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE One_Set.vwf
@@ -125,7 +123,6 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE CPU.vwf
 set_global_assignment -name QIP_FILE lpm_counter7.qip
 set_global_assignment -name QIP_FILE lpm_compare11.qip
 set_global_assignment -name QIP_FILE lpm_bustri3.qip
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE main.vwf
 set_global_assignment -name QIP_FILE lpm_add_sub2.qip
 set_global_assignment -name QIP_FILE lpm_compare12.qip
 set_global_assignment -name QIP_FILE lpm_compare13.qip
@@ -134,6 +131,12 @@ set_global_assignment -name QIP_FILE lpm_dff6.qip
 set_global_assignment -name QIP_FILE lpm_dff7.qip
 set_global_assignment -name QIP_FILE lpm_counter8.qip
 set_global_assignment -name QIP_FILE lpm_constant2.qip
+set_global_assignment -name QIP_FILE lpm_compare14.qip
+set_global_assignment -name BDF_FILE RegSm.bdf
+set_global_assignment -name QIP_FILE lpm_add_sub3.qip
+set_global_assignment -name QIP_FILE lpm_constant3.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE RegSm.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE main.vwf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"

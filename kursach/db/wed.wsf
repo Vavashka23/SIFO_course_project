@@ -3440,6 +3440,364 @@ VECTOR("D:/QuartusProjects/kursach/RON_Block.vwf")
 	}
 }
 
+VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/CPU.vwf")
+{
+	ZOOM{
+		ZBEGIN = 0;
+		ZEND = 148600;
+		NUMERATOR = 1486;
+		DENOMINATOR = 148600;
+		TOP_INDEX = 0;
+	}
+	CLOCK{
+		PERIOD = 10000;
+		OFFSET = 0;
+		DUTY_CYCLE = 50;
+	}
+	RANDOM_VALUE{
+		INTERVAL_TYPE = HALF_GRID;
+	}
+}
+
+VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf")
+{
+	ZOOM{
+		ZBEGIN = 0;
+		ZEND = 125000;
+		NUMERATOR = 1486;
+		DENOMINATOR = 125000;
+		TOP_INDEX = 3;
+	}
+	CLOCK{
+		PERIOD = 10000;
+		OFFSET = 0;
+		DUTY_CYCLE = 50;
+	}
+	RANDOM_VALUE{
+		INTERVAL_TYPE = HALF_GRID;
+	}
+	LINE{
+		SIGNAL = "clk_in";
+		INDEX = 0;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand";
+		INDEX = 1;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[9]";
+		INDEX = 2;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[8]";
+		INDEX = 3;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[7]";
+		INDEX = 4;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[6]";
+		INDEX = 5;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[5]";
+		INDEX = 6;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[4]";
+		INDEX = 7;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[3]";
+		INDEX = 8;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[2]";
+		INDEX = 9;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[1]";
+		INDEX = 10;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[0]";
+		INDEX = 11;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand";
+		INDEX = 12;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[9]";
+		INDEX = 13;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[8]";
+		INDEX = 14;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[7]";
+		INDEX = 15;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[6]";
+		INDEX = 16;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[5]";
+		INDEX = 17;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[4]";
+		INDEX = 18;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[3]";
+		INDEX = 19;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[2]";
+		INDEX = 20;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[1]";
+		INDEX = 21;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[0]";
+		INDEX = 22;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result";
+		INDEX = 23;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[9]";
+		INDEX = 24;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[8]";
+		INDEX = 25;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[7]";
+		INDEX = 26;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[6]";
+		INDEX = 27;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[5]";
+		INDEX = 28;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[4]";
+		INDEX = 29;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[3]";
+		INDEX = 30;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[2]";
+		INDEX = 31;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[1]";
+		INDEX = 32;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Result[0]";
+		INDEX = 33;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "SRABOTALO";
+		INDEX = 34;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ADDC";
+		INDEX = 35;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "NOR";
+		INDEX = 36;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "OR";
+		INDEX = 37;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "SLA";
+		INDEX = 38;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "For_JAZ";
+		INDEX = 39;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+}
+
 VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/STEAK.vwf")
 {
 	ZOOM{
@@ -3675,30 +4033,11 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/STEAK.v
 	}
 }
 
-VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/CPU.vwf")
-{
-	ZOOM{
-		ZBEGIN = 0;
-		ZEND = 148600;
-		NUMERATOR = 1486;
-		DENOMINATOR = 148600;
-		TOP_INDEX = 0;
-	}
-	CLOCK{
-		PERIOD = 10000;
-		OFFSET = 0;
-		DUTY_CYCLE = 50;
-	}
-	RANDOM_VALUE{
-		INTERVAL_TYPE = HALF_GRID;
-	}
-}
-
 VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/Cash.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 146900;
+		ZEND = 148600;
 		NUMERATOR = 1469;
 		DENOMINATOR = 146900;
 		TOP_INDEX = 0;
@@ -4353,14 +4692,14 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/Cash.vw
 	}
 }
 
-VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf")
+VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/RegSm.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 125000;
-		NUMERATOR = 1486;
-		DENOMINATOR = 125000;
-		TOP_INDEX = 3;
+		ZEND = 1000000;
+		NUMERATOR = 20;
+		DENOMINATOR = 1000;
+		TOP_INDEX = 0;
 	}
 	CLOCK{
 		PERIOD = 10000;
@@ -4371,23 +4710,23 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		INTERVAL_TYPE = HALF_GRID;
 	}
 	LINE{
-		SIGNAL = "clk_in";
+		SIGNAL = "out_address";
 		INDEX = 0;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand";
-		INDEX = 1;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "first_operand[9]";
+		SIGNAL = "out_address[10]";
+		INDEX = 1;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "out_address[9]";
 		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
@@ -4395,7 +4734,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "first_operand[8]";
+		SIGNAL = "out_address[8]";
 		INDEX = 3;
 		FORMAT = E;
 		SCALE = 1;
@@ -4403,7 +4742,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "first_operand[7]";
+		SIGNAL = "out_address[7]";
 		INDEX = 4;
 		FORMAT = E;
 		SCALE = 1;
@@ -4411,7 +4750,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "first_operand[6]";
+		SIGNAL = "out_address[6]";
 		INDEX = 5;
 		FORMAT = E;
 		SCALE = 1;
@@ -4419,7 +4758,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "first_operand[5]";
+		SIGNAL = "out_address[5]";
 		INDEX = 6;
 		FORMAT = E;
 		SCALE = 1;
@@ -4427,7 +4766,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "first_operand[4]";
+		SIGNAL = "out_address[4]";
 		INDEX = 7;
 		FORMAT = E;
 		SCALE = 1;
@@ -4435,7 +4774,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "first_operand[3]";
+		SIGNAL = "out_address[3]";
 		INDEX = 8;
 		FORMAT = E;
 		SCALE = 1;
@@ -4443,7 +4782,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "first_operand[2]";
+		SIGNAL = "out_address[2]";
 		INDEX = 9;
 		FORMAT = E;
 		SCALE = 1;
@@ -4451,7 +4790,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "first_operand[1]";
+		SIGNAL = "out_address[1]";
 		INDEX = 10;
 		FORMAT = E;
 		SCALE = 1;
@@ -4459,7 +4798,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "first_operand[0]";
+		SIGNAL = "out_address[0]";
 		INDEX = 11;
 		FORMAT = E;
 		SCALE = 1;
@@ -4467,7 +4806,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "second_operand";
+		SIGNAL = "reg1";
 		INDEX = 12;
 		FORMAT = T;
 		SCALE = 1;
@@ -4475,7 +4814,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "second_operand[9]";
+		SIGNAL = "reg1[9]";
 		INDEX = 13;
 		FORMAT = E;
 		SCALE = 1;
@@ -4483,7 +4822,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "second_operand[8]";
+		SIGNAL = "reg1[8]";
 		INDEX = 14;
 		FORMAT = E;
 		SCALE = 1;
@@ -4491,7 +4830,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "second_operand[7]";
+		SIGNAL = "reg1[7]";
 		INDEX = 15;
 		FORMAT = E;
 		SCALE = 1;
@@ -4499,7 +4838,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "second_operand[6]";
+		SIGNAL = "reg1[6]";
 		INDEX = 16;
 		FORMAT = E;
 		SCALE = 1;
@@ -4507,7 +4846,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "second_operand[5]";
+		SIGNAL = "reg1[5]";
 		INDEX = 17;
 		FORMAT = E;
 		SCALE = 1;
@@ -4515,7 +4854,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "second_operand[4]";
+		SIGNAL = "reg1[4]";
 		INDEX = 18;
 		FORMAT = E;
 		SCALE = 1;
@@ -4523,7 +4862,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "second_operand[3]";
+		SIGNAL = "reg1[3]";
 		INDEX = 19;
 		FORMAT = E;
 		SCALE = 1;
@@ -4531,7 +4870,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "second_operand[2]";
+		SIGNAL = "reg1[2]";
 		INDEX = 20;
 		FORMAT = E;
 		SCALE = 1;
@@ -4539,7 +4878,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "second_operand[1]";
+		SIGNAL = "reg1[1]";
 		INDEX = 21;
 		FORMAT = E;
 		SCALE = 1;
@@ -4547,7 +4886,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "second_operand[0]";
+		SIGNAL = "reg1[0]";
 		INDEX = 22;
 		FORMAT = E;
 		SCALE = 1;
@@ -4555,7 +4894,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Result";
+		SIGNAL = "reg2";
 		INDEX = 23;
 		FORMAT = T;
 		SCALE = 1;
@@ -4563,7 +4902,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Result[9]";
+		SIGNAL = "reg2[9]";
 		INDEX = 24;
 		FORMAT = E;
 		SCALE = 1;
@@ -4571,7 +4910,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Result[8]";
+		SIGNAL = "reg2[8]";
 		INDEX = 25;
 		FORMAT = E;
 		SCALE = 1;
@@ -4579,7 +4918,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Result[7]";
+		SIGNAL = "reg2[7]";
 		INDEX = 26;
 		FORMAT = E;
 		SCALE = 1;
@@ -4587,7 +4926,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Result[6]";
+		SIGNAL = "reg2[6]";
 		INDEX = 27;
 		FORMAT = E;
 		SCALE = 1;
@@ -4595,7 +4934,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Result[5]";
+		SIGNAL = "reg2[5]";
 		INDEX = 28;
 		FORMAT = E;
 		SCALE = 1;
@@ -4603,7 +4942,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Result[4]";
+		SIGNAL = "reg2[4]";
 		INDEX = 29;
 		FORMAT = E;
 		SCALE = 1;
@@ -4611,7 +4950,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Result[3]";
+		SIGNAL = "reg2[3]";
 		INDEX = 30;
 		FORMAT = E;
 		SCALE = 1;
@@ -4619,7 +4958,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Result[2]";
+		SIGNAL = "reg2[2]";
 		INDEX = 31;
 		FORMAT = E;
 		SCALE = 1;
@@ -4627,7 +4966,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Result[1]";
+		SIGNAL = "reg2[1]";
 		INDEX = 32;
 		FORMAT = E;
 		SCALE = 1;
@@ -4635,7 +4974,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Result[0]";
+		SIGNAL = "reg2[0]";
 		INDEX = 33;
 		FORMAT = E;
 		SCALE = 1;
@@ -4643,15 +4982,15 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "SRABOTALO";
+		SIGNAL = "sm";
 		INDEX = 34;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ADDC";
+		SIGNAL = "sm[2]";
 		INDEX = 35;
 		FORMAT = E;
 		SCALE = 1;
@@ -4659,7 +4998,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "NOR";
+		SIGNAL = "sm[1]";
 		INDEX = 36;
 		FORMAT = E;
 		SCALE = 1;
@@ -4667,24 +5006,8 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "OR";
+		SIGNAL = "sm[0]";
 		INDEX = 37;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "SLA";
-		INDEX = 38;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "For_JAZ";
-		INDEX = 39;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4695,11 +5018,11 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/ALU.vwf
 VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vwf")
 {
 	ZOOM{
-		ZBEGIN = 0;
-		ZEND = 146900;
+		ZBEGIN = 805300;
+		ZEND = 931700;
 		NUMERATOR = 1469;
 		DENOMINATOR = 146900;
-		TOP_INDEX = 43;
+		TOP_INDEX = 0;
 	}
 	CLOCK{
 		PERIOD = 10000;
@@ -5662,15 +5985,15 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "command_finish";
+		SIGNAL = "f_op_adr";
 		INDEX = 119;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "control";
+		SIGNAL = "f_op_adr[10]";
 		INDEX = 120;
 		FORMAT = E;
 		SCALE = 1;
@@ -5678,7 +6001,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "READ_FROM_CASH";
+		SIGNAL = "f_op_adr[9]";
 		INDEX = 121;
 		FORMAT = E;
 		SCALE = 1;
@@ -5686,15 +6009,15 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "count_check";
+		SIGNAL = "f_op_adr[8]";
 		INDEX = 122;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "count_check[1]";
+		SIGNAL = "f_op_adr[7]";
 		INDEX = 123;
 		FORMAT = E;
 		SCALE = 1;
@@ -5702,7 +6025,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "count_check[0]";
+		SIGNAL = "f_op_adr[6]";
 		INDEX = 124;
 		FORMAT = E;
 		SCALE = 1;
@@ -5710,15 +6033,15 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON";
+		SIGNAL = "f_op_adr[5]";
 		INDEX = 125;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON[9]";
+		SIGNAL = "f_op_adr[4]";
 		INDEX = 126;
 		FORMAT = E;
 		SCALE = 1;
@@ -5726,7 +6049,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON[8]";
+		SIGNAL = "f_op_adr[3]";
 		INDEX = 127;
 		FORMAT = E;
 		SCALE = 1;
@@ -5734,7 +6057,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON[7]";
+		SIGNAL = "f_op_adr[2]";
 		INDEX = 128;
 		FORMAT = E;
 		SCALE = 1;
@@ -5742,7 +6065,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON[6]";
+		SIGNAL = "f_op_adr[1]";
 		INDEX = 129;
 		FORMAT = E;
 		SCALE = 1;
@@ -5750,7 +6073,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON[5]";
+		SIGNAL = "f_op_adr[0]";
 		INDEX = 130;
 		FORMAT = E;
 		SCALE = 1;
@@ -5758,7 +6081,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON[4]";
+		SIGNAL = "command_finish";
 		INDEX = 131;
 		FORMAT = E;
 		SCALE = 1;
@@ -5766,7 +6089,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON[3]";
+		SIGNAL = "control";
 		INDEX = 132;
 		FORMAT = E;
 		SCALE = 1;
@@ -5774,7 +6097,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON[2]";
+		SIGNAL = "READ_FROM_CASH";
 		INDEX = 133;
 		FORMAT = E;
 		SCALE = 1;
@@ -5782,7 +6105,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON[1]";
+		SIGNAL = "WRITE_FOR_CASH";
 		INDEX = 134;
 		FORMAT = E;
 		SCALE = 1;
@@ -5790,23 +6113,23 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_from_RON[0]";
+		SIGNAL = "count_check";
 		INDEX = 135;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ALU_data";
-		INDEX = 136;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ALU_data[9]";
+		SIGNAL = "count_check[1]";
+		INDEX = 136;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "count_check[0]";
 		INDEX = 137;
 		FORMAT = E;
 		SCALE = 1;
@@ -5814,15 +6137,15 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ALU_data[8]";
+		SIGNAL = "data_from_RON";
 		INDEX = 138;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ALU_data[7]";
+		SIGNAL = "data_from_RON[9]";
 		INDEX = 139;
 		FORMAT = E;
 		SCALE = 1;
@@ -5830,7 +6153,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ALU_data[6]";
+		SIGNAL = "data_from_RON[8]";
 		INDEX = 140;
 		FORMAT = E;
 		SCALE = 1;
@@ -5838,7 +6161,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ALU_data[5]";
+		SIGNAL = "data_from_RON[7]";
 		INDEX = 141;
 		FORMAT = E;
 		SCALE = 1;
@@ -5846,7 +6169,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ALU_data[4]";
+		SIGNAL = "data_from_RON[6]";
 		INDEX = 142;
 		FORMAT = E;
 		SCALE = 1;
@@ -5854,7 +6177,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ALU_data[3]";
+		SIGNAL = "data_from_RON[5]";
 		INDEX = 143;
 		FORMAT = E;
 		SCALE = 1;
@@ -5862,7 +6185,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ALU_data[2]";
+		SIGNAL = "data_from_RON[4]";
 		INDEX = 144;
 		FORMAT = E;
 		SCALE = 1;
@@ -5870,7 +6193,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ALU_data[1]";
+		SIGNAL = "data_from_RON[3]";
 		INDEX = 145;
 		FORMAT = E;
 		SCALE = 1;
@@ -5878,7 +6201,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ALU_data[0]";
+		SIGNAL = "data_from_RON[2]";
 		INDEX = 146;
 		FORMAT = E;
 		SCALE = 1;
@@ -5886,8 +6209,200 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "final_commands";
+		SIGNAL = "data_from_RON[1]";
 		INDEX = 147;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_from_RON[0]";
+		INDEX = 148;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_data";
+		INDEX = 149;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_data[9]";
+		INDEX = 150;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_data[8]";
+		INDEX = 151;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_data[7]";
+		INDEX = 152;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_data[6]";
+		INDEX = 153;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_data[5]";
+		INDEX = 154;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_data[4]";
+		INDEX = 155;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_data[3]";
+		INDEX = 156;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_data[2]";
+		INDEX = 157;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_data[1]";
+		INDEX = 158;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_data[0]";
+		INDEX = 159;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "final_commands";
+		INDEX = 160;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STEAK_data";
+		INDEX = 161;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STEAK_data[9]";
+		INDEX = 162;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STEAK_data[8]";
+		INDEX = 163;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STEAK_data[7]";
+		INDEX = 164;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STEAK_data[6]";
+		INDEX = 165;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STEAK_data[5]";
+		INDEX = 166;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STEAK_data[4]";
+		INDEX = 167;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STEAK_data[3]";
+		INDEX = 168;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STEAK_data[2]";
+		INDEX = 169;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STEAK_data[1]";
+		INDEX = 170;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STEAK_data[0]";
+		INDEX = 171;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;

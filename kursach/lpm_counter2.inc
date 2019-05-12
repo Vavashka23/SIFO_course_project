@@ -16,6 +16,7 @@
 FUNCTION lpm_counter2 
 (
 	aclr,
+	aset,
 	clk_en,
 	clock
 )

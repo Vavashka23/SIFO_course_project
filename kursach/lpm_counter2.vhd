@@ -43,6 +43,7 @@ ENTITY lpm_counter2 IS
 	PORT
 	(
 		aclr		: IN STD_LOGIC ;
+		aset		: IN STD_LOGIC ;
 		clk_en		: IN STD_LOGIC ;
 		clock		: IN STD_LOGIC ;
 		q		: OUT STD_LOGIC_VECTOR (1 DOWNTO 0)
@@ -58,6 +59,7 @@ ARCHITECTURE SYN OF lpm_counter2 IS
 
 	COMPONENT lpm_counter
 	GENERIC (
+		lpm_avalue		: STRING;
 		lpm_direction		: STRING;
 		lpm_port_updown		: STRING;
 		lpm_type		: STRING;
@@ -67,7 +69,8 @@ ARCHITECTURE SYN OF lpm_counter2 IS
 			clk_en	: IN STD_LOGIC ;
 			aclr	: IN STD_LOGIC ;
 			clock	: IN STD_LOGIC ;
-			q	: OUT STD_LOGIC_VECTOR (1 DOWNTO 0)
+			q	: OUT STD_LOGIC_VECTOR (1 DOWNTO 0);
+			aset	: IN STD_LOGIC 
 	);
 	END COMPONENT;
 
@@ -76,6 +79,7 @@ BEGIN
 
 	lpm_counter_component : lpm_counter
 	GENERIC MAP (
+		lpm_avalue => "3",
 		lpm_direction => "UP",
 		lpm_port_updown => "PORT_UNUSED",
 		lpm_type => "LPM_COUNTER",
@@ -85,6 +89,7 @@ BEGIN
 		clk_en => clk_en,
 		aclr => aclr,
 		clock => clock,
+		aset => aset,
 		q => sub_wire0
 	);
 
@@ -97,8 +102,8 @@ END SYN;
 -- ============================================================
 -- Retrieval info: PRIVATE: ACLR NUMERIC "1"
 -- Retrieval info: PRIVATE: ALOAD NUMERIC "0"
--- Retrieval info: PRIVATE: ASET NUMERIC "0"
--- Retrieval info: PRIVATE: ASET_ALL1 NUMERIC "1"
+-- Retrieval info: PRIVATE: ASET NUMERIC "1"
+-- Retrieval info: PRIVATE: ASET_ALL1 NUMERIC "0"
 -- Retrieval info: PRIVATE: CLK_EN NUMERIC "1"
 -- Retrieval info: PRIVATE: CNT_EN NUMERIC "0"
 -- Retrieval info: PRIVATE: CarryIn NUMERIC "0"
@@ -113,11 +118,13 @@ END SYN;
 -- Retrieval info: PRIVATE: SSET_ALL1 NUMERIC "1"
 -- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
 -- Retrieval info: PRIVATE: nBit NUMERIC "2"
+-- Retrieval info: CONSTANT: LPM_AVALUE STRING "3"
 -- Retrieval info: CONSTANT: LPM_DIRECTION STRING "UP"
 -- Retrieval info: CONSTANT: LPM_PORT_UPDOWN STRING "PORT_UNUSED"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_COUNTER"
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "2"
 -- Retrieval info: USED_PORT: aclr 0 0 0 0 INPUT NODEFVAL aclr
+-- Retrieval info: USED_PORT: aset 0 0 0 0 INPUT NODEFVAL aset
 -- Retrieval info: USED_PORT: clk_en 0 0 0 0 INPUT NODEFVAL clk_en
 -- Retrieval info: USED_PORT: clock 0 0 0 0 INPUT NODEFVAL clock
 -- Retrieval info: USED_PORT: q 0 0 2 0 OUTPUT NODEFVAL q[1..0]
@@ -125,6 +132,7 @@ END SYN;
 -- Retrieval info: CONNECT: q 0 0 2 0 @q 0 0 2 0
 -- Retrieval info: CONNECT: @clk_en 0 0 0 0 clk_en 0 0 0 0
 -- Retrieval info: CONNECT: @aclr 0 0 0 0 aclr 0 0 0 0
+-- Retrieval info: CONNECT: @aset 0 0 0 0 aset 0 0 0 0
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter2.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter2.inc TRUE
