@@ -230,7 +230,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 2176 776 2352 792)
+	(rect 2176 792 2352 808)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "sec_op[10..0]" (rect 90 0 157 12)(font "Arial" ))
 	(pt 0 8)
@@ -246,7 +246,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 2176 808 2352 824)
+	(rect 2176 824 2352 840)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "first_op[3..0]" (rect 90 0 153 12)(font "Arial" ))
 	(pt 0 8)
@@ -358,7 +358,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 2176 792 2352 808)
+	(rect 2176 808 2352 824)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "f_op_adr[10..0]" (rect 90 0 165 12)(font "Arial" ))
 	(pt 0 8)
@@ -374,9 +374,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 2176 824 2352 840)
+	(rect 2176 776 2352 792)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "sec_lol[10..0]" (rect 90 0 156 12)(font "Arial" ))
+	(text "HLT" (rect 90 0 110 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -525,7 +525,7 @@ applicable agreement for further details.
 (symbol
 	(rect 1776 672 2088 960)
 	(text "CPU" (rect 5 0 28 14)(font "Arial" (font_size 8)))
-	(text "inst5" (rect 8 272 31 284)(font "Arial" ))
+	(text "inst7" (rect 8 272 31 284)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -606,29 +606,29 @@ applicable agreement for further details.
 	(port
 		(pt 312 112)
 		(output)
-		(text "sec_op[10..0]" (rect 0 0 77 14)(font "Arial" (font_size 8)))
-		(text "sec_op[10..0]" (rect 214 107 291 121)(font "Arial" (font_size 8)))
-		(line (pt 312 112)(pt 296 112)(line_width 3))
+		(text "hlt_comm" (rect 0 0 53 14)(font "Arial" (font_size 8)))
+		(text "hlt_comm" (rect 238 107 291 121)(font "Arial" (font_size 8)))
+		(line (pt 312 112)(pt 296 112)(line_width 1))
 	)
 	(port
 		(pt 312 128)
 		(output)
-		(text "f_op_adr[10..0]" (rect 0 0 87 14)(font "Arial" (font_size 8)))
-		(text "f_op_adr[10..0]" (rect 204 123 291 137)(font "Arial" (font_size 8)))
+		(text "sec_op[10..0]" (rect 0 0 77 14)(font "Arial" (font_size 8)))
+		(text "sec_op[10..0]" (rect 214 123 291 137)(font "Arial" (font_size 8)))
 		(line (pt 312 128)(pt 296 128)(line_width 3))
 	)
 	(port
 		(pt 312 144)
 		(output)
-		(text "first_op[3..0]" (rect 0 0 71 14)(font "Arial" (font_size 8)))
-		(text "first_op[3..0]" (rect 220 139 291 153)(font "Arial" (font_size 8)))
+		(text "f_op_adr[10..0]" (rect 0 0 87 14)(font "Arial" (font_size 8)))
+		(text "f_op_adr[10..0]" (rect 204 139 291 153)(font "Arial" (font_size 8)))
 		(line (pt 312 144)(pt 296 144)(line_width 3))
 	)
 	(port
 		(pt 312 160)
 		(output)
-		(text "sec_op_regsm[10..0]" (rect 0 0 120 14)(font "Arial" (font_size 8)))
-		(text "sec_op_regsm[10..0]" (rect 171 155 291 169)(font "Arial" (font_size 8)))
+		(text "first_op[3..0]" (rect 0 0 71 14)(font "Arial" (font_size 8)))
+		(text "first_op[3..0]" (rect 220 155 291 169)(font "Arial" (font_size 8)))
 		(line (pt 312 160)(pt 296 160)(line_width 3))
 	)
 	(port
@@ -924,6 +924,11 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
+	(pt 2088 832)
+	(pt 2176 832)
+	(bus)
+)
+(connector
 	(pt 2088 816)
 	(pt 2176 816)
 	(bus)
@@ -931,11 +936,6 @@ applicable agreement for further details.
 (connector
 	(pt 2088 800)
 	(pt 2176 800)
-	(bus)
-)
-(connector
-	(pt 2088 784)
-	(pt 2176 784)
 	(bus)
 )
 (connector
@@ -949,16 +949,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 2088 720)
-	(pt 2128 720)
-	(bus)
-)
-(connector
-	(pt 2128 720)
-	(pt 2176 720)
-	(bus)
-)
-(connector
 	(pt 2088 736)
 	(pt 2160 736)
 	(bus)
@@ -966,6 +956,16 @@ applicable agreement for further details.
 (connector
 	(pt 2160 736)
 	(pt 2176 736)
+	(bus)
+)
+(connector
+	(pt 2088 720)
+	(pt 2128 720)
+	(bus)
+)
+(connector
+	(pt 2128 720)
+	(pt 2176 720)
 	(bus)
 )
 (connector
@@ -979,9 +979,8 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 2088 832)
-	(pt 2176 832)
-	(bus)
+	(pt 2176 784)
+	(pt 2088 784)
 )
 (junction (pt 2176 1192))
 (junction (pt 2160 1128))

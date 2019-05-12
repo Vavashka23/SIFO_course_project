@@ -315,10 +315,10 @@ Cash:inst16|Changing_Flags:inst18|lpm_decode3:inst1|lpm_decode:lpm_decode_compon
 Cash:inst16|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
 Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst2|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
 Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
-CPU:inst5|Command_decoder:inst95|lpm_decode0:inst|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
-CPU:inst5|lpm_decode3:inst29|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
-CPU:inst5|RON_Block:inst8|lpm_decode4:inst19|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
-CPU:inst5|STEAK:inst7|lpm_decode5:inst19|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CPU:inst7|Command_decoder:inst104|lpm_decode0:inst|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CPU:inst7|lpm_decode3:inst29|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CPU:inst7|RON_Block:inst8|lpm_decode4:inst19|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CPU:inst7|STEAK:inst7|lpm_decode5:inst19|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
 }
 # macro_sequence
 
@@ -524,7 +524,7 @@ Cash:inst16|One_Set:inst137|Tag_and_string:inst|String_cash:inst|lpm_mux1:inst7|
 Cash:inst16|One_Set:inst137|Tag_and_string:inst12|String_cash:inst|lpm_mux1:inst7|lpm_mux:lpm_mux_component|mux_l5e:auto_generated
 Cash:inst16|One_Set:inst138|Tag_and_string:inst|String_cash:inst|lpm_mux1:inst7|lpm_mux:lpm_mux_component|mux_l5e:auto_generated
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_mux1:inst7|lpm_mux:lpm_mux_component|mux_l5e:auto_generated
-CPU:inst5|ALU:inst14|lpm_mux1:inst14|lpm_mux:lpm_mux_component|mux_l5e:auto_generated
+CPU:inst7|ALU:inst14|lpm_mux1:inst14|lpm_mux:lpm_mux_component|mux_l5e:auto_generated
 }
 # macro_sequence
 
@@ -595,10 +595,10 @@ Cash:inst16|One_Set:inst137|Tag_and_string:inst|String_cash:inst|lpm_decode1:ins
 Cash:inst16|One_Set:inst137|Tag_and_string:inst12|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 Cash:inst16|One_Set:inst138|Tag_and_string:inst|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CPU:inst5|lpm_decode1:inst33|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CPU:inst5|Command_decoder:inst95|lpm_decode1:inst9|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CPU:inst5|lpm_decode1:inst56|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CPU:inst5|lpm_decode1:inst71|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CPU:inst7|lpm_decode1:inst33|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CPU:inst7|Command_decoder:inst104|lpm_decode1:inst9|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CPU:inst7|lpm_decode1:inst56|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CPU:inst7|lpm_decode1:inst71|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 }
 # macro_sequence
 
@@ -1889,8 +1889,8 @@ data0
 }
 # hierarchies {
 Cash:inst16|lpm_mux5:inst60|lpm_mux:lpm_mux_component|mux_a7e:auto_generated
-CPU:inst5|RON_Block:inst8|lpm_mux5:inst20|lpm_mux:lpm_mux_component|mux_a7e:auto_generated
-CPU:inst5|STEAK:inst7|lpm_mux5:inst16|lpm_mux:lpm_mux_component|mux_a7e:auto_generated
+CPU:inst7|RON_Block:inst8|lpm_mux5:inst20|lpm_mux:lpm_mux_component|mux_a7e:auto_generated
+CPU:inst7|STEAK:inst7|lpm_mux5:inst16|lpm_mux:lpm_mux_component|mux_a7e:auto_generated
 }
 # macro_sequence
 
@@ -1983,7 +1983,7 @@ aeb
 3
 }
 # hierarchies {
-CPU:inst5|Command_decoder:inst95|lpm_compare14:inst3|lpm_compare:lpm_compare_component|cmpr_g8j:auto_generated
+CPU:inst7|Command_decoder:inst104|lpm_compare14:inst3|lpm_compare:lpm_compare_component|cmpr_g8j:auto_generated
 }
 # macro_sequence
 
@@ -2097,6 +2097,7 @@ aeb
 Cash:inst16|lpm_compare4:inst66|lpm_compare:lpm_compare_component|cmpr_h8j:auto_generated
 Cash:inst16|lpm_compare5:inst77|lpm_compare:lpm_compare_component|cmpr_h8j:auto_generated
 Cash:inst16|lpm_compare3:inst83|lpm_compare:lpm_compare_component|cmpr_h8j:auto_generated
+CPU:inst7|lpm_compare5:inst108|lpm_compare:lpm_compare_component|cmpr_h8j:auto_generated
 }
 # macro_sequence
 
@@ -2375,6 +2376,7 @@ aclr
 }
 # hierarchies {
 Cash:inst16|lpm_counter5:inst19|lpm_counter:lpm_counter_component|cntr_7oi:auto_generated
+CPU:inst7|lpm_counter5:inst107|lpm_counter:lpm_counter_component|cntr_7oi:auto_generated
 }
 # macro_sequence
 
@@ -2599,7 +2601,7 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst5|STEAK:inst7|lpm_compare9:inst21
+CPU:inst7|STEAK:inst7|lpm_compare9:inst21
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -2709,7 +2711,7 @@ datab0
 1
 }
 # hierarchies {
-CPU:inst5|STEAK:inst7|lpm_compare9:inst21|lpm_compare:lpm_compare_component
+CPU:inst7|STEAK:inst7|lpm_compare9:inst21|lpm_compare:lpm_compare_component
 }
 # macro_sequence
 
@@ -2742,7 +2744,7 @@ aeb
 3
 }
 # hierarchies {
-CPU:inst5|STEAK:inst7|lpm_compare9:inst21|lpm_compare:lpm_compare_component|cmpr_mni:auto_generated
+CPU:inst7|STEAK:inst7|lpm_compare9:inst21|lpm_compare:lpm_compare_component|cmpr_mni:auto_generated
 }
 # macro_sequence
 
@@ -2772,7 +2774,7 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst5|STEAK:inst7|lpm_counter6:inst18
+CPU:inst7|STEAK:inst7|lpm_counter6:inst18
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -2888,7 +2890,7 @@ clk_en
 3
 }
 # hierarchies {
-CPU:inst5|STEAK:inst7|lpm_counter6:inst18|lpm_counter:lpm_counter_component
+CPU:inst7|STEAK:inst7|lpm_counter6:inst18|lpm_counter:lpm_counter_component
 }
 # macro_sequence
 
@@ -2927,7 +2929,7 @@ clk_en
 3
 }
 # hierarchies {
-CPU:inst5|STEAK:inst7|lpm_counter6:inst18|lpm_counter:lpm_counter_component|cntr_h1h:auto_generated
+CPU:inst7|STEAK:inst7|lpm_counter6:inst18|lpm_counter:lpm_counter_component|cntr_h1h:auto_generated
 }
 # macro_sequence
 
@@ -3027,23 +3029,27 @@ Cash:inst16|One_Set:inst138|lpm_dff3:inst3
 Cash:inst16|One_Set:inst138|lpm_dff3:inst13
 Cash:inst16|One_Set:inst138|lpm_dff3:inst14
 Cash:inst16|lpm_dff3:inst87
-CPU:inst5|lpm_dff3:inst24
-CPU:inst5|lpm_dff3:inst20
-CPU:inst5|Command_decoder:inst95|lpm_dff3:inst11
-CPU:inst5|lpm_dff3:inst83
-CPU:inst5|lpm_dff3:inst82
-CPU:inst5|lpm_dff3:inst43
-CPU:inst5|ALU:inst14|lpm_dff3:inst4
-CPU:inst5|ALU:inst14|lpm_dff3:inst3
-CPU:inst5|ALU:inst14|lpm_dff3:inst15
-CPU:inst5|ALU:inst14|lpm_dff3:inst
-CPU:inst5|ALU:inst14|lpm_dff3:inst11
-CPU:inst5|lpm_dff3:inst38
-CPU:inst5|lpm_dff3:inst51
-CPU:inst5|lpm_dff3:inst53
-CPU:inst5|lpm_dff3:inst45
-CPU:inst5|STEAK:inst7|lpm_dff3:inst25
-CPU:inst5|STEAK:inst7|lpm_dff3:inst22
+CPU:inst7|lpm_dff3:inst24
+CPU:inst7|lpm_dff3:inst20
+CPU:inst7|Command_decoder:inst104|lpm_dff3:inst11
+CPU:inst7|lpm_dff3:inst95
+CPU:inst7|ALU:inst14|lpm_dff3:inst4
+CPU:inst7|ALU:inst14|lpm_dff3:inst3
+CPU:inst7|ALU:inst14|lpm_dff3:inst15
+CPU:inst7|ALU:inst14|lpm_dff3:inst
+CPU:inst7|ALU:inst14|lpm_dff3:inst11
+CPU:inst7|lpm_dff3:inst82
+CPU:inst7|lpm_dff3:inst43
+CPU:inst7|lpm_dff3:inst38
+CPU:inst7|lpm_dff3:inst83
+CPU:inst7|lpm_dff3:inst97
+CPU:inst7|lpm_dff3:inst61
+CPU:inst7|lpm_dff3:inst109
+CPU:inst7|lpm_dff3:inst53
+CPU:inst7|lpm_dff3:inst45
+CPU:inst7|lpm_dff3:inst51
+CPU:inst7|STEAK:inst7|lpm_dff3:inst25
+CPU:inst7|STEAK:inst7|lpm_dff3:inst22
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -3188,23 +3194,27 @@ Cash:inst16|One_Set:inst138|lpm_dff3:inst3|lpm_ff:lpm_ff_component
 Cash:inst16|One_Set:inst138|lpm_dff3:inst13|lpm_ff:lpm_ff_component
 Cash:inst16|One_Set:inst138|lpm_dff3:inst14|lpm_ff:lpm_ff_component
 Cash:inst16|lpm_dff3:inst87|lpm_ff:lpm_ff_component
-CPU:inst5|lpm_dff3:inst24|lpm_ff:lpm_ff_component
-CPU:inst5|lpm_dff3:inst20|lpm_ff:lpm_ff_component
-CPU:inst5|Command_decoder:inst95|lpm_dff3:inst11|lpm_ff:lpm_ff_component
-CPU:inst5|lpm_dff3:inst83|lpm_ff:lpm_ff_component
-CPU:inst5|lpm_dff3:inst82|lpm_ff:lpm_ff_component
-CPU:inst5|lpm_dff3:inst43|lpm_ff:lpm_ff_component
-CPU:inst5|ALU:inst14|lpm_dff3:inst4|lpm_ff:lpm_ff_component
-CPU:inst5|ALU:inst14|lpm_dff3:inst3|lpm_ff:lpm_ff_component
-CPU:inst5|ALU:inst14|lpm_dff3:inst15|lpm_ff:lpm_ff_component
-CPU:inst5|ALU:inst14|lpm_dff3:inst|lpm_ff:lpm_ff_component
-CPU:inst5|ALU:inst14|lpm_dff3:inst11|lpm_ff:lpm_ff_component
-CPU:inst5|lpm_dff3:inst38|lpm_ff:lpm_ff_component
-CPU:inst5|lpm_dff3:inst51|lpm_ff:lpm_ff_component
-CPU:inst5|lpm_dff3:inst53|lpm_ff:lpm_ff_component
-CPU:inst5|lpm_dff3:inst45|lpm_ff:lpm_ff_component
-CPU:inst5|STEAK:inst7|lpm_dff3:inst25|lpm_ff:lpm_ff_component
-CPU:inst5|STEAK:inst7|lpm_dff3:inst22|lpm_ff:lpm_ff_component
+CPU:inst7|lpm_dff3:inst24|lpm_ff:lpm_ff_component
+CPU:inst7|lpm_dff3:inst20|lpm_ff:lpm_ff_component
+CPU:inst7|Command_decoder:inst104|lpm_dff3:inst11|lpm_ff:lpm_ff_component
+CPU:inst7|lpm_dff3:inst95|lpm_ff:lpm_ff_component
+CPU:inst7|ALU:inst14|lpm_dff3:inst4|lpm_ff:lpm_ff_component
+CPU:inst7|ALU:inst14|lpm_dff3:inst3|lpm_ff:lpm_ff_component
+CPU:inst7|ALU:inst14|lpm_dff3:inst15|lpm_ff:lpm_ff_component
+CPU:inst7|ALU:inst14|lpm_dff3:inst|lpm_ff:lpm_ff_component
+CPU:inst7|ALU:inst14|lpm_dff3:inst11|lpm_ff:lpm_ff_component
+CPU:inst7|lpm_dff3:inst82|lpm_ff:lpm_ff_component
+CPU:inst7|lpm_dff3:inst43|lpm_ff:lpm_ff_component
+CPU:inst7|lpm_dff3:inst38|lpm_ff:lpm_ff_component
+CPU:inst7|lpm_dff3:inst83|lpm_ff:lpm_ff_component
+CPU:inst7|lpm_dff3:inst97|lpm_ff:lpm_ff_component
+CPU:inst7|lpm_dff3:inst61|lpm_ff:lpm_ff_component
+CPU:inst7|lpm_dff3:inst109|lpm_ff:lpm_ff_component
+CPU:inst7|lpm_dff3:inst53|lpm_ff:lpm_ff_component
+CPU:inst7|lpm_dff3:inst45|lpm_ff:lpm_ff_component
+CPU:inst7|lpm_dff3:inst51|lpm_ff:lpm_ff_component
+CPU:inst7|STEAK:inst7|lpm_dff3:inst25|lpm_ff:lpm_ff_component
+CPU:inst7|STEAK:inst7|lpm_dff3:inst22|lpm_ff:lpm_ff_component
 }
 # macro_sequence
 
@@ -3254,16 +3264,20 @@ Cash:inst16|One_Set:inst133|lpm_constant1:inst1
 Cash:inst16|One_Set:inst137|lpm_constant1:inst1
 Cash:inst16|One_Set:inst138|lpm_constant1:inst1
 Cash:inst16|lpm_constant1:inst88
-CPU:inst5|Command_decoder:inst95|lpm_constant1:inst36
-CPU:inst5|lpm_constant1:inst23
-CPU:inst5|lpm_constant1:inst81
-CPU:inst5|lpm_constant1:inst25
-CPU:inst5|ALU:inst14|lpm_constant1:inst16
-CPU:inst5|ALU:inst14|lpm_constant1:inst12
-CPU:inst5|lpm_constant1:inst12
-CPU:inst5|lpm_constant1:inst19
-CPU:inst5|lpm_constant1:inst52
-CPU:inst5|STEAK:inst7|lpm_constant1:inst24
+CPU:inst7|Command_decoder:inst104|lpm_constant1:inst36
+CPU:inst7|lpm_constant1:inst23
+CPU:inst7|lpm_constant1:inst96
+CPU:inst7|ALU:inst14|lpm_constant1:inst16
+CPU:inst7|ALU:inst14|lpm_constant1:inst12
+CPU:inst7|lpm_constant1:inst81
+CPU:inst7|lpm_constant1:inst25
+CPU:inst7|lpm_constant1:inst12
+CPU:inst7|lpm_constant1:inst19
+CPU:inst7|lpm_constant1:inst98
+CPU:inst7|lpm_constant1:inst92
+CPU:inst7|lpm_constant1:inst110
+CPU:inst7|lpm_constant1:inst52
+CPU:inst7|STEAK:inst7|lpm_constant1:inst24
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -3325,16 +3339,20 @@ Cash:inst16|One_Set:inst133|lpm_constant1:inst1|lpm_constant:lpm_constant_compon
 Cash:inst16|One_Set:inst137|lpm_constant1:inst1|lpm_constant:lpm_constant_component
 Cash:inst16|One_Set:inst138|lpm_constant1:inst1|lpm_constant:lpm_constant_component
 Cash:inst16|lpm_constant1:inst88|lpm_constant:lpm_constant_component
-CPU:inst5|Command_decoder:inst95|lpm_constant1:inst36|lpm_constant:lpm_constant_component
-CPU:inst5|lpm_constant1:inst23|lpm_constant:lpm_constant_component
-CPU:inst5|lpm_constant1:inst81|lpm_constant:lpm_constant_component
-CPU:inst5|lpm_constant1:inst25|lpm_constant:lpm_constant_component
-CPU:inst5|ALU:inst14|lpm_constant1:inst16|lpm_constant:lpm_constant_component
-CPU:inst5|ALU:inst14|lpm_constant1:inst12|lpm_constant:lpm_constant_component
-CPU:inst5|lpm_constant1:inst12|lpm_constant:lpm_constant_component
-CPU:inst5|lpm_constant1:inst19|lpm_constant:lpm_constant_component
-CPU:inst5|lpm_constant1:inst52|lpm_constant:lpm_constant_component
-CPU:inst5|STEAK:inst7|lpm_constant1:inst24|lpm_constant:lpm_constant_component
+CPU:inst7|Command_decoder:inst104|lpm_constant1:inst36|lpm_constant:lpm_constant_component
+CPU:inst7|lpm_constant1:inst23|lpm_constant:lpm_constant_component
+CPU:inst7|lpm_constant1:inst96|lpm_constant:lpm_constant_component
+CPU:inst7|ALU:inst14|lpm_constant1:inst16|lpm_constant:lpm_constant_component
+CPU:inst7|ALU:inst14|lpm_constant1:inst12|lpm_constant:lpm_constant_component
+CPU:inst7|lpm_constant1:inst81|lpm_constant:lpm_constant_component
+CPU:inst7|lpm_constant1:inst25|lpm_constant:lpm_constant_component
+CPU:inst7|lpm_constant1:inst12|lpm_constant:lpm_constant_component
+CPU:inst7|lpm_constant1:inst19|lpm_constant:lpm_constant_component
+CPU:inst7|lpm_constant1:inst98|lpm_constant:lpm_constant_component
+CPU:inst7|lpm_constant1:inst92|lpm_constant:lpm_constant_component
+CPU:inst7|lpm_constant1:inst110|lpm_constant:lpm_constant_component
+CPU:inst7|lpm_constant1:inst52|lpm_constant:lpm_constant_component
+CPU:inst7|STEAK:inst7|lpm_constant1:inst24|lpm_constant:lpm_constant_component
 }
 # macro_sequence
 
@@ -3364,7 +3382,7 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst5|STEAK:inst7|lpm_compare10:inst23
+CPU:inst7|STEAK:inst7|lpm_compare10:inst23
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -3474,7 +3492,7 @@ datab1
 2
 }
 # hierarchies {
-CPU:inst5|STEAK:inst7|lpm_compare10:inst23|lpm_compare:lpm_compare_component
+CPU:inst7|STEAK:inst7|lpm_compare10:inst23|lpm_compare:lpm_compare_component
 }
 # macro_sequence
 
@@ -3519,7 +3537,7 @@ aeb
 3
 }
 # hierarchies {
-CPU:inst5|STEAK:inst7|lpm_compare10:inst23|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated
+CPU:inst7|STEAK:inst7|lpm_compare10:inst23|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated
 }
 # macro_sequence
 
@@ -3595,15 +3613,15 @@ ON
 }
 # hierarchies {
 Cash:inst16|lpm_bustri0:inst93
-CPU:inst5|RON_Block:inst8|lpm_bustri0:inst21
-CPU:inst5|ALU:inst14|lpm_bustri0:inst25
-CPU:inst5|lpm_bustri0:inst74
-CPU:inst5|lpm_bustri0:inst89
-CPU:inst5|lpm_bustri0:inst78
-CPU:inst5|lpm_bustri0:inst41
-CPU:inst5|lpm_bustri0:inst40
-CPU:inst5|lpm_bustri0:inst46
-CPU:inst5|STEAK:inst7|lpm_bustri0:inst17
+CPU:inst7|RON_Block:inst8|lpm_bustri0:inst21
+CPU:inst7|ALU:inst14|lpm_bustri0:inst25
+CPU:inst7|lpm_bustri0:inst74
+CPU:inst7|lpm_bustri0:inst89
+CPU:inst7|lpm_bustri0:inst78
+CPU:inst7|lpm_bustri0:inst41
+CPU:inst7|lpm_bustri0:inst40
+CPU:inst7|lpm_bustri0:inst46
+CPU:inst7|STEAK:inst7|lpm_bustri0:inst17
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -3694,15 +3712,15 @@ data0
 }
 # hierarchies {
 Cash:inst16|lpm_bustri0:inst93|lpm_bustri:lpm_bustri_component
-CPU:inst5|RON_Block:inst8|lpm_bustri0:inst21|lpm_bustri:lpm_bustri_component
-CPU:inst5|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component
-CPU:inst5|lpm_bustri0:inst74|lpm_bustri:lpm_bustri_component
-CPU:inst5|lpm_bustri0:inst89|lpm_bustri:lpm_bustri_component
-CPU:inst5|lpm_bustri0:inst78|lpm_bustri:lpm_bustri_component
-CPU:inst5|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component
-CPU:inst5|lpm_bustri0:inst40|lpm_bustri:lpm_bustri_component
-CPU:inst5|lpm_bustri0:inst46|lpm_bustri:lpm_bustri_component
-CPU:inst5|STEAK:inst7|lpm_bustri0:inst17|lpm_bustri:lpm_bustri_component
+CPU:inst7|RON_Block:inst8|lpm_bustri0:inst21|lpm_bustri:lpm_bustri_component
+CPU:inst7|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component
+CPU:inst7|lpm_bustri0:inst74|lpm_bustri:lpm_bustri_component
+CPU:inst7|lpm_bustri0:inst89|lpm_bustri:lpm_bustri_component
+CPU:inst7|lpm_bustri0:inst78|lpm_bustri:lpm_bustri_component
+CPU:inst7|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component
+CPU:inst7|lpm_bustri0:inst40|lpm_bustri:lpm_bustri_component
+CPU:inst7|lpm_bustri0:inst46|lpm_bustri:lpm_bustri_component
+CPU:inst7|STEAK:inst7|lpm_bustri0:inst17|lpm_bustri:lpm_bustri_component
 }
 # macro_sequence
 
@@ -3733,8 +3751,8 @@ ON
 }
 # hierarchies {
 Cash:inst16|lpm_mux5:inst60
-CPU:inst5|RON_Block:inst8|lpm_mux5:inst20
-CPU:inst5|STEAK:inst7|lpm_mux5:inst16
+CPU:inst7|RON_Block:inst8|lpm_mux5:inst20
+CPU:inst7|STEAK:inst7|lpm_mux5:inst16
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -4320,8 +4338,8 @@ DATA0_0
 }
 # hierarchies {
 Cash:inst16|lpm_mux5:inst60|lpm_mux:lpm_mux_component
-CPU:inst5|RON_Block:inst8|lpm_mux5:inst20|lpm_mux:lpm_mux_component
-CPU:inst5|STEAK:inst7|lpm_mux5:inst16|lpm_mux:lpm_mux_component
+CPU:inst7|RON_Block:inst8|lpm_mux5:inst20|lpm_mux:lpm_mux_component
+CPU:inst7|STEAK:inst7|lpm_mux5:inst16|lpm_mux:lpm_mux_component
 }
 # macro_sequence
 
@@ -4479,37 +4497,37 @@ Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_dff0:inst
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_dff0:inst1
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_dff0:inst2
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_dff0:inst3
-CPU:inst5|Command_decoder:inst95|lpm_dff0:inst1
-CPU:inst5|Command_decoder:inst95|lpm_dff0:inst2
-CPU:inst5|lpm_dff0:inst30
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst10
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst11
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst12
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst13
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst1
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst2
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst3
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst4
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst5
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst6
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst7
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst8
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst9
-CPU:inst5|ALU:inst14|lpm_dff0:inst2
-CPU:inst5|lpm_dff0:inst31
-CPU:inst5|lpm_dff0:inst87
-CPU:inst5|lpm_dff0:inst11
-CPU:inst5|STEAK:inst7|lpm_dff0:inst
-CPU:inst5|STEAK:inst7|lpm_dff0:inst6
-CPU:inst5|STEAK:inst7|lpm_dff0:inst7
-CPU:inst5|STEAK:inst7|lpm_dff0:inst8
-CPU:inst5|STEAK:inst7|lpm_dff0:inst9
-CPU:inst5|STEAK:inst7|lpm_dff0:inst10
-CPU:inst5|STEAK:inst7|lpm_dff0:inst11
-CPU:inst5|STEAK:inst7|lpm_dff0:inst12
-CPU:inst5|STEAK:inst7|lpm_dff0:inst13
-CPU:inst5|STEAK:inst7|lpm_dff0:inst14
+CPU:inst7|Command_decoder:inst104|lpm_dff0:inst1
+CPU:inst7|Command_decoder:inst104|lpm_dff0:inst2
+CPU:inst7|lpm_dff0:inst30
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst10
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst11
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst12
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst13
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst1
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst2
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst3
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst4
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst5
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst6
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst7
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst8
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst9
+CPU:inst7|ALU:inst14|lpm_dff0:inst2
+CPU:inst7|lpm_dff0:inst31
+CPU:inst7|lpm_dff0:inst87
+CPU:inst7|lpm_dff0:inst11
+CPU:inst7|STEAK:inst7|lpm_dff0:inst
+CPU:inst7|STEAK:inst7|lpm_dff0:inst6
+CPU:inst7|STEAK:inst7|lpm_dff0:inst7
+CPU:inst7|STEAK:inst7|lpm_dff0:inst8
+CPU:inst7|STEAK:inst7|lpm_dff0:inst9
+CPU:inst7|STEAK:inst7|lpm_dff0:inst10
+CPU:inst7|STEAK:inst7|lpm_dff0:inst11
+CPU:inst7|STEAK:inst7|lpm_dff0:inst12
+CPU:inst7|STEAK:inst7|lpm_dff0:inst13
+CPU:inst7|STEAK:inst7|lpm_dff0:inst14
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -4766,37 +4784,37 @@ Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_dff0:inst
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_dff0:inst1|lpm_ff:lpm_ff_component
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_dff0:inst2|lpm_ff:lpm_ff_component
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_dff0:inst3|lpm_ff:lpm_ff_component
-CPU:inst5|Command_decoder:inst95|lpm_dff0:inst1|lpm_ff:lpm_ff_component
-CPU:inst5|Command_decoder:inst95|lpm_dff0:inst2|lpm_ff:lpm_ff_component
-CPU:inst5|lpm_dff0:inst30|lpm_ff:lpm_ff_component
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst10|lpm_ff:lpm_ff_component
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst11|lpm_ff:lpm_ff_component
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst12|lpm_ff:lpm_ff_component
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst13|lpm_ff:lpm_ff_component
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst1|lpm_ff:lpm_ff_component
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst2|lpm_ff:lpm_ff_component
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst3|lpm_ff:lpm_ff_component
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst4|lpm_ff:lpm_ff_component
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst5|lpm_ff:lpm_ff_component
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst6|lpm_ff:lpm_ff_component
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst7|lpm_ff:lpm_ff_component
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst8|lpm_ff:lpm_ff_component
-CPU:inst5|RON_Block:inst8|lpm_dff0:inst9|lpm_ff:lpm_ff_component
-CPU:inst5|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component
-CPU:inst5|lpm_dff0:inst31|lpm_ff:lpm_ff_component
-CPU:inst5|lpm_dff0:inst87|lpm_ff:lpm_ff_component
-CPU:inst5|lpm_dff0:inst11|lpm_ff:lpm_ff_component
-CPU:inst5|STEAK:inst7|lpm_dff0:inst|lpm_ff:lpm_ff_component
-CPU:inst5|STEAK:inst7|lpm_dff0:inst6|lpm_ff:lpm_ff_component
-CPU:inst5|STEAK:inst7|lpm_dff0:inst7|lpm_ff:lpm_ff_component
-CPU:inst5|STEAK:inst7|lpm_dff0:inst8|lpm_ff:lpm_ff_component
-CPU:inst5|STEAK:inst7|lpm_dff0:inst9|lpm_ff:lpm_ff_component
-CPU:inst5|STEAK:inst7|lpm_dff0:inst10|lpm_ff:lpm_ff_component
-CPU:inst5|STEAK:inst7|lpm_dff0:inst11|lpm_ff:lpm_ff_component
-CPU:inst5|STEAK:inst7|lpm_dff0:inst12|lpm_ff:lpm_ff_component
-CPU:inst5|STEAK:inst7|lpm_dff0:inst13|lpm_ff:lpm_ff_component
-CPU:inst5|STEAK:inst7|lpm_dff0:inst14|lpm_ff:lpm_ff_component
+CPU:inst7|Command_decoder:inst104|lpm_dff0:inst1|lpm_ff:lpm_ff_component
+CPU:inst7|Command_decoder:inst104|lpm_dff0:inst2|lpm_ff:lpm_ff_component
+CPU:inst7|lpm_dff0:inst30|lpm_ff:lpm_ff_component
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst10|lpm_ff:lpm_ff_component
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst11|lpm_ff:lpm_ff_component
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst12|lpm_ff:lpm_ff_component
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst13|lpm_ff:lpm_ff_component
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst1|lpm_ff:lpm_ff_component
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst2|lpm_ff:lpm_ff_component
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst3|lpm_ff:lpm_ff_component
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst4|lpm_ff:lpm_ff_component
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst5|lpm_ff:lpm_ff_component
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst6|lpm_ff:lpm_ff_component
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst7|lpm_ff:lpm_ff_component
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst8|lpm_ff:lpm_ff_component
+CPU:inst7|RON_Block:inst8|lpm_dff0:inst9|lpm_ff:lpm_ff_component
+CPU:inst7|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component
+CPU:inst7|lpm_dff0:inst31|lpm_ff:lpm_ff_component
+CPU:inst7|lpm_dff0:inst87|lpm_ff:lpm_ff_component
+CPU:inst7|lpm_dff0:inst11|lpm_ff:lpm_ff_component
+CPU:inst7|STEAK:inst7|lpm_dff0:inst|lpm_ff:lpm_ff_component
+CPU:inst7|STEAK:inst7|lpm_dff0:inst6|lpm_ff:lpm_ff_component
+CPU:inst7|STEAK:inst7|lpm_dff0:inst7|lpm_ff:lpm_ff_component
+CPU:inst7|STEAK:inst7|lpm_dff0:inst8|lpm_ff:lpm_ff_component
+CPU:inst7|STEAK:inst7|lpm_dff0:inst9|lpm_ff:lpm_ff_component
+CPU:inst7|STEAK:inst7|lpm_dff0:inst10|lpm_ff:lpm_ff_component
+CPU:inst7|STEAK:inst7|lpm_dff0:inst11|lpm_ff:lpm_ff_component
+CPU:inst7|STEAK:inst7|lpm_dff0:inst12|lpm_ff:lpm_ff_component
+CPU:inst7|STEAK:inst7|lpm_dff0:inst13|lpm_ff:lpm_ff_component
+CPU:inst7|STEAK:inst7|lpm_dff0:inst14|lpm_ff:lpm_ff_component
 }
 # macro_sequence
 
@@ -4826,7 +4844,7 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst5|STEAK:inst7|lpm_decode5:inst19
+CPU:inst7|STEAK:inst7|lpm_decode5:inst19
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -4934,7 +4952,7 @@ data0
 3
 }
 # hierarchies {
-CPU:inst5|STEAK:inst7|lpm_decode5:inst19|lpm_decode:lpm_decode_component
+CPU:inst7|STEAK:inst7|lpm_decode5:inst19|lpm_decode:lpm_decode_component
 }
 # macro_sequence
 
@@ -4964,7 +4982,7 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst5|STEAK:inst7|lpm_add_sub0:inst30
+CPU:inst7|STEAK:inst7|lpm_add_sub0:inst30
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -5099,7 +5117,7 @@ datab0
 2
 }
 # hierarchies {
-CPU:inst5|STEAK:inst7|lpm_add_sub0:inst30|lpm_add_sub:lpm_add_sub_component
+CPU:inst7|STEAK:inst7|lpm_add_sub0:inst30|lpm_add_sub:lpm_add_sub_component
 }
 # macro_sequence
 
@@ -5153,7 +5171,7 @@ dataa0
 3
 }
 # hierarchies {
-CPU:inst5|STEAK:inst7|lpm_add_sub0:inst30|lpm_add_sub:lpm_add_sub_component|add_sub_vph:auto_generated
+CPU:inst7|STEAK:inst7|lpm_add_sub0:inst30|lpm_add_sub:lpm_add_sub_component|add_sub_vph:auto_generated
 }
 # macro_sequence
 
@@ -5183,7 +5201,7 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst5|ALU:inst14|lpm_add_sub1:inst9
+CPU:inst7|ALU:inst14|lpm_add_sub1:inst9
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -5378,7 +5396,7 @@ cin
 3
 }
 # hierarchies {
-CPU:inst5|ALU:inst14|lpm_add_sub1:inst9|lpm_add_sub:lpm_add_sub_component
+CPU:inst7|ALU:inst14|lpm_add_sub1:inst9|lpm_add_sub:lpm_add_sub_component
 }
 # macro_sequence
 
@@ -5492,7 +5510,7 @@ cin
 3
 }
 # hierarchies {
-CPU:inst5|ALU:inst14|lpm_add_sub1:inst9|lpm_add_sub:lpm_add_sub_component|add_sub_5ui:auto_generated
+CPU:inst7|ALU:inst14|lpm_add_sub1:inst9|lpm_add_sub:lpm_add_sub_component|add_sub_5ui:auto_generated
 }
 # macro_sequence
 
@@ -5554,7 +5572,7 @@ Cash:inst16|One_Set:inst137|Tag_and_string:inst|String_cash:inst|lpm_mux1:inst7
 Cash:inst16|One_Set:inst137|Tag_and_string:inst12|String_cash:inst|lpm_mux1:inst7
 Cash:inst16|One_Set:inst138|Tag_and_string:inst|String_cash:inst|lpm_mux1:inst7
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_mux1:inst7
-CPU:inst5|ALU:inst14|lpm_mux1:inst14
+CPU:inst7|ALU:inst14|lpm_mux1:inst14
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -5805,7 +5823,7 @@ Cash:inst16|One_Set:inst137|Tag_and_string:inst|String_cash:inst|lpm_mux1:inst7|
 Cash:inst16|One_Set:inst137|Tag_and_string:inst12|String_cash:inst|lpm_mux1:inst7|lpm_mux:lpm_mux_component
 Cash:inst16|One_Set:inst138|Tag_and_string:inst|String_cash:inst|lpm_mux1:inst7|lpm_mux:lpm_mux_component
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_mux1:inst7|lpm_mux:lpm_mux_component
-CPU:inst5|ALU:inst14|lpm_mux1:inst14|lpm_mux:lpm_mux_component
+CPU:inst7|ALU:inst14|lpm_mux1:inst14|lpm_mux:lpm_mux_component
 }
 # macro_sequence
 
@@ -5835,8 +5853,8 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst5|ALU:inst14|lpm_or0:inst27
-CPU:inst5|ALU:inst14|lpm_or0:inst26
+CPU:inst7|ALU:inst14|lpm_or0:inst27
+CPU:inst7|ALU:inst14|lpm_or0:inst26
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -5989,8 +6007,8 @@ DATA0_0
 3
 }
 # hierarchies {
-CPU:inst5|ALU:inst14|lpm_or0:inst27|lpm_or:lpm_or_component
-CPU:inst5|ALU:inst14|lpm_or0:inst26|lpm_or:lpm_or_component
+CPU:inst7|ALU:inst14|lpm_or0:inst27|lpm_or:lpm_or_component
+CPU:inst7|ALU:inst14|lpm_or0:inst26|lpm_or:lpm_or_component
 }
 # macro_sequence
 
@@ -6020,7 +6038,7 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst5|ALU:inst14|lpm_inv0:inst28
+CPU:inst7|ALU:inst14|lpm_inv0:inst28
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -6107,7 +6125,7 @@ data0
 3
 }
 # hierarchies {
-CPU:inst5|ALU:inst14|lpm_inv0:inst28|lpm_inv:lpm_inv_component
+CPU:inst7|ALU:inst14|lpm_inv0:inst28|lpm_inv:lpm_inv_component
 }
 # macro_sequence
 
@@ -6137,7 +6155,7 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst5|ALU:inst14|lpm_shiftreg0:inst1
+CPU:inst7|ALU:inst14|lpm_shiftreg0:inst1
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -6271,7 +6289,7 @@ clock
 3
 }
 # hierarchies {
-CPU:inst5|ALU:inst14|lpm_shiftreg0:inst1|lpm_shiftreg:lpm_shiftreg_component
+CPU:inst7|ALU:inst14|lpm_shiftreg0:inst1|lpm_shiftreg:lpm_shiftreg_component
 }
 # macro_sequence
 
@@ -6301,7 +6319,7 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst5|ALU:inst14|lpm_compare11:inst5
+CPU:inst7|ALU:inst14|lpm_compare11:inst5
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -6447,7 +6465,7 @@ datab0
 1
 }
 # hierarchies {
-CPU:inst5|ALU:inst14|lpm_compare11:inst5|lpm_compare:lpm_compare_component
+CPU:inst7|ALU:inst14|lpm_compare11:inst5|lpm_compare:lpm_compare_component
 }
 # macro_sequence
 
@@ -6498,7 +6516,7 @@ agb
 3
 }
 # hierarchies {
-CPU:inst5|ALU:inst14|lpm_compare11:inst5|lpm_compare:lpm_compare_component|cmpr_5pi:auto_generated
+CPU:inst7|ALU:inst14|lpm_compare11:inst5|lpm_compare:lpm_compare_component|cmpr_5pi:auto_generated
 }
 # macro_sequence
 
@@ -6818,6 +6836,7 @@ ON
 }
 # hierarchies {
 Cash:inst16|lpm_compare5:inst77
+CPU:inst7|lpm_compare5:inst108
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -6922,6 +6941,7 @@ datab2
 }
 # hierarchies {
 Cash:inst16|lpm_compare5:inst77|lpm_compare:lpm_compare_component
+CPU:inst7|lpm_compare5:inst108|lpm_compare:lpm_compare_component
 }
 # macro_sequence
 
@@ -7089,6 +7109,7 @@ ON
 }
 # hierarchies {
 Cash:inst16|lpm_counter5:inst19
+CPU:inst7|lpm_counter5:inst107
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -7202,6 +7223,7 @@ aclr
 }
 # hierarchies {
 Cash:inst16|lpm_counter5:inst19|lpm_counter:lpm_counter_component
+CPU:inst7|lpm_counter5:inst107|lpm_counter:lpm_counter_component
 }
 # macro_sequence
 
@@ -7504,7 +7526,7 @@ Cash:inst16|Changing_Flags:inst18|lpm_decode3:inst2
 Cash:inst16|Changing_Flags:inst18|lpm_decode3:inst1
 Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst2
 Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst1
-CPU:inst5|lpm_decode3:inst29
+CPU:inst7|lpm_decode3:inst29
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -7635,8 +7657,8 @@ Cash:inst16|Changing_Flags:inst18|lpm_decode3:inst1|lpm_decode:lpm_decode_compon
 Cash:inst16|lpm_decode0:inst1|lpm_decode:lpm_decode_component
 Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst2|lpm_decode:lpm_decode_component
 Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst1|lpm_decode:lpm_decode_component
-CPU:inst5|Command_decoder:inst95|lpm_decode0:inst|lpm_decode:lpm_decode_component
-CPU:inst5|lpm_decode3:inst29|lpm_decode:lpm_decode_component
+CPU:inst7|Command_decoder:inst104|lpm_decode0:inst|lpm_decode:lpm_decode_component
+CPU:inst7|lpm_decode3:inst29|lpm_decode:lpm_decode_component
 }
 # macro_sequence
 
@@ -8023,10 +8045,10 @@ Cash:inst16|One_Set:inst137|Tag_and_string:inst|String_cash:inst|lpm_decode1:ins
 Cash:inst16|One_Set:inst137|Tag_and_string:inst12|String_cash:inst|lpm_decode1:inst6
 Cash:inst16|One_Set:inst138|Tag_and_string:inst|String_cash:inst|lpm_decode1:inst6
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_decode1:inst6
-CPU:inst5|lpm_decode1:inst33
-CPU:inst5|Command_decoder:inst95|lpm_decode1:inst9
-CPU:inst5|lpm_decode1:inst56
-CPU:inst5|lpm_decode1:inst71
+CPU:inst7|lpm_decode1:inst33
+CPU:inst7|Command_decoder:inst104|lpm_decode1:inst9
+CPU:inst7|lpm_decode1:inst56
+CPU:inst7|lpm_decode1:inst71
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -8142,10 +8164,10 @@ Cash:inst16|One_Set:inst137|Tag_and_string:inst|String_cash:inst|lpm_decode1:ins
 Cash:inst16|One_Set:inst137|Tag_and_string:inst12|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component
 Cash:inst16|One_Set:inst138|Tag_and_string:inst|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component
-CPU:inst5|lpm_decode1:inst33|lpm_decode:lpm_decode_component
-CPU:inst5|Command_decoder:inst95|lpm_decode1:inst9|lpm_decode:lpm_decode_component
-CPU:inst5|lpm_decode1:inst56|lpm_decode:lpm_decode_component
-CPU:inst5|lpm_decode1:inst71|lpm_decode:lpm_decode_component
+CPU:inst7|lpm_decode1:inst33|lpm_decode:lpm_decode_component
+CPU:inst7|Command_decoder:inst104|lpm_decode1:inst9|lpm_decode:lpm_decode_component
+CPU:inst7|lpm_decode1:inst56|lpm_decode:lpm_decode_component
+CPU:inst7|lpm_decode1:inst71|lpm_decode:lpm_decode_component
 }
 # macro_sequence
 
@@ -8396,7 +8418,7 @@ ON
 }
 # hierarchies {
 Cash:inst16|lpm_decode0:inst1
-CPU:inst5|Command_decoder:inst95|lpm_decode0:inst
+CPU:inst7|Command_decoder:inst104|lpm_decode0:inst
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -9215,7 +9237,7 @@ ON
 # hierarchies {
 Cash:inst16|lpm_bustri1:inst10
 Cash:inst16|lpm_bustri1:inst11
-CPU:inst5|lpm_bustri1:inst10
+CPU:inst7|lpm_bustri1:inst10
 Memory:inst|lpm_bustri1:inst2
 }
 # lmf
@@ -9341,7 +9363,7 @@ data0
 # hierarchies {
 Cash:inst16|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component
 Cash:inst16|lpm_bustri1:inst11|lpm_bustri:lpm_bustri_component
-CPU:inst5|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component
+CPU:inst7|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component
 Memory:inst|lpm_bustri1:inst2|lpm_bustri:lpm_bustri_component
 }
 # macro_sequence
@@ -10044,12 +10066,12 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst5|Command_decoder:inst95|lpm_bustri3:inst19
-CPU:inst5|Command_decoder:inst95|lpm_bustri3:inst18
-CPU:inst5|lpm_bustri3:inst2
-CPU:inst5|lpm_bustri3:inst3
-CPU:inst5|lpm_bustri3:inst21
-CPU:inst5|lpm_bustri3:inst75
+CPU:inst7|Command_decoder:inst104|lpm_bustri3:inst19
+CPU:inst7|Command_decoder:inst104|lpm_bustri3:inst18
+CPU:inst7|lpm_bustri3:inst2
+CPU:inst7|lpm_bustri3:inst3
+CPU:inst7|lpm_bustri3:inst21
+CPU:inst7|lpm_bustri3:inst75
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -10145,12 +10167,12 @@ data0
 3
 }
 # hierarchies {
-CPU:inst5|Command_decoder:inst95|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component
-CPU:inst5|Command_decoder:inst95|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component
-CPU:inst5|lpm_bustri3:inst2|lpm_bustri:lpm_bustri_component
-CPU:inst5|lpm_bustri3:inst3|lpm_bustri:lpm_bustri_component
-CPU:inst5|lpm_bustri3:inst21|lpm_bustri:lpm_bustri_component
-CPU:inst5|lpm_bustri3:inst75|lpm_bustri:lpm_bustri_component
+CPU:inst7|Command_decoder:inst104|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component
+CPU:inst7|Command_decoder:inst104|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component
+CPU:inst7|lpm_bustri3:inst2|lpm_bustri:lpm_bustri_component
+CPU:inst7|lpm_bustri3:inst3|lpm_bustri:lpm_bustri_component
+CPU:inst7|lpm_bustri3:inst21|lpm_bustri:lpm_bustri_component
+CPU:inst7|lpm_bustri3:inst75|lpm_bustri:lpm_bustri_component
 }
 # macro_sequence
 
@@ -10180,7 +10202,7 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst5|lpm_counter7:inst
+CPU:inst7|lpm_counter7:inst
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -10350,7 +10372,7 @@ aload
 3
 }
 # hierarchies {
-CPU:inst5|lpm_counter7:inst|lpm_counter:lpm_counter_component
+CPU:inst7|lpm_counter7:inst|lpm_counter:lpm_counter_component
 }
 # macro_sequence
 
@@ -10443,7 +10465,7 @@ aload
 3
 }
 # hierarchies {
-CPU:inst5|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated
+CPU:inst7|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated
 }
 # macro_sequence
 
@@ -10463,7 +10485,7 @@ BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
-CPU:inst5|RON_Block:inst8
+CPU:inst7|RON_Block:inst8
 }
 # macro_sequence
 
@@ -10493,7 +10515,7 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst5|RON_Block:inst8|lpm_decode4:inst19
+CPU:inst7|RON_Block:inst8|lpm_decode4:inst19
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -10613,7 +10635,7 @@ data0
 3
 }
 # hierarchies {
-CPU:inst5|RON_Block:inst8|lpm_decode4:inst19|lpm_decode:lpm_decode_component
+CPU:inst7|RON_Block:inst8|lpm_decode4:inst19|lpm_decode:lpm_decode_component
 }
 # macro_sequence
 
@@ -11988,13 +12010,13 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst5|Command_decoder:inst95|lpm_bustri4:inst16
-CPU:inst5|Command_decoder:inst95|lpm_bustri4:inst28
-CPU:inst5|Command_decoder:inst95|lpm_bustri4:inst17
-CPU:inst5|lpm_bustri4:inst36
-CPU:inst5|lpm_bustri4:inst37
-CPU:inst5|lpm_bustri4:inst59
-CPU:inst5|lpm_bustri4:inst67
+CPU:inst7|Command_decoder:inst104|lpm_bustri4:inst16
+CPU:inst7|Command_decoder:inst104|lpm_bustri4:inst28
+CPU:inst7|Command_decoder:inst104|lpm_bustri4:inst17
+CPU:inst7|lpm_bustri4:inst36
+CPU:inst7|lpm_bustri4:inst37
+CPU:inst7|lpm_bustri4:inst59
+CPU:inst7|lpm_bustri4:inst67
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -12048,13 +12070,13 @@ data0
 3
 }
 # hierarchies {
-CPU:inst5|Command_decoder:inst95|lpm_bustri4:inst16|lpm_bustri:lpm_bustri_component
-CPU:inst5|Command_decoder:inst95|lpm_bustri4:inst28|lpm_bustri:lpm_bustri_component
-CPU:inst5|Command_decoder:inst95|lpm_bustri4:inst17|lpm_bustri:lpm_bustri_component
-CPU:inst5|lpm_bustri4:inst36|lpm_bustri:lpm_bustri_component
-CPU:inst5|lpm_bustri4:inst37|lpm_bustri:lpm_bustri_component
-CPU:inst5|lpm_bustri4:inst59|lpm_bustri:lpm_bustri_component
-CPU:inst5|lpm_bustri4:inst67|lpm_bustri:lpm_bustri_component
+CPU:inst7|Command_decoder:inst104|lpm_bustri4:inst16|lpm_bustri:lpm_bustri_component
+CPU:inst7|Command_decoder:inst104|lpm_bustri4:inst28|lpm_bustri:lpm_bustri_component
+CPU:inst7|Command_decoder:inst104|lpm_bustri4:inst17|lpm_bustri:lpm_bustri_component
+CPU:inst7|lpm_bustri4:inst36|lpm_bustri:lpm_bustri_component
+CPU:inst7|lpm_bustri4:inst37|lpm_bustri:lpm_bustri_component
+CPU:inst7|lpm_bustri4:inst59|lpm_bustri:lpm_bustri_component
+CPU:inst7|lpm_bustri4:inst67|lpm_bustri:lpm_bustri_component
 }
 # macro_sequence
 
@@ -12881,7 +12903,7 @@ BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
-CPU:inst5|ALU:inst14
+CPU:inst7|ALU:inst14
 }
 # macro_sequence
 
@@ -13095,10 +13117,10 @@ ON
 # hierarchies {
 Cash:inst16|lpm_counter2:inst36
 Cash:inst16|lpm_counter2:inst105
-CPU:inst5|Command_decoder:inst95|lpm_counter2:inst7
-CPU:inst5|lpm_counter2:inst57
-CPU:inst5|lpm_counter2:inst72
-CPU:inst5|lpm_counter2:inst34
+CPU:inst7|Command_decoder:inst104|lpm_counter2:inst7
+CPU:inst7|lpm_counter2:inst57
+CPU:inst7|lpm_counter2:inst72
+CPU:inst7|lpm_counter2:inst34
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -13213,10 +13235,10 @@ aclr
 # hierarchies {
 Cash:inst16|lpm_counter2:inst36|lpm_counter:lpm_counter_component
 Cash:inst16|lpm_counter2:inst105|lpm_counter:lpm_counter_component
-CPU:inst5|Command_decoder:inst95|lpm_counter2:inst7|lpm_counter:lpm_counter_component
-CPU:inst5|lpm_counter2:inst57|lpm_counter:lpm_counter_component
-CPU:inst5|lpm_counter2:inst72|lpm_counter:lpm_counter_component
-CPU:inst5|lpm_counter2:inst34|lpm_counter:lpm_counter_component
+CPU:inst7|Command_decoder:inst104|lpm_counter2:inst7|lpm_counter:lpm_counter_component
+CPU:inst7|lpm_counter2:inst57|lpm_counter:lpm_counter_component
+CPU:inst7|lpm_counter2:inst72|lpm_counter:lpm_counter_component
+CPU:inst7|lpm_counter2:inst34|lpm_counter:lpm_counter_component
 }
 # macro_sequence
 
@@ -13254,10 +13276,10 @@ aclr
 # hierarchies {
 Cash:inst16|lpm_counter2:inst36|lpm_counter:lpm_counter_component|cntr_9ck:auto_generated
 Cash:inst16|lpm_counter2:inst105|lpm_counter:lpm_counter_component|cntr_9ck:auto_generated
-CPU:inst5|Command_decoder:inst95|lpm_counter2:inst7|lpm_counter:lpm_counter_component|cntr_9ck:auto_generated
-CPU:inst5|lpm_counter2:inst57|lpm_counter:lpm_counter_component|cntr_9ck:auto_generated
-CPU:inst5|lpm_counter2:inst72|lpm_counter:lpm_counter_component|cntr_9ck:auto_generated
-CPU:inst5|lpm_counter2:inst34|lpm_counter:lpm_counter_component|cntr_9ck:auto_generated
+CPU:inst7|Command_decoder:inst104|lpm_counter2:inst7|lpm_counter:lpm_counter_component|cntr_9ck:auto_generated
+CPU:inst7|lpm_counter2:inst57|lpm_counter:lpm_counter_component|cntr_9ck:auto_generated
+CPU:inst7|lpm_counter2:inst72|lpm_counter:lpm_counter_component|cntr_9ck:auto_generated
+CPU:inst7|lpm_counter2:inst34|lpm_counter:lpm_counter_component|cntr_9ck:auto_generated
 }
 # macro_sequence
 
@@ -13287,7 +13309,7 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst5|Command_decoder:inst95|lpm_compare14:inst3
+CPU:inst7|Command_decoder:inst104|lpm_compare14:inst3
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -13385,7 +13407,7 @@ datab0
 2
 }
 # hierarchies {
-CPU:inst5|Command_decoder:inst95|lpm_compare14:inst3|lpm_compare:lpm_compare_component
+CPU:inst7|Command_decoder:inst104|lpm_compare14:inst3|lpm_compare:lpm_compare_component
 }
 # macro_sequence
 
@@ -13405,7 +13427,7 @@ BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
-CPU:inst5|STEAK:inst7
+CPU:inst7|STEAK:inst7
 }
 # macro_sequence
 
@@ -13435,8 +13457,8 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst5|RegSm:inst70|lpm_add_sub3:inst3
-CPU:inst5|RegSm:inst70|lpm_add_sub3:inst
+CPU:inst7|RegSm:inst70|lpm_add_sub3:inst3
+CPU:inst7|RegSm:inst70|lpm_add_sub3:inst
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -13634,8 +13656,8 @@ dataa0
 3
 }
 # hierarchies {
-CPU:inst5|RegSm:inst70|lpm_add_sub3:inst3|lpm_add_sub:lpm_add_sub_component
-CPU:inst5|RegSm:inst70|lpm_add_sub3:inst|lpm_add_sub:lpm_add_sub_component
+CPU:inst7|RegSm:inst70|lpm_add_sub3:inst3|lpm_add_sub:lpm_add_sub_component
+CPU:inst7|RegSm:inst70|lpm_add_sub3:inst|lpm_add_sub:lpm_add_sub_component
 }
 # macro_sequence
 
@@ -13752,8 +13774,8 @@ dataa0
 3
 }
 # hierarchies {
-CPU:inst5|RegSm:inst70|lpm_add_sub3:inst3|lpm_add_sub:lpm_add_sub_component|add_sub_omh:auto_generated
-CPU:inst5|RegSm:inst70|lpm_add_sub3:inst|lpm_add_sub:lpm_add_sub_component|add_sub_omh:auto_generated
+CPU:inst7|RegSm:inst70|lpm_add_sub3:inst3|lpm_add_sub:lpm_add_sub_component|add_sub_omh:auto_generated
+CPU:inst7|RegSm:inst70|lpm_add_sub3:inst|lpm_add_sub:lpm_add_sub_component|add_sub_omh:auto_generated
 }
 # macro_sequence
 
@@ -13783,7 +13805,7 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst5|RegSm:inst70|lpm_constant3:inst9
+CPU:inst7|RegSm:inst70|lpm_constant3:inst9
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -13846,7 +13868,7 @@ result0
 3
 }
 # hierarchies {
-CPU:inst5|RegSm:inst70|lpm_constant3:inst9|lpm_constant:lpm_constant_component
+CPU:inst7|RegSm:inst70|lpm_constant3:inst9|lpm_constant:lpm_constant_component
 }
 # macro_sequence
 
@@ -13866,7 +13888,27 @@ BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
-CPU:inst5|RegSm:inst70
+CPU:inst7|RegSm:inst70
+}
+# macro_sequence
+
+# end
+# entity
+Command_decoder
+# storage
+db|main.(149).cnf
+db|main.(149).cnf
+# case_insensitive
+# source_file
+command_decoder.bdf
+2aa0821c6b1ce3102daaf821a1c784c9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+CPU:inst7|Command_decoder:inst104
 }
 # macro_sequence
 
@@ -13951,7 +13993,7 @@ address_a0
 }
 # memory_file {
 rom_memory.mif
-a536936c9719a8df1c1e372f34b44c3f
+057261bf27ac0c3a03da97b8d5441
 }
 # hierarchies {
 Memory:inst|lpm_rom0:inst1|altsyncram:altsyncram_component|altsyncram_l691:auto_generated
@@ -13967,7 +14009,7 @@ db|main.(0).cnf
 # case_insensitive
 # source_file
 main.bdf
-b12fca9e0555a7d2b3c1c70964a7cb
+9476138f3086bb45749083c39204eb8
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -13987,34 +14029,14 @@ db|main.(125).cnf
 # case_insensitive
 # source_file
 cpu.bdf
-da11fe1c74ac474cb091ef27306068b8
+a71545239ea76856164df7502a66e714
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
-CPU:inst5
-}
-# macro_sequence
-
-# end
-# entity
-Command_decoder
-# storage
-db|main.(149).cnf
-db|main.(149).cnf
-# case_insensitive
-# source_file
-command_decoder.bdf
-3621711c375deeecf89d8d5735abfd7
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-CPU:inst5|Command_decoder:inst95
+CPU:inst7
 }
 # macro_sequence
 
