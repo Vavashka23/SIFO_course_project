@@ -70,7 +70,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -272 560 -104 576)
+	(rect -280 560 -112 576)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "command_finish" (rect 5 0 86 12)(font "Arial" ))
 	(pt 168 8)
@@ -313,6 +313,22 @@ applicable agreement for further details.
 	(rect 528 640 704 656)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "f_op_adr[10..0]" (rect 90 0 165 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
+	(output)
+	(rect 584 696 782 712)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "sec_op_regsm[10..0]" (rect 90 0 193 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -3876,9 +3892,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 24 488 376 712)
+	(rect 16 488 368 712)
 	(text "Command_decoder" (rect 5 0 114 14)(font "Arial" (font_size 8)))
-	(text "inst98" (rect 8 208 37 220)(font "Arial" ))
+	(text "inst95" (rect 8 208 37 220)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -4034,22 +4050,6 @@ applicable agreement for further details.
 	(pt 1080 296)
 )
 (connector
-	(text "clk_in" (rect -6 520 22 532)(font "Arial" ))
-	(pt -16 536)
-	(pt 24 536)
-)
-(connector
-	(text "data_cpu_in[9..0]" (rect -62 504 22 516)(font "Arial" ))
-	(pt 24 520)
-	(pt -72 520)
-	(bus)
-)
-(connector
-	(pt 376 520)
-	(pt 384 520)
-	(bus)
-)
-(connector
 	(pt 384 520)
 	(pt 384 504)
 	(bus)
@@ -4058,37 +4058,6 @@ applicable agreement for further details.
 	(pt 384 504)
 	(pt 392 504)
 	(bus)
-)
-(connector
-	(text "dec1" (rect 394 520 417 532)(font "Arial" ))
-	(pt 376 536)
-	(pt 432 536)
-)
-(connector
-	(text "dec2" (rect 394 536 417 548)(font "Arial" ))
-	(pt 376 552)
-	(pt 432 552)
-)
-(connector
-	(text "dec3" (rect 394 552 417 564)(font "Arial" ))
-	(pt 376 568)
-	(pt 432 568)
-)
-(connector
-	(text "dec4" (rect 394 568 417 580)(font "Arial" ))
-	(pt 376 584)
-	(pt 432 584)
-)
-(connector
-	(text "command[3..0]" (rect 522 584 596 596)(font "Arial" ))
-	(pt 376 600)
-	(pt 608 600)
-	(bus)
-)
-(connector
-	(text "HIT_from_cash" (rect -54 536 22 548)(font "Arial" ))
-	(pt -64 552)
-	(pt 24 552)
 )
 (connector
 	(text "address_for_cash[10..0]" (rect 336 288 456 300)(font "Arial" ))
@@ -4130,16 +4099,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 376 616)
-	(pt 808 616)
-	(bus)
-)
-(connector
-	(pt 808 616)
-	(pt 816 616)
-	(bus)
-)
-(connector
 	(pt 776 632)
 	(pt 776 696)
 	(bus)
@@ -4147,11 +4106,6 @@ applicable agreement for further details.
 (connector
 	(pt 824 696)
 	(pt 776 696)
-	(bus)
-)
-(connector
-	(pt 376 680)
-	(pt 384 680)
 	(bus)
 )
 (connector
@@ -4655,17 +4609,6 @@ applicable agreement for further details.
 	(pt 824 944)
 )
 (connector
-	(text "first_op[3..0]" (rect 714 616 777 628)(font "Arial" ))
-	(pt 376 632)
-	(pt 776 632)
-	(bus)
-)
-(connector
-	(pt 776 632)
-	(pt 792 632)
-	(bus)
-)
-(connector
 	(text "read_from_ron1" (rect 434 1520 511 1532)(font "Arial" ))
 	(pt 424 1536)
 	(pt 504 1536)
@@ -5043,11 +4986,6 @@ applicable agreement for further details.
 	(text "not_clk" (rect 538 1752 573 1764)(font "Arial" ))
 	(pt 576 1768)
 	(pt 528 1768)
-)
-(connector
-	(pt 376 648)
-	(pt 528 648)
-	(bus)
 )
 (connector
 	(pt 528 680)
@@ -5442,23 +5380,6 @@ applicable agreement for further details.
 	(text "send_adr" (rect -606 1160 -562 1172)(font "Arial" ))
 	(pt -552 1176)
 	(pt -616 1176)
-)
-(connector
-	(pt -96 568)
-	(pt -96 592)
-)
-(connector
-	(text "command_finish" (rect -88 576 -7 588)(font "Arial" ))
-	(pt -96 592)
-	(pt -16 592)
-)
-(connector
-	(pt -104 568)
-	(pt -96 568)
-)
-(connector
-	(pt -96 568)
-	(pt 24 568)
 )
 (connector
 	(text "load_from_cash" (rect -472 1160 -393 1172)(font "Arial" ))
@@ -6033,6 +5954,116 @@ applicable agreement for further details.
 	(pt 752 864)
 	(pt 824 864)
 )
+(connector
+	(pt 368 520)
+	(pt 384 520)
+	(bus)
+)
+(connector
+	(text "dec1" (rect 394 520 417 532)(font "Arial" ))
+	(pt 368 536)
+	(pt 432 536)
+)
+(connector
+	(text "dec2" (rect 394 536 417 548)(font "Arial" ))
+	(pt 368 552)
+	(pt 432 552)
+)
+(connector
+	(text "dec3" (rect 394 552 417 564)(font "Arial" ))
+	(pt 368 568)
+	(pt 432 568)
+)
+(connector
+	(text "dec4" (rect 394 568 417 580)(font "Arial" ))
+	(pt 368 584)
+	(pt 432 584)
+)
+(connector
+	(text "command[3..0]" (rect 522 584 596 596)(font "Arial" ))
+	(pt 368 600)
+	(pt 608 600)
+	(bus)
+)
+(connector
+	(pt 368 616)
+	(pt 808 616)
+	(bus)
+)
+(connector
+	(pt 808 616)
+	(pt 816 616)
+	(bus)
+)
+(connector
+	(text "first_op[3..0]" (rect 714 616 777 628)(font "Arial" ))
+	(pt 368 632)
+	(pt 776 632)
+	(bus)
+)
+(connector
+	(pt 776 632)
+	(pt 792 632)
+	(bus)
+)
+(connector
+	(pt 368 648)
+	(pt 528 648)
+	(bus)
+)
+(connector
+	(pt 368 680)
+	(pt 384 680)
+	(bus)
+)
+(connector
+	(pt 584 704)
+	(pt 424 704)
+	(bus)
+)
+(connector
+	(pt 424 704)
+	(pt 424 664)
+	(bus)
+)
+(connector
+	(pt 424 664)
+	(pt 368 664)
+	(bus)
+)
+(connector
+	(text "clk_in" (rect -14 520 14 532)(font "Arial" ))
+	(pt -24 536)
+	(pt 16 536)
+)
+(connector
+	(text "data_cpu_in[9..0]" (rect -70 504 14 516)(font "Arial" ))
+	(pt 16 520)
+	(pt -80 520)
+	(bus)
+)
+(connector
+	(text "HIT_from_cash" (rect -62 536 14 548)(font "Arial" ))
+	(pt -72 552)
+	(pt 16 552)
+)
+(connector
+	(pt -104 568)
+	(pt -104 592)
+)
+(connector
+	(text "command_finish" (rect -96 576 -15 588)(font "Arial" ))
+	(pt -104 592)
+	(pt -24 592)
+)
+(connector
+	(pt -112 568)
+	(pt -104 568)
+)
+(connector
+	(pt -104 568)
+	(pt 16 568)
+)
 (junction (pt 808 616))
 (junction (pt 776 632))
 (junction (pt 384 744))
@@ -6056,7 +6087,6 @@ applicable agreement for further details.
 (junction (pt 56 1048))
 (junction (pt 56 968))
 (junction (pt -640 1552))
-(junction (pt -96 568))
 (junction (pt -808 1168))
 (junction (pt 1336 296))
 (junction (pt -632 888))
@@ -6064,5 +6094,6 @@ applicable agreement for further details.
 (junction (pt 776 1392))
 (junction (pt 688 1264))
 (junction (pt 568 1608))
+(junction (pt -104 568))
 (text "MOV REG ADR" (rect 24 744 252 776)(font "Arial" (font_size 20)))
 (rectangle (rect -256 728 296 1032))

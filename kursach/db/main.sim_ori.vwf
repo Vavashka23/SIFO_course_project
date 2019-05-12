@@ -1752,6 +1752,126 @@ SIGNAL("WRITE_FOR_CASH")
 	PARENT = "";
 }
 
+SIGNAL("sec_lol")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = BUS;
+	WIDTH = 11;
+	LSB_INDEX = 0;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("sec_lol[10]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "sec_lol";
+}
+
+SIGNAL("sec_lol[9]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "sec_lol";
+}
+
+SIGNAL("sec_lol[8]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "sec_lol";
+}
+
+SIGNAL("sec_lol[7]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "sec_lol";
+}
+
+SIGNAL("sec_lol[6]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "sec_lol";
+}
+
+SIGNAL("sec_lol[5]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "sec_lol";
+}
+
+SIGNAL("sec_lol[4]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "sec_lol";
+}
+
+SIGNAL("sec_lol[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "sec_lol";
+}
+
+SIGNAL("sec_lol[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "sec_lol";
+}
+
+SIGNAL("sec_lol[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "sec_lol";
+}
+
+SIGNAL("sec_lol[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "sec_lol";
+}
+
 TRANSITION_LIST("AddressFromCPU[10]")
 {
 	NODE
@@ -6750,6 +6870,105 @@ TRANSITION_LIST("WRITE_FOR_CASH")
 	}
 }
 
+TRANSITION_LIST("sec_lol[10]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 2000.0;
+	}
+}
+
+TRANSITION_LIST("sec_lol[9]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 2000.0;
+	}
+}
+
+TRANSITION_LIST("sec_lol[8]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 2000.0;
+	}
+}
+
+TRANSITION_LIST("sec_lol[7]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 2000.0;
+	}
+}
+
+TRANSITION_LIST("sec_lol[6]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 2000.0;
+	}
+}
+
+TRANSITION_LIST("sec_lol[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 2000.0;
+	}
+}
+
+TRANSITION_LIST("sec_lol[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 2000.0;
+	}
+}
+
+TRANSITION_LIST("sec_lol[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 2000.0;
+	}
+}
+
+TRANSITION_LIST("sec_lol[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 2000.0;
+	}
+}
+
+TRANSITION_LIST("sec_lol[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 2000.0;
+	}
+}
+
+TRANSITION_LIST("sec_lol[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 2000.0;
+	}
+}
+
 DISPLAY_LINE
 {
 	CHANNEL = "words_from_cash";
@@ -8440,6 +8659,126 @@ DISPLAY_LINE
 	TREE_INDEX = 171;
 	TREE_LEVEL = 1;
 	PARENT = 161;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sec_lol";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 172;
+	TREE_LEVEL = 0;
+	CHILDREN = 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sec_lol[10]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 173;
+	TREE_LEVEL = 1;
+	PARENT = 172;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sec_lol[9]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 174;
+	TREE_LEVEL = 1;
+	PARENT = 172;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sec_lol[8]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 175;
+	TREE_LEVEL = 1;
+	PARENT = 172;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sec_lol[7]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 176;
+	TREE_LEVEL = 1;
+	PARENT = 172;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sec_lol[6]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 177;
+	TREE_LEVEL = 1;
+	PARENT = 172;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sec_lol[5]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 178;
+	TREE_LEVEL = 1;
+	PARENT = 172;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sec_lol[4]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 179;
+	TREE_LEVEL = 1;
+	PARENT = 172;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sec_lol[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 180;
+	TREE_LEVEL = 1;
+	PARENT = 172;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sec_lol[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 181;
+	TREE_LEVEL = 1;
+	PARENT = 172;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sec_lol[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 182;
+	TREE_LEVEL = 1;
+	PARENT = 172;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sec_lol[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 183;
+	TREE_LEVEL = 1;
+	PARENT = 172;
 }
 
 TIME_BAR

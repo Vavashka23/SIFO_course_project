@@ -278,7 +278,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 2176 824 2378 840)
+	(rect 2176 840 2378 856)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "data_from_RON[9..0]" (rect 90 0 197 12)(font "Arial" ))
 	(pt 0 8)
@@ -294,7 +294,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 2176 840 2374 856)
+	(rect 2176 856 2374 872)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "sec_op_register[3..0]" (rect 90 0 193 12)(font "Arial" ))
 	(pt 0 8)
@@ -310,7 +310,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 2176 856 2352 872)
+	(rect 2176 872 2352 888)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "ALU_data[9..0]" (rect 90 0 164 12)(font "Arial" ))
 	(pt 0 8)
@@ -326,7 +326,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 2176 872 2352 888)
+	(rect 2176 888 2352 904)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "final_commands" (rect 90 0 171 12)(font "Arial" ))
 	(pt 0 8)
@@ -342,7 +342,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 2176 888 2358 904)
+	(rect 2176 904 2358 920)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "STEAK_data[9..0]" (rect 90 0 177 12)(font "Arial" ))
 	(pt 0 8)
@@ -361,6 +361,22 @@ applicable agreement for further details.
 	(rect 2176 792 2352 808)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "f_op_adr[10..0]" (rect 90 0 165 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
+	(output)
+	(rect 2176 824 2352 840)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "sec_lol[10..0]" (rect 90 0 156 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -507,9 +523,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1776 672 2088 928)
+	(rect 1776 672 2088 960)
 	(text "CPU" (rect 5 0 28 14)(font "Arial" (font_size 8)))
-	(text "inst7" (rect 8 240 31 252)(font "Arial" ))
+	(text "inst5" (rect 8 272 31 284)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -611,37 +627,44 @@ applicable agreement for further details.
 	(port
 		(pt 312 160)
 		(output)
-		(text "FROM_RON[9..0]" (rect 0 0 95 14)(font "Arial" (font_size 8)))
-		(text "FROM_RON[9..0]" (rect 196 155 291 169)(font "Arial" (font_size 8)))
+		(text "sec_op_regsm[10..0]" (rect 0 0 120 14)(font "Arial" (font_size 8)))
+		(text "sec_op_regsm[10..0]" (rect 171 155 291 169)(font "Arial" (font_size 8)))
 		(line (pt 312 160)(pt 296 160)(line_width 3))
 	)
 	(port
 		(pt 312 176)
 		(output)
-		(text "sec_operand_register[3..0]" (rect 0 0 154 14)(font "Arial" (font_size 8)))
-		(text "sec_operand_register[3..0]" (rect 137 171 291 185)(font "Arial" (font_size 8)))
+		(text "FROM_RON[9..0]" (rect 0 0 95 14)(font "Arial" (font_size 8)))
+		(text "FROM_RON[9..0]" (rect 196 171 291 185)(font "Arial" (font_size 8)))
 		(line (pt 312 176)(pt 296 176)(line_width 3))
 	)
 	(port
 		(pt 312 192)
 		(output)
-		(text "DATAFROMALU[9..0]" (rect 0 0 121 14)(font "Arial" (font_size 8)))
-		(text "DATAFROMALU[9..0]" (rect 170 187 291 201)(font "Arial" (font_size 8)))
+		(text "sec_operand_register[3..0]" (rect 0 0 154 14)(font "Arial" (font_size 8)))
+		(text "sec_operand_register[3..0]" (rect 137 187 291 201)(font "Arial" (font_size 8)))
 		(line (pt 312 192)(pt 296 192)(line_width 3))
 	)
 	(port
 		(pt 312 208)
 		(output)
-		(text "final_commands" (rect 0 0 92 14)(font "Arial" (font_size 8)))
-		(text "final_commands" (rect 199 203 291 217)(font "Arial" (font_size 8)))
-		(line (pt 312 208)(pt 296 208)(line_width 1))
+		(text "DATAFROMALU[9..0]" (rect 0 0 121 14)(font "Arial" (font_size 8)))
+		(text "DATAFROMALU[9..0]" (rect 170 203 291 217)(font "Arial" (font_size 8)))
+		(line (pt 312 208)(pt 296 208)(line_width 3))
 	)
 	(port
 		(pt 312 224)
 		(output)
+		(text "final_commands" (rect 0 0 92 14)(font "Arial" (font_size 8)))
+		(text "final_commands" (rect 199 219 291 233)(font "Arial" (font_size 8)))
+		(line (pt 312 224)(pt 296 224)(line_width 1))
+	)
+	(port
+		(pt 312 240)
+		(output)
 		(text "data_from_steak[9..0]" (rect 0 0 123 14)(font "Arial" (font_size 8)))
-		(text "data_from_steak[9..0]" (rect 168 219 291 233)(font "Arial" (font_size 8)))
-		(line (pt 312 224)(pt 296 224)(line_width 3))
+		(text "data_from_steak[9..0]" (rect 168 235 291 249)(font "Arial" (font_size 8)))
+		(line (pt 312 240)(pt 296 240)(line_width 3))
 	)
 	(port
 		(pt 312 64)
@@ -651,7 +674,7 @@ applicable agreement for further details.
 		(line (pt 312 64)(pt 296 64)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 296 240)(line_width 1))
+		(rectangle (rect 16 16 296 272)(line_width 1))
 	)
 )
 (connector
@@ -869,13 +892,60 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 2088 704)
-	(pt 2144 704)
+	(pt 1712 800)
+	(pt 1776 800)
+)
+(connector
+	(pt 1712 784)
+	(pt 1776 784)
+)
+(connector
+	(pt 2088 912)
+	(pt 2176 912)
 	(bus)
 )
 (connector
-	(pt 2144 704)
-	(pt 2176 704)
+	(pt 2088 896)
+	(pt 2176 896)
+)
+(connector
+	(pt 2088 880)
+	(pt 2176 880)
+	(bus)
+)
+(connector
+	(pt 2088 864)
+	(pt 2176 864)
+	(bus)
+)
+(connector
+	(pt 2088 848)
+	(pt 2176 848)
+	(bus)
+)
+(connector
+	(pt 2088 816)
+	(pt 2176 816)
+	(bus)
+)
+(connector
+	(pt 2088 800)
+	(pt 2176 800)
+	(bus)
+)
+(connector
+	(pt 2088 784)
+	(pt 2176 784)
+	(bus)
+)
+(connector
+	(pt 2088 768)
+	(pt 2176 768)
+	(bus)
+)
+(connector
+	(pt 2088 752)
+	(pt 2176 752)
 	(bus)
 )
 (connector
@@ -899,61 +969,19 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 2088 752)
-	(pt 2176 752)
+	(pt 2088 704)
+	(pt 2144 704)
 	(bus)
 )
 (connector
-	(pt 2088 768)
-	(pt 2176 768)
-	(bus)
-)
-(connector
-	(pt 2088 784)
-	(pt 2176 784)
-	(bus)
-)
-(connector
-	(pt 2088 896)
-	(pt 2176 896)
-	(bus)
-)
-(connector
-	(pt 2088 880)
-	(pt 2176 880)
-)
-(connector
-	(pt 2088 864)
-	(pt 2176 864)
-	(bus)
-)
-(connector
-	(pt 2088 848)
-	(pt 2176 848)
+	(pt 2144 704)
+	(pt 2176 704)
 	(bus)
 )
 (connector
 	(pt 2088 832)
 	(pt 2176 832)
 	(bus)
-)
-(connector
-	(pt 2088 816)
-	(pt 2176 816)
-	(bus)
-)
-(connector
-	(pt 2088 800)
-	(pt 2176 800)
-	(bus)
-)
-(connector
-	(pt 1712 800)
-	(pt 1776 800)
-)
-(connector
-	(pt 1712 784)
-	(pt 1776 784)
 )
 (junction (pt 2176 1192))
 (junction (pt 2160 1128))
