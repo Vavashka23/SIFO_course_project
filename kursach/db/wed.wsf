@@ -5018,11 +5018,11 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/RegSm.v
 VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vwf")
 {
 	ZOOM{
-		ZBEGIN = 805300;
-		ZEND = 931700;
+		ZBEGIN = 1873600;
+		ZEND = 2000000;
 		NUMERATOR = 1469;
 		DENOMINATOR = 126400;
-		TOP_INDEX = 0;
+		TOP_INDEX = 60;
 	}
 	CLOCK{
 		PERIOD = 10000;

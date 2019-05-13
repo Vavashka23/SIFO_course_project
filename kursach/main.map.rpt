@@ -1,5 +1,5 @@
 Analysis & Synthesis report for main
-Mon May 13 05:08:52 2019
+Mon May 13 12:24:06 2019
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -22,7 +22,7 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
  14. Source assignments for Cash:inst16|lpm_counter4:inst82|lpm_counter:lpm_counter_component
  15. Source assignments for Cash:inst16|lpm_counter2:inst36|lpm_counter:lpm_counter_component
  16. Source assignments for Cash:inst16|lpm_counter2:inst105|lpm_counter:lpm_counter_component
- 17. Source assignments for CPU:inst8|Command_decoder:inst104|lpm_counter2:inst7|lpm_counter:lpm_counter_component
+ 17. Source assignments for CPU:inst8|Command_decoder:inst141|lpm_counter2:inst7|lpm_counter:lpm_counter_component
  18. Source assignments for CPU:inst8|lpm_counter2:inst57|lpm_counter:lpm_counter_component
  19. Source assignments for CPU:inst8|lpm_counter2:inst72|lpm_counter:lpm_counter_component
  20. Source assignments for CPU:inst8|STEAK:inst7|lpm_counter6:inst18|lpm_counter:lpm_counter_component
@@ -433,19 +433,19 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 425. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst24|lpm_ff:lpm_ff_component
 426. Parameter Settings for User Entity Instance: CPU:inst8|lpm_decode1:inst33|lpm_decode:lpm_decode_component
 427. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst20|lpm_ff:lpm_ff_component
-428. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_decode1:inst9|lpm_decode:lpm_decode_component
-429. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_constant1:inst36|lpm_constant:lpm_constant_component
-430. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_counter2:inst7|lpm_counter:lpm_counter_component
-431. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_dff0:inst1|lpm_ff:lpm_ff_component
-432. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_dff3:inst11|lpm_ff:lpm_ff_component
-433. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_compare14:inst3|lpm_compare:lpm_compare_component
-434. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_decode0:inst|lpm_decode:lpm_decode_component
-435. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component
-436. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_dff0:inst2|lpm_ff:lpm_ff_component
-437. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst16|lpm_bustri:lpm_bustri_component
-438. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component
-439. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst28|lpm_bustri:lpm_bustri_component
-440. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst17|lpm_bustri:lpm_bustri_component
+428. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_decode1:inst9|lpm_decode:lpm_decode_component
+429. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_constant1:inst36|lpm_constant:lpm_constant_component
+430. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_counter2:inst7|lpm_counter:lpm_counter_component
+431. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_dff0:inst1|lpm_ff:lpm_ff_component
+432. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_dff3:inst11|lpm_ff:lpm_ff_component
+433. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_compare14:inst3|lpm_compare:lpm_compare_component
+434. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component
+435. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_decode0:inst|lpm_decode:lpm_decode_component
+436. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_dff0:inst2|lpm_ff:lpm_ff_component
+437. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst16|lpm_bustri:lpm_bustri_component
+438. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component
+439. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst28|lpm_bustri:lpm_bustri_component
+440. Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst17|lpm_bustri:lpm_bustri_component
 441. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst95|lpm_ff:lpm_ff_component
 442. Parameter Settings for User Entity Instance: CPU:inst8|lpm_decode3:inst29|lpm_decode:lpm_decode_component
 443. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst23|lpm_constant:lpm_constant_component
@@ -492,77 +492,83 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 484. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst82|lpm_ff:lpm_ff_component
 485. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst43|lpm_ff:lpm_ff_component
 486. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst81|lpm_constant:lpm_constant_component
-487. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst74|lpm_bustri:lpm_bustri_component
-488. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff0:inst31|lpm_ff:lpm_ff_component
-489. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst89|lpm_bustri:lpm_bustri_component
-490. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff0:inst87|lpm_ff:lpm_ff_component
-491. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst78|lpm_bustri:lpm_bustri_component
-492. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst38|lpm_ff:lpm_ff_component
-493. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst25|lpm_constant:lpm_constant_component
-494. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst83|lpm_ff:lpm_ff_component
-495. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_compare9:inst21|lpm_compare:lpm_compare_component
-496. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_counter6:inst18|lpm_counter:lpm_counter_component
-497. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff3:inst25|lpm_ff:lpm_ff_component
-498. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff3:inst22|lpm_ff:lpm_ff_component
-499. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_constant1:inst24|lpm_constant:lpm_constant_component
-500. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_compare10:inst23|lpm_compare:lpm_compare_component
-501. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_mux5:inst16|LPM_MUX:lpm_mux_component
-502. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst|lpm_ff:lpm_ff_component
-503. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_decode5:inst19|lpm_decode:lpm_decode_component
-504. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst6|lpm_ff:lpm_ff_component
-505. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst7|lpm_ff:lpm_ff_component
-506. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst8|lpm_ff:lpm_ff_component
-507. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst9|lpm_ff:lpm_ff_component
-508. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst10|lpm_ff:lpm_ff_component
-509. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst11|lpm_ff:lpm_ff_component
-510. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst12|lpm_ff:lpm_ff_component
-511. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst13|lpm_ff:lpm_ff_component
-512. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst14|lpm_ff:lpm_ff_component
-513. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_add_sub0:inst30|lpm_add_sub:lpm_add_sub_component
-514. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_bustri0:inst17|lpm_bustri:lpm_bustri_component
-515. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component
-516. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst40|lpm_bustri:lpm_bustri_component
-517. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff0:inst11|lpm_ff:lpm_ff_component
-518. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst12|lpm_constant:lpm_constant_component
-519. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst46|lpm_bustri:lpm_bustri_component
-520. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst54|lpm_bustri:lpm_bustri_component
-521. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst135|lpm_bustri:lpm_bustri_component
-522. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri4:inst37|lpm_bustri:lpm_bustri_component
-523. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri4:inst36|lpm_bustri:lpm_bustri_component
-524. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri4:inst59|lpm_bustri:lpm_bustri_component
-525. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri4:inst67|lpm_bustri:lpm_bustri_component
-526. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst19|lpm_constant:lpm_constant_component
-527. Parameter Settings for User Entity Instance: CPU:inst8|lpm_counter2:inst34|lpm_counter:lpm_counter_component
-528. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst97|lpm_ff:lpm_ff_component
-529. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst98|lpm_constant:lpm_constant_component
-530. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst61|lpm_ff:lpm_ff_component
-531. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst92|lpm_constant:lpm_constant_component
-532. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst119|lpm_ff:lpm_ff_component
-533. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst110|lpm_constant:lpm_constant_component
-534. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst109|lpm_ff:lpm_ff_component
-535. Parameter Settings for User Entity Instance: CPU:inst8|lpm_compare5:inst108|lpm_compare:lpm_compare_component
-536. Parameter Settings for User Entity Instance: CPU:inst8|lpm_counter5:inst107|lpm_counter:lpm_counter_component
-537. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst51|lpm_ff:lpm_ff_component
-538. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst52|lpm_constant:lpm_constant_component
-539. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst53|lpm_ff:lpm_ff_component
-540. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst45|lpm_ff:lpm_ff_component
-541. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst112|lpm_ff:lpm_ff_component
-542. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri3:inst2|lpm_bustri:lpm_bustri_component
-543. Parameter Settings for User Entity Instance: CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component
-544. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri3:inst3|lpm_bustri:lpm_bustri_component
-545. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri3:inst21|lpm_bustri:lpm_bustri_component
-546. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri3:inst75|lpm_bustri:lpm_bustri_component
-547. Parameter Settings for User Entity Instance: CPU:inst8|RegSm:inst70|lpm_add_sub3:inst3|lpm_add_sub:lpm_add_sub_component
-548. Parameter Settings for User Entity Instance: CPU:inst8|RegSm:inst70|lpm_add_sub3:inst|lpm_add_sub:lpm_add_sub_component
-549. Parameter Settings for User Entity Instance: CPU:inst8|RegSm:inst70|lpm_constant3:inst9|lpm_constant:lpm_constant_component
-550. Parameter Settings for User Entity Instance: Memory:inst|lpm_bustri1:inst2|lpm_bustri:lpm_bustri_component
-551. Parameter Settings for User Entity Instance: Memory:inst|lpm_mux0:inst12|LPM_MUX:lpm_mux_component
-552. Parameter Settings for User Entity Instance: Memory:inst|lpm_compare0:inst8|lpm_compare:lpm_compare_component
-553. Parameter Settings for User Entity Instance: Memory:inst|lpm_rom0:inst1|altsyncram:altsyncram_component
-554. Parameter Settings for User Entity Instance: Memory:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component
-555. lpm_shiftreg Parameter Settings by Entity Instance
-556. altsyncram Parameter Settings by Entity Instance
-557. Analysis & Synthesis Messages
+487. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst159|lpm_bustri:lpm_bustri_component
+488. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst161|lpm_bustri:lpm_bustri_component
+489. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff0:inst87|lpm_ff:lpm_ff_component
+490. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst78|lpm_bustri:lpm_bustri_component
+491. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst74|lpm_bustri:lpm_bustri_component
+492. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff0:inst31|lpm_ff:lpm_ff_component
+493. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst89|lpm_bustri:lpm_bustri_component
+494. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst38|lpm_ff:lpm_ff_component
+495. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst25|lpm_constant:lpm_constant_component
+496. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst83|lpm_ff:lpm_ff_component
+497. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_compare9:inst21|lpm_compare:lpm_compare_component
+498. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_counter6:inst18|lpm_counter:lpm_counter_component
+499. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff3:inst25|lpm_ff:lpm_ff_component
+500. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff3:inst22|lpm_ff:lpm_ff_component
+501. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_constant1:inst24|lpm_constant:lpm_constant_component
+502. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_compare10:inst23|lpm_compare:lpm_compare_component
+503. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_mux5:inst16|LPM_MUX:lpm_mux_component
+504. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst|lpm_ff:lpm_ff_component
+505. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_decode5:inst19|lpm_decode:lpm_decode_component
+506. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst6|lpm_ff:lpm_ff_component
+507. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst7|lpm_ff:lpm_ff_component
+508. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst8|lpm_ff:lpm_ff_component
+509. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst9|lpm_ff:lpm_ff_component
+510. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst10|lpm_ff:lpm_ff_component
+511. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst11|lpm_ff:lpm_ff_component
+512. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst12|lpm_ff:lpm_ff_component
+513. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst13|lpm_ff:lpm_ff_component
+514. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_dff0:inst14|lpm_ff:lpm_ff_component
+515. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_add_sub0:inst30|lpm_add_sub:lpm_add_sub_component
+516. Parameter Settings for User Entity Instance: CPU:inst8|STEAK:inst7|lpm_bustri0:inst17|lpm_bustri:lpm_bustri_component
+517. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component
+518. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst40|lpm_bustri:lpm_bustri_component
+519. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff0:inst11|lpm_ff:lpm_ff_component
+520. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst12|lpm_constant:lpm_constant_component
+521. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst46|lpm_bustri:lpm_bustri_component
+522. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst54|lpm_bustri:lpm_bustri_component
+523. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst135|lpm_bustri:lpm_bustri_component
+524. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri4:inst37|lpm_bustri:lpm_bustri_component
+525. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri4:inst36|lpm_bustri:lpm_bustri_component
+526. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri4:inst59|lpm_bustri:lpm_bustri_component
+527. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri4:inst67|lpm_bustri:lpm_bustri_component
+528. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri4:inst153|lpm_bustri:lpm_bustri_component
+529. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri4:inst154|lpm_bustri:lpm_bustri_component
+530. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst19|lpm_constant:lpm_constant_component
+531. Parameter Settings for User Entity Instance: CPU:inst8|lpm_counter2:inst34|lpm_counter:lpm_counter_component
+532. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst97|lpm_ff:lpm_ff_component
+533. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst98|lpm_constant:lpm_constant_component
+534. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst61|lpm_ff:lpm_ff_component
+535. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst92|lpm_constant:lpm_constant_component
+536. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst119|lpm_ff:lpm_ff_component
+537. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst110|lpm_constant:lpm_constant_component
+538. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst109|lpm_ff:lpm_ff_component
+539. Parameter Settings for User Entity Instance: CPU:inst8|lpm_compare5:inst108|lpm_compare:lpm_compare_component
+540. Parameter Settings for User Entity Instance: CPU:inst8|lpm_counter5:inst107|lpm_counter:lpm_counter_component
+541. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst51|lpm_ff:lpm_ff_component
+542. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst52|lpm_constant:lpm_constant_component
+543. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst53|lpm_ff:lpm_ff_component
+544. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst45|lpm_ff:lpm_ff_component
+545. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst112|lpm_ff:lpm_ff_component
+546. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri3:inst2|lpm_bustri:lpm_bustri_component
+547. Parameter Settings for User Entity Instance: CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component
+548. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri3:inst3|lpm_bustri:lpm_bustri_component
+549. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri3:inst21|lpm_bustri:lpm_bustri_component
+550. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri3:inst75|lpm_bustri:lpm_bustri_component
+551. Parameter Settings for User Entity Instance: CPU:inst8|RegSm:inst70|lpm_add_sub3:inst3|lpm_add_sub:lpm_add_sub_component
+552. Parameter Settings for User Entity Instance: CPU:inst8|RegSm:inst70|lpm_add_sub3:inst|lpm_add_sub:lpm_add_sub_component
+553. Parameter Settings for User Entity Instance: CPU:inst8|RegSm:inst70|lpm_constant3:inst9|lpm_constant:lpm_constant_component
+554. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri5:inst156|lpm_bustri:lpm_bustri_component
+555. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri5:inst158|lpm_bustri:lpm_bustri_component
+556. Parameter Settings for User Entity Instance: Memory:inst|lpm_bustri1:inst2|lpm_bustri:lpm_bustri_component
+557. Parameter Settings for User Entity Instance: Memory:inst|lpm_mux0:inst12|LPM_MUX:lpm_mux_component
+558. Parameter Settings for User Entity Instance: Memory:inst|lpm_compare0:inst8|lpm_compare:lpm_compare_component
+559. Parameter Settings for User Entity Instance: Memory:inst|lpm_rom0:inst1|altsyncram:altsyncram_component
+560. Parameter Settings for User Entity Instance: Memory:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component
+561. lpm_shiftreg Parameter Settings by Entity Instance
+562. altsyncram Parameter Settings by Entity Instance
+563. Analysis & Synthesis Messages
 
 
 
@@ -588,13 +594,13 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                            ;
 +-------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Mon May 13 05:08:52 2019   ;
+; Analysis & Synthesis Status   ; Successful - Mon May 13 12:24:06 2019   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; main                                    ;
 ; Top-level Entity Name         ; main                                    ;
 ; Family                        ; Stratix II                              ;
 ; Logic utilization             ; N/A                                     ;
-;     Combinational ALUTs       ; 1,160                                   ;
+;     Combinational ALUTs       ; 1,167                                   ;
 ;     Dedicated logic registers ; 1,927                                   ;
 ; Total registers               ; 1927                                    ;
 ; Total pins                    ; 136                                     ;
@@ -767,6 +773,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; RegSm.bdf                        ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/RegSm.bdf              ;
 ; lpm_add_sub3.vhd                 ; yes             ; User Wizard-Generated File         ; C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/lpm_add_sub3.vhd       ;
 ; lpm_constant3.vhd                ; yes             ; User Wizard-Generated File         ; C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/lpm_constant3.vhd      ;
+; lpm_bustri5.vhd                  ; yes             ; User Wizard-Generated File         ; C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/lpm_bustri5.vhd        ;
 ; lpm_compare.tdf                  ; yes             ; Megafunction                       ; d:/games/quartus/quartus/libraries/megafunctions/lpm_compare.tdf                        ;
 ; db/cmpr_h8j.tdf                  ; yes             ; Auto-Generated Megafunction        ; C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/db/cmpr_h8j.tdf        ;
 ; lpm_counter.tdf                  ; yes             ; Megafunction                       ; d:/games/quartus/quartus/libraries/megafunctions/lpm_counter.tdf                        ;
@@ -817,38 +824,38 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-----------------------------------------------+-------------------+
 ; Resource                                      ; Usage             ;
 +-----------------------------------------------+-------------------+
-; Estimated ALUTs Used                          ; 1160              ;
+; Estimated ALUTs Used                          ; 1167              ;
 ; Dedicated logic registers                     ; 1927              ;
 ;                                               ;                   ;
 ; Estimated ALUTs Unavailable                   ; 9                 ;
 ;                                               ;                   ;
-; Total combinational functions                 ; 1160              ;
+; Total combinational functions                 ; 1167              ;
 ; Combinational ALUT usage by number of inputs  ;                   ;
 ;     -- 7 input functions                      ; 9                 ;
-;     -- 6 input functions                      ; 688               ;
-;     -- 5 input functions                      ; 117               ;
-;     -- 4 input functions                      ; 142               ;
-;     -- <=3 input functions                    ; 204               ;
+;     -- 6 input functions                      ; 691               ;
+;     -- 5 input functions                      ; 122               ;
+;     -- 4 input functions                      ; 125               ;
+;     -- <=3 input functions                    ; 220               ;
 ;                                               ;                   ;
 ; Combinational ALUTs by mode                   ;                   ;
-;     -- normal mode                            ; 1089              ;
+;     -- normal mode                            ; 1096              ;
 ;     -- extended LUT mode                      ; 9                 ;
 ;     -- arithmetic mode                        ; 51                ;
 ;     -- shared arithmetic mode                 ; 11                ;
 ;                                               ;                   ;
-; Estimated ALUT/register pairs used            ; 2766              ;
+; Estimated ALUT/register pairs used            ; 2770              ;
 ;                                               ;                   ;
 ; Total registers                               ; 1927              ;
 ;     -- Dedicated logic registers              ; 1927              ;
 ;     -- I/O registers                          ; 0                 ;
 ;                                               ;                   ;
-; Estimated ALMs:  partially or completely used ; 1,383             ;
+; Estimated ALMs:  partially or completely used ; 1,385             ;
 ;                                               ;                   ;
 ; I/O pins                                      ; 136               ;
 ; Total block memory bits                       ; 20480             ;
 ; Maximum fan-out node                          ; CPU:inst8|inst105 ;
 ; Maximum fan-out                               ; 441               ;
-; Total fan-out                                 ; 11995             ;
+; Total fan-out                                 ; 12013             ;
 ; Average fan-out                               ; 3.70              ;
 +-----------------------------------------------+-------------------+
 
@@ -858,14 +865,14 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-----------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                          ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                             ; Library Name ;
 +-----------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |main                                               ; 1160 (0)          ; 1927 (0)     ; 20480             ; 0            ; 0       ; 0         ; 0         ; 136  ; 0            ; |main                                                                                                                                           ; work         ;
-;    |CPU:inst8|                                      ; 382 (42)          ; 370 (1)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8                                                                                                                                 ; work         ;
-;       |ALU:inst14|                                  ; 48 (4)            ; 25 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14                                                                                                                      ; work         ;
+; |main                                               ; 1167 (0)          ; 1927 (0)     ; 20480             ; 0            ; 0       ; 0         ; 0         ; 136  ; 0            ; |main                                                                                                                                           ; work         ;
+;    |CPU:inst8|                                      ; 388 (58)          ; 370 (1)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8                                                                                                                                 ; work         ;
+;       |ALU:inst14|                                  ; 48 (5)            ; 25 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14                                                                                                                      ; work         ;
 ;          |lpm_add_sub1:inst9|                       ; 12 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14|lpm_add_sub1:inst9                                                                                                   ; work         ;
 ;             |lpm_add_sub:lpm_add_sub_component|     ; 12 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14|lpm_add_sub1:inst9|lpm_add_sub:lpm_add_sub_component                                                                 ; work         ;
 ;                |add_sub_5ui:auto_generated|         ; 12 (12)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14|lpm_add_sub1:inst9|lpm_add_sub:lpm_add_sub_component|add_sub_5ui:auto_generated                                      ; work         ;
-;          |lpm_bustri0:inst25|                       ; 12 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14|lpm_bustri0:inst25                                                                                                   ; work         ;
-;             |lpm_bustri:lpm_bustri_component|       ; 12 (12)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component                                                                   ; work         ;
+;          |lpm_bustri0:inst25|                       ; 11 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14|lpm_bustri0:inst25                                                                                                   ; work         ;
+;             |lpm_bustri:lpm_bustri_component|       ; 11 (11)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component                                                                   ; work         ;
 ;          |lpm_dff0:inst2|                           ; 0 (0)             ; 10 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14|lpm_dff0:inst2                                                                                                       ; work         ;
 ;             |lpm_ff:lpm_ff_component|               ; 0 (0)             ; 10 (10)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component                                                                               ; work         ;
 ;          |lpm_dff3:inst11|                          ; 0 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14|lpm_dff3:inst11                                                                                                      ; work         ;
@@ -885,27 +892,27 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_or:lpm_or_component|               ; 10 (10)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14|lpm_or0:inst27|lpm_or:lpm_or_component                                                                               ; work         ;
 ;          |lpm_shiftreg0:inst1|                      ; 0 (0)             ; 10 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14|lpm_shiftreg0:inst1                                                                                                  ; work         ;
 ;             |lpm_shiftreg:lpm_shiftreg_component|   ; 0 (0)             ; 10 (10)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14|lpm_shiftreg0:inst1|lpm_shiftreg:lpm_shiftreg_component                                                              ; work         ;
-;       |Command_decoder:inst104|                     ; 33 (4)            ; 23 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104                                                                                                         ; work         ;
-;          |lpm_bustri3:inst18|                       ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst18                                                                                      ; work         ;
-;             |lpm_bustri:lpm_bustri_component|       ; 5 (5)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component                                                      ; work         ;
-;          |lpm_bustri3:inst19|                       ; 12 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19                                                                                      ; work         ;
-;             |lpm_bustri:lpm_bustri_component|       ; 12 (12)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component                                                      ; work         ;
-;          |lpm_bustri4:inst16|                       ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst16                                                                                      ; work         ;
-;             |lpm_bustri:lpm_bustri_component|       ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst16|lpm_bustri:lpm_bustri_component                                                      ; work         ;
-;          |lpm_bustri4:inst28|                       ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst28                                                                                      ; work         ;
-;             |lpm_bustri:lpm_bustri_component|       ; 5 (5)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst28|lpm_bustri:lpm_bustri_component                                                      ; work         ;
-;          |lpm_counter2:inst7|                       ; 2 (0)             ; 2 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_counter2:inst7                                                                                      ; work         ;
-;             |lpm_counter:lpm_counter_component|     ; 2 (0)             ; 2 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_counter2:inst7|lpm_counter:lpm_counter_component                                                    ; work         ;
-;                |cntr_9ck:auto_generated|            ; 2 (2)             ; 2 (2)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_counter2:inst7|lpm_counter:lpm_counter_component|cntr_9ck:auto_generated                            ; work         ;
-;          |lpm_decode1:inst9|                        ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_decode1:inst9                                                                                       ; work         ;
-;             |lpm_decode:lpm_decode_component|       ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_decode1:inst9|lpm_decode:lpm_decode_component                                                       ; work         ;
-;                |decode_0sf:auto_generated|          ; 4 (4)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_decode1:inst9|lpm_decode:lpm_decode_component|decode_0sf:auto_generated                             ; work         ;
-;          |lpm_dff0:inst1|                           ; 0 (0)             ; 10 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_dff0:inst1                                                                                          ; work         ;
-;             |lpm_ff:lpm_ff_component|               ; 0 (0)             ; 10 (10)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_dff0:inst1|lpm_ff:lpm_ff_component                                                                  ; work         ;
-;          |lpm_dff0:inst2|                           ; 0 (0)             ; 10 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_dff0:inst2                                                                                          ; work         ;
-;             |lpm_ff:lpm_ff_component|               ; 0 (0)             ; 10 (10)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_dff0:inst2|lpm_ff:lpm_ff_component                                                                  ; work         ;
-;          |lpm_dff3:inst11|                          ; 0 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_dff3:inst11                                                                                         ; work         ;
-;             |lpm_ff:lpm_ff_component|               ; 0 (0)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst104|lpm_dff3:inst11|lpm_ff:lpm_ff_component                                                                 ; work         ;
+;       |Command_decoder:inst141|                     ; 31 (4)            ; 23 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141                                                                                                         ; work         ;
+;          |lpm_bustri3:inst18|                       ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst18                                                                                      ; work         ;
+;             |lpm_bustri:lpm_bustri_component|       ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component                                                      ; work         ;
+;          |lpm_bustri3:inst19|                       ; 13 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19                                                                                      ; work         ;
+;             |lpm_bustri:lpm_bustri_component|       ; 13 (13)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component                                                      ; work         ;
+;          |lpm_bustri4:inst16|                       ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst16                                                                                      ; work         ;
+;             |lpm_bustri:lpm_bustri_component|       ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst16|lpm_bustri:lpm_bustri_component                                                      ; work         ;
+;          |lpm_bustri4:inst28|                       ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst28                                                                                      ; work         ;
+;             |lpm_bustri:lpm_bustri_component|       ; 5 (5)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst28|lpm_bustri:lpm_bustri_component                                                      ; work         ;
+;          |lpm_counter2:inst7|                       ; 2 (0)             ; 2 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_counter2:inst7                                                                                      ; work         ;
+;             |lpm_counter:lpm_counter_component|     ; 2 (0)             ; 2 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_counter2:inst7|lpm_counter:lpm_counter_component                                                    ; work         ;
+;                |cntr_9ck:auto_generated|            ; 2 (2)             ; 2 (2)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_counter2:inst7|lpm_counter:lpm_counter_component|cntr_9ck:auto_generated                            ; work         ;
+;          |lpm_decode1:inst9|                        ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_decode1:inst9                                                                                       ; work         ;
+;             |lpm_decode:lpm_decode_component|       ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_decode1:inst9|lpm_decode:lpm_decode_component                                                       ; work         ;
+;                |decode_0sf:auto_generated|          ; 4 (4)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_decode1:inst9|lpm_decode:lpm_decode_component|decode_0sf:auto_generated                             ; work         ;
+;          |lpm_dff0:inst1|                           ; 0 (0)             ; 10 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_dff0:inst1                                                                                          ; work         ;
+;             |lpm_ff:lpm_ff_component|               ; 0 (0)             ; 10 (10)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_dff0:inst1|lpm_ff:lpm_ff_component                                                                  ; work         ;
+;          |lpm_dff0:inst2|                           ; 0 (0)             ; 10 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_dff0:inst2                                                                                          ; work         ;
+;             |lpm_ff:lpm_ff_component|               ; 0 (0)             ; 10 (10)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_dff0:inst2|lpm_ff:lpm_ff_component                                                                  ; work         ;
+;          |lpm_dff3:inst11|                          ; 0 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_dff3:inst11                                                                                         ; work         ;
+;             |lpm_ff:lpm_ff_component|               ; 0 (0)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_dff3:inst11|lpm_ff:lpm_ff_component                                                                 ; work         ;
 ;       |RON_Block:inst8|                             ; 77 (0)            ; 140 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|RON_Block:inst8                                                                                                                 ; work         ;
 ;          |lpm_bustri0:inst21|                       ; 10 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|RON_Block:inst8|lpm_bustri0:inst21                                                                                              ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|       ; 10 (10)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|RON_Block:inst8|lpm_bustri0:inst21|lpm_bustri:lpm_bustri_component                                                              ; work         ;
@@ -984,14 +991,14 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |lpm_mux5:inst16|                          ; 41 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|STEAK:inst7|lpm_mux5:inst16                                                                                                     ; work         ;
 ;             |lpm_mux:lpm_mux_component|             ; 41 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|STEAK:inst7|lpm_mux5:inst16|lpm_mux:lpm_mux_component                                                                           ; work         ;
 ;                |mux_a7e:auto_generated|             ; 41 (41)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|STEAK:inst7|lpm_mux5:inst16|lpm_mux:lpm_mux_component|mux_a7e:auto_generated                                                    ; work         ;
-;       |lpm_bustri0:inst41|                          ; 44 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri0:inst41                                                                                                              ; work         ;
-;          |lpm_bustri:lpm_bustri_component|          ; 44 (44)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component                                                                              ; work         ;
-;       |lpm_bustri3:inst2|                           ; 35 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri3:inst2                                                                                                               ; work         ;
-;          |lpm_bustri:lpm_bustri_component|          ; 35 (35)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri3:inst2|lpm_bustri:lpm_bustri_component                                                                               ; work         ;
-;       |lpm_bustri4:inst36|                          ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri4:inst36                                                                                                              ; work         ;
-;          |lpm_bustri:lpm_bustri_component|          ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri4:inst36|lpm_bustri:lpm_bustri_component                                                                              ; work         ;
-;       |lpm_bustri4:inst37|                          ; 9 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri4:inst37                                                                                                              ; work         ;
-;          |lpm_bustri:lpm_bustri_component|          ; 9 (9)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri4:inst37|lpm_bustri:lpm_bustri_component                                                                              ; work         ;
+;       |lpm_bustri0:inst41|                          ; 33 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri0:inst41                                                                                                              ; work         ;
+;          |lpm_bustri:lpm_bustri_component|          ; 33 (33)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component                                                                              ; work         ;
+;       |lpm_bustri3:inst2|                           ; 33 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri3:inst2                                                                                                               ; work         ;
+;          |lpm_bustri:lpm_bustri_component|          ; 33 (33)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri3:inst2|lpm_bustri:lpm_bustri_component                                                                               ; work         ;
+;       |lpm_bustri4:inst37|                          ; 12 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri4:inst37                                                                                                              ; work         ;
+;          |lpm_bustri:lpm_bustri_component|          ; 12 (12)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri4:inst37|lpm_bustri:lpm_bustri_component                                                                              ; work         ;
+;       |lpm_bustri5:inst156|                         ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri5:inst156                                                                                                             ; work         ;
+;          |lpm_bustri:lpm_bustri_component|          ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri5:inst156|lpm_bustri:lpm_bustri_component                                                                             ; work         ;
 ;       |lpm_compare5:inst108|                        ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_compare5:inst108                                                                                                            ; work         ;
 ;          |lpm_compare:lpm_compare_component|        ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_compare5:inst108|lpm_compare:lpm_compare_component                                                                          ; work         ;
 ;             |cmpr_h8j:auto_generated|               ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_compare5:inst108|lpm_compare:lpm_compare_component|cmpr_h8j:auto_generated                                                  ; work         ;
@@ -1054,21 +1061,24 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |lpm_ff:lpm_ff_component|                  ; 0 (0)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_dff3:inst95|lpm_ff:lpm_ff_component                                                                                         ; work         ;
 ;       |lpm_dff3:inst97|                             ; 0 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_dff3:inst97                                                                                                                 ; work         ;
 ;          |lpm_ff:lpm_ff_component|                  ; 0 (0)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_dff3:inst97|lpm_ff:lpm_ff_component                                                                                         ; work         ;
-;    |Cash:inst16|                                    ; 758 (32)          ; 1557 (0)     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16                                                                                                                               ;              ;
-;       |Changing_Flags:inst16|                       ; 53 (40)           ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16                                                                                                         ; work         ;
-;          |lpm_decode3:inst1|                        ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst1                                                                                       ; work         ;
-;             |lpm_decode:lpm_decode_component|       ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst1|lpm_decode:lpm_decode_component                                                       ; work         ;
-;                |decode_ltf:auto_generated|          ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated                             ; work         ;
-;          |lpm_decode3:inst2|                        ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst2                                                                                       ; work         ;
-;             |lpm_decode:lpm_decode_component|       ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst2|lpm_decode:lpm_decode_component                                                       ; work         ;
-;                |decode_ltf:auto_generated|          ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst2|lpm_decode:lpm_decode_component|decode_ltf:auto_generated                             ; work         ;
+;    |Cash:inst16|                                    ; 759 (32)          ; 1557 (0)     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16                                                                                                                               ;              ;
+;       |Changing_Flags:inst16|                       ; 54 (40)           ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16                                                                                                         ; work         ;
+;          |lpm_decode3:inst1|                        ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst1                                                                                       ; work         ;
+;             |lpm_decode:lpm_decode_component|       ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst1|lpm_decode:lpm_decode_component                                                       ; work         ;
+;                |decode_ltf:auto_generated|          ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated                             ; work         ;
+;          |lpm_decode3:inst2|                        ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst2                                                                                       ; work         ;
+;             |lpm_decode:lpm_decode_component|       ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst2|lpm_decode:lpm_decode_component                                                       ; work         ;
+;                |decode_ltf:auto_generated|          ; 4 (4)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst2|lpm_decode:lpm_decode_component|decode_ltf:auto_generated                             ; work         ;
 ;          |lpm_mux4:inst21|                          ; 9 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16|lpm_mux4:inst21                                                                                         ; work         ;
 ;             |lpm_mux:lpm_mux_component|             ; 9 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16|lpm_mux4:inst21|lpm_mux:lpm_mux_component                                                               ; work         ;
 ;                |mux_q5e:auto_generated|             ; 9 (9)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16|lpm_mux4:inst21|lpm_mux:lpm_mux_component|mux_q5e:auto_generated                                        ; work         ;
-;       |Changing_Flags:inst18|                       ; 43 (40)           ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst18                                                                                                         ; work         ;
-;          |lpm_decode3:inst1|                        ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst18|lpm_decode3:inst1                                                                                       ; work         ;
-;             |lpm_decode:lpm_decode_component|       ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst18|lpm_decode3:inst1|lpm_decode:lpm_decode_component                                                       ; work         ;
-;                |decode_ltf:auto_generated|          ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst18|lpm_decode3:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated                             ; work         ;
+;       |Changing_Flags:inst18|                       ; 44 (40)           ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst18                                                                                                         ; work         ;
+;          |lpm_decode3:inst1|                        ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst18|lpm_decode3:inst1                                                                                       ; work         ;
+;             |lpm_decode:lpm_decode_component|       ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst18|lpm_decode3:inst1|lpm_decode:lpm_decode_component                                                       ; work         ;
+;                |decode_ltf:auto_generated|          ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst18|lpm_decode3:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated                             ; work         ;
+;          |lpm_decode3:inst2|                        ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst18|lpm_decode3:inst2                                                                                       ; work         ;
+;             |lpm_decode:lpm_decode_component|       ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst18|lpm_decode3:inst2|lpm_decode:lpm_decode_component                                                       ; work         ;
+;                |decode_ltf:auto_generated|          ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst18|lpm_decode3:inst2|lpm_decode:lpm_decode_component|decode_ltf:auto_generated                             ; work         ;
 ;       |One_Set:inst129|                             ; 3 (2)             ; 94 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|One_Set:inst129                                                                                                               ; work         ;
 ;          |Tag_and_string:inst12|                    ; 0 (0)             ; 45 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|One_Set:inst129|Tag_and_string:inst12                                                                                         ; work         ;
 ;             |String_cash:inst|                      ; 0 (0)             ; 40 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|One_Set:inst129|Tag_and_string:inst12|String_cash:inst                                                                        ; work         ;
@@ -1661,9 +1671,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;       |lpm_mux4:inst94|                             ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux4:inst94                                                                                                               ; work         ;
 ;          |lpm_mux:lpm_mux_component|                ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux4:inst94|lpm_mux:lpm_mux_component                                                                                     ; work         ;
 ;             |mux_q5e:auto_generated|                ; 5 (5)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux4:inst94|lpm_mux:lpm_mux_component|mux_q5e:auto_generated                                                              ; work         ;
-;       |lpm_mux5:inst60|                             ; 441 (0)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux5:inst60                                                                                                               ; work         ;
-;          |lpm_mux:lpm_mux_component|                ; 441 (0)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux5:inst60|lpm_mux:lpm_mux_component                                                                                     ; work         ;
-;             |mux_a7e:auto_generated|                ; 441 (441)         ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux5:inst60|lpm_mux:lpm_mux_component|mux_a7e:auto_generated                                                              ; work         ;
+;       |lpm_mux5:inst60|                             ; 440 (0)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux5:inst60                                                                                                               ; work         ;
+;          |lpm_mux:lpm_mux_component|                ; 440 (0)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux5:inst60|lpm_mux:lpm_mux_component                                                                                     ; work         ;
+;             |mux_a7e:auto_generated|                ; 440 (440)         ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux5:inst60|lpm_mux:lpm_mux_component|mux_a7e:auto_generated                                                              ; work         ;
 ;       |lpm_mux6:inst86|                             ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux6:inst86                                                                                                               ; work         ;
 ;          |lpm_mux:lpm_mux_component|                ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux6:inst86|lpm_mux:lpm_mux_component                                                                                     ; work         ;
 ;             |mux_34e:auto_generated|                ; 4 (4)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux6:inst86|lpm_mux:lpm_mux_component|mux_34e:auto_generated                                                              ; work         ;
@@ -1751,12 +1761,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                            ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------------------------------------+
-; 4:1                ; 10 bits   ; 20 ALUTs      ; 20 ALUTs             ; 0 ALUTs                ; No         ; |main|CPU:inst8|ALU:inst14|lpm_mux1:inst14|lpm_mux:lpm_mux_component|mux_l5e:auto_generated|l2_w6_n0_mux_dataout      ;
-; 3:1                ; 2 bits    ; 4 ALUTs       ; 4 ALUTs              ; 0 ALUTs                ; No         ; |main|Cash:inst16|lpm_mux6:inst86|lpm_mux:lpm_mux_component|mux_34e:auto_generated|l1_w1_n0_mux_dataout               ;
+; 4:1                ; 10 bits   ; 20 ALUTs      ; 20 ALUTs             ; 0 ALUTs                ; No         ; |main|CPU:inst8|ALU:inst14|lpm_mux1:inst14|lpm_mux:lpm_mux_component|mux_l5e:auto_generated|l2_w9_n0_mux_dataout      ;
+; 3:1                ; 2 bits    ; 4 ALUTs       ; 4 ALUTs              ; 0 ALUTs                ; No         ; |main|Cash:inst16|lpm_mux6:inst86|lpm_mux:lpm_mux_component|mux_34e:auto_generated|l1_w0_n0_mux_dataout               ;
 ; 9:1                ; 10 bits   ; 60 ALUTs      ; 60 ALUTs             ; 0 ALUTs                ; No         ; |main|CPU:inst8|STEAK:inst7|lpm_mux5:inst16|lpm_mux:lpm_mux_component|mux_a7e:auto_generated|l4_w0_n0_mux_dataout     ;
-; 13:1               ; 10 bits   ; 80 ALUTs      ; 80 ALUTs             ; 0 ALUTs                ; No         ; |main|CPU:inst8|RON_Block:inst8|lpm_mux5:inst20|lpm_mux:lpm_mux_component|mux_a7e:auto_generated|l4_w9_n0_mux_dataout ;
-; 16:1               ; 11 bits   ; 110 ALUTs     ; 110 ALUTs            ; 0 ALUTs                ; No         ; |main|Cash:inst16|lpm_mux3:inst5|lpm_mux:lpm_mux_component|mux_u5e:auto_generated|l4_w2_n0_mux_dataout                ;
-; 128:1              ; 10 bits   ; 850 ALUTs     ; 850 ALUTs            ; 0 ALUTs                ; No         ; |main|Cash:inst16|lpm_mux5:inst60|lpm_mux:lpm_mux_component|mux_a7e:auto_generated|l4_w9_n0_mux_dataout               ;
+; 13:1               ; 10 bits   ; 80 ALUTs      ; 80 ALUTs             ; 0 ALUTs                ; No         ; |main|CPU:inst8|RON_Block:inst8|lpm_mux5:inst20|lpm_mux:lpm_mux_component|mux_a7e:auto_generated|l4_w0_n0_mux_dataout ;
+; 16:1               ; 11 bits   ; 110 ALUTs     ; 110 ALUTs            ; 0 ALUTs                ; No         ; |main|Cash:inst16|lpm_mux3:inst4|lpm_mux:lpm_mux_component|mux_u5e:auto_generated|l4_w3_n0_mux_dataout                ;
+; 128:1              ; 10 bits   ; 850 ALUTs     ; 850 ALUTs            ; 0 ALUTs                ; No         ; |main|Cash:inst16|lpm_mux5:inst60|lpm_mux:lpm_mux_component|mux_a7e:auto_generated|l4_w4_n0_mux_dataout               ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------------------------------------+
 
 
@@ -1816,7 +1826,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +---------------------------------------------------------------------------------------------------------------+
-; Source assignments for CPU:inst8|Command_decoder:inst104|lpm_counter2:inst7|lpm_counter:lpm_counter_component ;
+; Source assignments for CPU:inst8|Command_decoder:inst141|lpm_counter2:inst7|lpm_counter:lpm_counter_component ;
 +---------------------------+-------+------+--------------------------------------------------------------------+
 ; Assignment                ; Value ; From ; To                                                                 ;
 +---------------------------+-------+------+--------------------------------------------------------------------+
@@ -9254,7 +9264,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_decode1:inst9|lpm_decode:lpm_decode_component ;
+; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_decode1:inst9|lpm_decode:lpm_decode_component ;
 +------------------------+------------+--------------------------------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                                                       ;
 +------------------------+------------+--------------------------------------------------------------------------------------------+
@@ -9273,7 +9283,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_constant1:inst36|lpm_constant:lpm_constant_component ;
+; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_constant1:inst36|lpm_constant:lpm_constant_component ;
 +--------------------+------------------+-------------------------------------------------------------------------------------------------+
 ; Parameter Name     ; Value            ; Type                                                                                            ;
 +--------------------+------------------+-------------------------------------------------------------------------------------------------+
@@ -9286,7 +9296,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_counter2:inst7|lpm_counter:lpm_counter_component ;
+; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_counter2:inst7|lpm_counter:lpm_counter_component ;
 +------------------------+-------------+----------------------------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                                         ;
 +------------------------+-------------+----------------------------------------------------------------------------------------------+
@@ -9313,7 +9323,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_dff0:inst1|lpm_ff:lpm_ff_component ;
+; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_dff0:inst1|lpm_ff:lpm_ff_component ;
 +------------------------+------------+---------------------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                                            ;
 +------------------------+------------+---------------------------------------------------------------------------------+
@@ -9332,7 +9342,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_dff3:inst11|lpm_ff:lpm_ff_component ;
+; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_dff3:inst11|lpm_ff:lpm_ff_component ;
 +------------------------+------------+----------------------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                                             ;
 +------------------------+------------+----------------------------------------------------------------------------------+
@@ -9351,7 +9361,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +--------------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_compare14:inst3|lpm_compare:lpm_compare_component ;
+; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_compare14:inst3|lpm_compare:lpm_compare_component ;
 +------------------------+------------+------------------------------------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                                                           ;
 +------------------------+------------+------------------------------------------------------------------------------------------------+
@@ -9374,8 +9384,18 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component ;
++----------------+-------+----------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                     ;
++----------------+-------+----------------------------------------------------------------------------------------------------------+
+; LPM_WIDTH      ; 11    ; Signed Integer                                                                                           ;
++----------------+-------+----------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +---------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_decode0:inst|lpm_decode:lpm_decode_component ;
+; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_decode0:inst|lpm_decode:lpm_decode_component ;
 +------------------------+------------+-------------------------------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                                                      ;
 +------------------------+------------+-------------------------------------------------------------------------------------------+
@@ -9393,18 +9413,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component ;
-+----------------+-------+----------------------------------------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                                                     ;
-+----------------+-------+----------------------------------------------------------------------------------------------------------+
-; LPM_WIDTH      ; 11    ; Signed Integer                                                                                           ;
-+----------------+-------+----------------------------------------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +-----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_dff0:inst2|lpm_ff:lpm_ff_component ;
+; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_dff0:inst2|lpm_ff:lpm_ff_component ;
 +------------------------+------------+---------------------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                                            ;
 +------------------------+------------+---------------------------------------------------------------------------------+
@@ -9423,7 +9433,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst16|lpm_bustri:lpm_bustri_component ;
+; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst16|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                     ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------+
@@ -9433,7 +9443,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component ;
+; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                     ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------+
@@ -9443,7 +9453,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst28|lpm_bustri:lpm_bustri_component ;
+; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst28|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                     ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------+
@@ -9453,7 +9463,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst17|lpm_bustri:lpm_bustri_component ;
+; Parameter Settings for User Entity Instance: CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst17|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                     ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------+
@@ -10299,6 +10309,55 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst159|lpm_bustri:lpm_bustri_component ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                              ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; LPM_WIDTH      ; 10    ; Signed Integer                                                                    ;
++----------------+-------+-----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst161|lpm_bustri:lpm_bustri_component ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                              ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; LPM_WIDTH      ; 10    ; Signed Integer                                                                    ;
++----------------+-------+-----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff0:inst87|lpm_ff:lpm_ff_component ;
++------------------------+------------+----------------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                     ;
++------------------------+------------+----------------------------------------------------------+
+; LPM_WIDTH              ; 10         ; Signed Integer                                           ;
+; LPM_AVALUE             ; UNUSED     ; Untyped                                                  ;
+; LPM_SVALUE             ; UNUSED     ; Untyped                                                  ;
+; LPM_FFTYPE             ; DFF        ; Untyped                                                  ;
+; DEVICE_FAMILY          ; Stratix II ; Untyped                                                  ;
+; CBXI_PARAMETER         ; NOTHING    ; Untyped                                                  ;
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                             ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                           ;
++------------------------+------------+----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst78|lpm_bustri:lpm_bustri_component ;
++----------------+-------+----------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------+
+; LPM_WIDTH      ; 10    ; Signed Integer                                                                   ;
++----------------+-------+----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +-----------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst74|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+----------------------------------------------------------------------------------+
@@ -10330,35 +10389,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +-----------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst89|lpm_bustri:lpm_bustri_component ;
-+----------------+-------+----------------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                             ;
-+----------------+-------+----------------------------------------------------------------------------------+
-; LPM_WIDTH      ; 10    ; Signed Integer                                                                   ;
-+----------------+-------+----------------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff0:inst87|lpm_ff:lpm_ff_component ;
-+------------------------+------------+----------------------------------------------------------+
-; Parameter Name         ; Value      ; Type                                                     ;
-+------------------------+------------+----------------------------------------------------------+
-; LPM_WIDTH              ; 10         ; Signed Integer                                           ;
-; LPM_AVALUE             ; UNUSED     ; Untyped                                                  ;
-; LPM_SVALUE             ; UNUSED     ; Untyped                                                  ;
-; LPM_FFTYPE             ; DFF        ; Untyped                                                  ;
-; DEVICE_FAMILY          ; Stratix II ; Untyped                                                  ;
-; CBXI_PARAMETER         ; NOTHING    ; Untyped                                                  ;
-; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                               ;
-; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                             ;
-; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                             ;
-; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                           ;
-+------------------------+------------+----------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri0:inst78|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+----------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                             ;
 +----------------+-------+----------------------------------------------------------------------------------+
@@ -10932,6 +10962,26 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri4:inst153|lpm_bustri:lpm_bustri_component ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                              ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; LPM_WIDTH      ; 4     ; Signed Integer                                                                    ;
++----------------+-------+-----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri4:inst154|lpm_bustri:lpm_bustri_component ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                              ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; LPM_WIDTH      ; 4     ; Signed Integer                                                                    ;
++----------------+-------+-----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +-----------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst19|lpm_constant:lpm_constant_component ;
 +--------------------+------------------+-------------------------------------------------------------------------+
@@ -11364,6 +11414,26 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri5:inst156|lpm_bustri:lpm_bustri_component ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                              ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; LPM_WIDTH      ; 3     ; Signed Integer                                                                    ;
++----------------+-------+-----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri5:inst158|lpm_bustri:lpm_bustri_component ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                              ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; LPM_WIDTH      ; 3     ; Signed Integer                                                                    ;
++----------------+-------+-----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: Memory:inst|lpm_bustri1:inst2|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+-----------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                              ;
@@ -11583,7 +11653,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Mon May 13 05:08:24 2019
+    Info: Processing started: Mon May 13 12:23:45 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off main -c main
 Info: Found 1 design units, including 1 entities, in source file main.bdf
     Info: Found entity 1: main
@@ -11800,6 +11870,9 @@ Info: Found 2 design units, including 1 entities, in source file lpm_add_sub3.vh
 Info: Found 2 design units, including 1 entities, in source file lpm_constant3.vhd
     Info: Found design unit 1: lpm_constant3-SYN
     Info: Found entity 1: lpm_constant3
+Info: Found 2 design units, including 1 entities, in source file lpm_bustri5.vhd
+    Info: Found design unit 1: lpm_bustri5-SYN
+    Info: Found entity 1: lpm_bustri5
 Info: Elaborating entity "main" for the top level hierarchy
 Info: Elaborating entity "Cash" for hierarchy "Cash:inst16"
 Info: Elaborating entity "lpm_compare4" for hierarchy "Cash:inst16|lpm_compare4:inst66"
@@ -12097,29 +12170,29 @@ Info: Found 1 design units, including 1 entities, in source file db/cmpr_tbj.tdf
 Info: Elaborating entity "cmpr_tbj" for hierarchy "Cash:inst16|lpm_compare8:inst127|lpm_compare:lpm_compare_component|cmpr_tbj:auto_generated"
 Info: Elaborating entity "CPU" for hierarchy "CPU:inst8"
 Warning: Pin "MISS_from_cash" not connected
-Info: Elaborating entity "Command_decoder" for hierarchy "CPU:inst8|Command_decoder:inst104"
+Info: Elaborating entity "Command_decoder" for hierarchy "CPU:inst8|Command_decoder:inst141"
 Warning: Primitive "NOT" of instance "inst25" not used
-Info: Elaborating entity "lpm_compare14" for hierarchy "CPU:inst8|Command_decoder:inst104|lpm_compare14:inst3"
-Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst8|Command_decoder:inst104|lpm_compare14:inst3|lpm_compare:lpm_compare_component"
-Info: Elaborated megafunction instantiation "CPU:inst8|Command_decoder:inst104|lpm_compare14:inst3|lpm_compare:lpm_compare_component"
-Info: Instantiated megafunction "CPU:inst8|Command_decoder:inst104|lpm_compare14:inst3|lpm_compare:lpm_compare_component" with the following parameter:
+Info: Elaborating entity "lpm_compare14" for hierarchy "CPU:inst8|Command_decoder:inst141|lpm_compare14:inst3"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst8|Command_decoder:inst141|lpm_compare14:inst3|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst8|Command_decoder:inst141|lpm_compare14:inst3|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst8|Command_decoder:inst141|lpm_compare14:inst3|lpm_compare:lpm_compare_component" with the following parameter:
     Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
     Info: Parameter "lpm_representation" = "UNSIGNED"
     Info: Parameter "lpm_type" = "LPM_COMPARE"
     Info: Parameter "lpm_width" = "2"
 Info: Found 1 design units, including 1 entities, in source file db/cmpr_g8j.tdf
     Info: Found entity 1: cmpr_g8j
-Info: Elaborating entity "cmpr_g8j" for hierarchy "CPU:inst8|Command_decoder:inst104|lpm_compare14:inst3|lpm_compare:lpm_compare_component|cmpr_g8j:auto_generated"
-Info: Elaborating entity "lpm_bustri3" for hierarchy "CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19"
-Info: Elaborating entity "lpm_bustri" for hierarchy "CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component"
-Info: Elaborated megafunction instantiation "CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component"
-Info: Instantiated megafunction "CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component" with the following parameter:
+Info: Elaborating entity "cmpr_g8j" for hierarchy "CPU:inst8|Command_decoder:inst141|lpm_compare14:inst3|lpm_compare:lpm_compare_component|cmpr_g8j:auto_generated"
+Info: Elaborating entity "lpm_bustri3" for hierarchy "CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19"
+Info: Elaborating entity "lpm_bustri" for hierarchy "CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component"
+Info: Elaborated megafunction instantiation "CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component"
+Info: Instantiated megafunction "CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component" with the following parameter:
     Info: Parameter "lpm_type" = "LPM_BUSTRI"
     Info: Parameter "lpm_width" = "11"
-Info: Elaborating entity "lpm_bustri4" for hierarchy "CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst16"
-Info: Elaborating entity "lpm_bustri" for hierarchy "CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst16|lpm_bustri:lpm_bustri_component"
-Info: Elaborated megafunction instantiation "CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst16|lpm_bustri:lpm_bustri_component"
-Info: Instantiated megafunction "CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst16|lpm_bustri:lpm_bustri_component" with the following parameter:
+Info: Elaborating entity "lpm_bustri4" for hierarchy "CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst16"
+Info: Elaborating entity "lpm_bustri" for hierarchy "CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst16|lpm_bustri:lpm_bustri_component"
+Info: Elaborated megafunction instantiation "CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst16|lpm_bustri:lpm_bustri_component"
+Info: Instantiated megafunction "CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst16|lpm_bustri:lpm_bustri_component" with the following parameter:
     Info: Parameter "lpm_type" = "LPM_BUSTRI"
     Info: Parameter "lpm_width" = "4"
 Info: Elaborating entity "RON_Block" for hierarchy "CPU:inst8|RON_Block:inst8"
@@ -12260,6 +12333,12 @@ Info: Instantiated megafunction "CPU:inst8|RegSm:inst70|lpm_constant3:inst9|lpm_
     Info: Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
     Info: Parameter "lpm_type" = "LPM_CONSTANT"
     Info: Parameter "lpm_width" = "8"
+Info: Elaborating entity "lpm_bustri5" for hierarchy "CPU:inst8|lpm_bustri5:inst156"
+Info: Elaborating entity "lpm_bustri" for hierarchy "CPU:inst8|lpm_bustri5:inst156|lpm_bustri:lpm_bustri_component"
+Info: Elaborated megafunction instantiation "CPU:inst8|lpm_bustri5:inst156|lpm_bustri:lpm_bustri_component"
+Info: Instantiated megafunction "CPU:inst8|lpm_bustri5:inst156|lpm_bustri:lpm_bustri_component" with the following parameter:
+    Info: Parameter "lpm_type" = "LPM_BUSTRI"
+    Info: Parameter "lpm_width" = "3"
 Info: Elaborating entity "Memory" for hierarchy "Memory:inst"
 Info: Elaborating entity "lpm_compare0" for hierarchy "Memory:inst|lpm_compare0:inst8"
 Info: Elaborating entity "lpm_compare" for hierarchy "Memory:inst|lpm_compare0:inst8|lpm_compare:lpm_compare_component"
@@ -12314,6 +12393,16 @@ Info: Found 1 design units, including 1 entities, in source file db/altsyncram_a
     Info: Found entity 1: altsyncram_a9e1
 Info: Elaborating entity "altsyncram_a9e1" for hierarchy "Memory:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_a9e1:auto_generated"
 Warning: Tri-state node(s) do not directly drive top-level pin(s)
+    Warning: Converted tri-state node "CPU:inst8|f_alu_op[9]" into a selector
+    Warning: Converted tri-state node "CPU:inst8|f_alu_op[8]" into a selector
+    Warning: Converted tri-state node "CPU:inst8|f_alu_op[7]" into a selector
+    Warning: Converted tri-state node "CPU:inst8|f_alu_op[6]" into a selector
+    Warning: Converted tri-state node "CPU:inst8|f_alu_op[5]" into a selector
+    Warning: Converted tri-state node "CPU:inst8|f_alu_op[4]" into a selector
+    Warning: Converted tri-state node "CPU:inst8|f_alu_op[3]" into a selector
+    Warning: Converted tri-state node "CPU:inst8|f_alu_op[2]" into a selector
+    Warning: Converted tri-state node "CPU:inst8|f_alu_op[1]" into a selector
+    Warning: Converted tri-state node "CPU:inst8|f_alu_op[0]" into a selector
     Warning: Converted tri-state node "CPU:inst8|sec_alu[9]" into a selector
     Warning: Converted tri-state node "CPU:inst8|sec_alu[8]" into a selector
     Warning: Converted tri-state node "CPU:inst8|sec_alu[7]" into a selector
@@ -12367,6 +12456,16 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "Memory:inst|lpm_bustri1:inst2|lpm_bustri:lpm_bustri_component|din[2]" to the node "Memory:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_a9e1:auto_generated|q_a[2]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "Memory:inst|lpm_bustri1:inst2|lpm_bustri:lpm_bustri_component|din[1]" to the node "Memory:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_a9e1:auto_generated|q_a[1]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "Memory:inst|lpm_bustri1:inst2|lpm_bustri:lpm_bustri_component|din[0]" to the node "Memory:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_a9e1:auto_generated|q_a[0]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[9]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[9]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[8]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[8]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[7]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[7]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[6]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[6]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[5]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[5]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[4]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[4]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[3]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[3]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[2]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[2]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[1]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[1]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[0]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|RON_Block:inst8|lpm_bustri0:inst21|lpm_bustri:lpm_bustri_component|dout[9]" to the node "CPU:inst8|lpm_dff0:inst30|lpm_ff:lpm_ff_component|dffs[9]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|RON_Block:inst8|lpm_bustri0:inst21|lpm_bustri:lpm_bustri_component|dout[8]" to the node "CPU:inst8|lpm_dff0:inst30|lpm_ff:lpm_ff_component|dffs[8]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|RON_Block:inst8|lpm_bustri0:inst21|lpm_bustri:lpm_bustri_component|dout[7]" to the node "CPU:inst8|lpm_dff0:inst30|lpm_ff:lpm_ff_component|dffs[7]" into an OR gate
@@ -12377,55 +12476,50 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|RON_Block:inst8|lpm_bustri0:inst21|lpm_bustri:lpm_bustri_component|dout[2]" to the node "CPU:inst8|lpm_dff0:inst30|lpm_ff:lpm_ff_component|dffs[2]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|RON_Block:inst8|lpm_bustri0:inst21|lpm_bustri:lpm_bustri_component|dout[1]" to the node "CPU:inst8|lpm_dff0:inst30|lpm_ff:lpm_ff_component|dffs[1]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|RON_Block:inst8|lpm_bustri0:inst21|lpm_bustri:lpm_bustri_component|dout[0]" to the node "CPU:inst8|lpm_dff0:inst30|lpm_ff:lpm_ff_component|dffs[0]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[10]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[10]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[9]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[9]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[8]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[8]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[7]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[7]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[6]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[6]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[5]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[5]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[4]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[4]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[3]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[3]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[2]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[2]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[1]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[1]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[0]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[0]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component|dout[2]" to the node "CPU:inst8|RegSm:inst70|lpm_add_sub3:inst3|lpm_add_sub:lpm_add_sub_component|add_sub_omh:auto_generated|result[2]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component|dout[1]" to the node "CPU:inst8|RegSm:inst70|lpm_add_sub3:inst3|lpm_add_sub:lpm_add_sub_component|add_sub_omh:auto_generated|result[1]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component|dout[0]" to the node "CPU:inst8|RegSm:inst70|lpm_add_sub3:inst3|lpm_add_sub:lpm_add_sub_component|add_sub_omh:auto_generated|result[0]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[7]" to the node "CPU:inst8|Command_decoder:inst104|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[7]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[6]" to the node "CPU:inst8|Command_decoder:inst104|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[6]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[8]" to the node "CPU:inst8|Command_decoder:inst104|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[8]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[5]" to the node "CPU:inst8|Command_decoder:inst104|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[5]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[9]" to the node "CPU:inst8|Command_decoder:inst104|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[9]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[9]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[9]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[8]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[8]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[7]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[7]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[6]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[6]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[5]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[5]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[4]" to the node "CPU:inst8|Command_decoder:inst104|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[4]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[4]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[4]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[3]" to the node "CPU:inst8|Command_decoder:inst104|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[3]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[3]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[3]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[2]" to the node "CPU:inst8|Command_decoder:inst104|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[2]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[2]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[2]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[1]" to the node "CPU:inst8|Command_decoder:inst104|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[1]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[1]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[1]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[0]" to the node "CPU:inst8|Command_decoder:inst104|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[0]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component|dout[0]" to the node "CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[0]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[10]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[10]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[9]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[9]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[8]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[8]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[7]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[7]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[6]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[6]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[5]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[5]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[4]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[4]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[3]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[3]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[2]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[2]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[1]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[1]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component|dout[0]" to the node "CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component|cntr_faj:auto_generated|safe_q[0]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[7]" to the node "CPU:inst8|Command_decoder:inst141|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[7]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[6]" to the node "CPU:inst8|Command_decoder:inst141|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[6]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[8]" to the node "CPU:inst8|Command_decoder:inst141|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[8]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[5]" to the node "CPU:inst8|Command_decoder:inst141|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[5]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[9]" to the node "CPU:inst8|Command_decoder:inst141|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[9]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[4]" to the node "CPU:inst8|Command_decoder:inst141|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[4]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[3]" to the node "CPU:inst8|Command_decoder:inst141|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[3]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[2]" to the node "CPU:inst8|Command_decoder:inst141|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[2]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[1]" to the node "CPU:inst8|Command_decoder:inst141|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[1]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[0]" to the node "CPU:inst8|Command_decoder:inst141|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[7]" to the node "CPU:inst8|lpm_bustri0:inst78|lpm_bustri:lpm_bustri_component|dout[7]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[6]" to the node "CPU:inst8|lpm_bustri0:inst78|lpm_bustri:lpm_bustri_component|dout[6]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[8]" to the node "CPU:inst8|lpm_bustri0:inst78|lpm_bustri:lpm_bustri_component|dout[8]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[5]" to the node "CPU:inst8|lpm_bustri0:inst78|lpm_bustri:lpm_bustri_component|dout[5]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[9]" to the node "CPU:inst8|lpm_bustri0:inst78|lpm_bustri:lpm_bustri_component|dout[9]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[4]" to the node "CPU:inst8|lpm_bustri0:inst78|lpm_bustri:lpm_bustri_component|dout[4]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[3]" to the node "CPU:inst8|lpm_bustri0:inst78|lpm_bustri:lpm_bustri_component|dout[3]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[2]" to the node "CPU:inst8|lpm_bustri0:inst78|lpm_bustri:lpm_bustri_component|dout[2]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[1]" to the node "CPU:inst8|lpm_bustri0:inst78|lpm_bustri:lpm_bustri_component|dout[1]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri1:inst10|lpm_bustri:lpm_bustri_component|din[0]" to the node "CPU:inst8|lpm_bustri0:inst78|lpm_bustri:lpm_bustri_component|dout[0]" into an OR gate
 Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri4:inst37|lpm_bustri:lpm_bustri_component|dout[1]" to the node "CPU:inst8|RON_Block:inst8|lpm_mux5:inst20|lpm_mux:lpm_mux_component|mux_a7e:auto_generated|l2_w0_n3_mux_dataout" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri4:inst37|lpm_bustri:lpm_bustri_component|dout[0]" to the node "CPU:inst8|RON_Block:inst8|lpm_decode4:inst19|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode159w[3]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri4:inst37|lpm_bustri:lpm_bustri_component|dout[3]" to the node "CPU:inst8|RON_Block:inst8|lpm_decode4:inst19|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode101w[1]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri4:inst37|lpm_bustri:lpm_bustri_component|dout[2]" to the node "CPU:inst8|RON_Block:inst8|lpm_decode4:inst19|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode149w[3]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri5:inst156|lpm_bustri:lpm_bustri_component|dout[2]" to the node "CPU:inst8|RegSm:inst70|lpm_add_sub3:inst3|lpm_add_sub:lpm_add_sub_component|add_sub_omh:auto_generated|result[2]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri5:inst156|lpm_bustri:lpm_bustri_component|dout[1]" to the node "CPU:inst8|RegSm:inst70|lpm_add_sub3:inst3|lpm_add_sub:lpm_add_sub_component|add_sub_omh:auto_generated|result[1]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri5:inst156|lpm_bustri:lpm_bustri_component|dout[0]" to the node "CPU:inst8|RegSm:inst70|lpm_add_sub3:inst3|lpm_add_sub:lpm_add_sub_component|add_sub_omh:auto_generated|result[0]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[9]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[9]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[8]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[8]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[7]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[7]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[6]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[6]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[5]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[5]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[4]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[4]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[3]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[3]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[2]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[2]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[1]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[1]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[0]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri3:inst2|lpm_bustri:lpm_bustri_component|dout[10]" to the node "Cash:inst16|One_Set:inst141|Tag_and_string:inst|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[4]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri3:inst2|lpm_bustri:lpm_bustri_component|dout[5]" to the node "Cash:inst16|Changing_Flags:inst18|lpm_decode3:inst2|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode101w[1]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri3:inst2|lpm_bustri:lpm_bustri_component|dout[3]" to the node "Memory:inst|lpm_rom0:inst1|altsyncram:altsyncram_component|altsyncram_l691:auto_generated|q_a[0]" into an OR gate
@@ -12439,35 +12533,25 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri3:inst2|lpm_bustri:lpm_bustri_component|dout[0]" to the node "Cash:inst16|lpm_mux6:inst86|lpm_mux:lpm_mux_component|mux_34e:auto_generated|l1_w0_n0_mux_dataout" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "Cash:inst16|lpm_bustri2:inst121|lpm_bustri:lpm_bustri_component|dout[1]" to the node "Memory:inst|lpm_rom0:inst1|altsyncram:altsyncram_component|altsyncram_l691:auto_generated|q_a[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "Cash:inst16|lpm_bustri2:inst121|lpm_bustri:lpm_bustri_component|dout[0]" to the node "Memory:inst|lpm_rom0:inst1|altsyncram:altsyncram_component|altsyncram_l691:auto_generated|q_a[0]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[9]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[9]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[8]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[8]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[7]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[7]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[6]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[6]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[5]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[5]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[4]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[4]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[3]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[3]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[2]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[2]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[1]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[1]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component|dout[0]" to the node "CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[0]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst28|lpm_bustri:lpm_bustri_component|dout[3]" to the node "CPU:inst8|lpm_bustri4:inst36|lpm_bustri:lpm_bustri_component|dout[3]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst28|lpm_bustri:lpm_bustri_component|dout[2]" to the node "CPU:inst8|lpm_bustri4:inst36|lpm_bustri:lpm_bustri_component|dout[2]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst28|lpm_bustri:lpm_bustri_component|dout[1]" to the node "CPU:inst8|lpm_bustri4:inst36|lpm_bustri:lpm_bustri_component|dout[1]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst28|lpm_bustri:lpm_bustri_component|dout[0]" to the node "CPU:inst8|lpm_bustri4:inst36|lpm_bustri:lpm_bustri_component|dout[0]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst28|lpm_bustri:lpm_bustri_component|dout[3]" to the node "CPU:inst8|lpm_bustri4:inst36|lpm_bustri:lpm_bustri_component|dout[3]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst28|lpm_bustri:lpm_bustri_component|dout[2]" to the node "CPU:inst8|lpm_bustri4:inst36|lpm_bustri:lpm_bustri_component|dout[2]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst28|lpm_bustri:lpm_bustri_component|dout[1]" to the node "CPU:inst8|lpm_bustri4:inst36|lpm_bustri:lpm_bustri_component|dout[1]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst28|lpm_bustri:lpm_bustri_component|dout[0]" to the node "CPU:inst8|lpm_bustri4:inst36|lpm_bustri:lpm_bustri_component|dout[0]" into an OR gate
 Warning: Output pins are stuck at VCC or GND
     Warning (13410): Pin "ControlFromCPU[5]" is stuck at GND
     Warning (13410): Pin "ControlFromCPU[4]" is stuck at GND
     Warning (13410): Pin "ControlFromCPU[3]" is stuck at GND
     Warning (13410): Pin "controlMem[3]" is stuck at GND
-Info: Implemented 3143 device resources after synthesis - the final resource count might be different
+Info: Implemented 3149 device resources after synthesis - the final resource count might be different
     Info: Implemented 4 input pins
     Info: Implemented 112 output pins
     Info: Implemented 20 bidirectional pins
-    Info: Implemented 2987 logic cells
+    Info: Implemented 2993 logic cells
     Info: Implemented 20 RAM segments
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 147 warnings
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 152 warnings
     Info: Peak virtual memory: 310 megabytes
-    Info: Processing ended: Mon May 13 05:08:52 2019
-    Info: Elapsed time: 00:00:28
-    Info: Total CPU time (on all processors): 00:00:31
+    Info: Processing ended: Mon May 13 12:24:06 2019
+    Info: Elapsed time: 00:00:21
+    Info: Total CPU time (on all processors): 00:00:22
 
 

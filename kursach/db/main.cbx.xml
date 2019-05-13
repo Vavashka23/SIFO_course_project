@@ -17,7 +17,6 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst137|Tag_and_string:inst12|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst137|Tag_and_string:inst|String_cash:inst|lpm_mux1:inst7|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_l5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst143|Tag_and_string:inst12|String_cash:inst|lpm_mux1:inst7|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_l5e.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|main|CPU:inst8|Command_decoder:inst104|lpm_compare14:inst3|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_g8j.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst129|Tag_and_string:inst12|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst130|lpm_mux0:inst10|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_i5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst137|Tag_and_string:inst|lpm_constant0:inst2|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_3e6.tdf"/>
@@ -64,6 +63,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst142|Tag_and_string:inst12|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst142|Tag_and_string:inst|String_cash:inst|lpm_mux1:inst7|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_l5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|lpm_mux4:inst94|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_q5e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|CPU:inst8|Command_decoder:inst141|lpm_constant1:inst36|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_4e6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|CPU:inst8|lpm_constant1:inst52|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_4e6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst134|Tag_and_string:inst12|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst142|Tag_and_string:inst|lpm_constant0:inst2|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_3e6.tdf"/>
@@ -130,7 +130,6 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst130|Tag_and_string:inst|String_cash:inst|lpm_mux1:inst7|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_l5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst133|Tag_and_string:inst|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst137|lpm_constant1:inst1|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_4e6.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|main|CPU:inst8|Command_decoder:inst104|lpm_decode1:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|CPU:inst8|lpm_decode1:inst33|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst130|Tag_and_string:inst|lpm_constant0:inst2|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_3e6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst131|Tag_and_string:inst12|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
@@ -138,6 +137,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst138|lpm_constant1:inst1|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_4e6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst143|Tag_and_string:inst|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|lpm_decode0:inst1|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|CPU:inst8|Command_decoder:inst141|lpm_decode1:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|CPU:inst8|STEAK:inst7|lpm_compare9:inst21|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_mni.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|CPU:inst8|lpm_constant1:inst23|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_4e6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst131|Tag_and_string:inst|lpm_constant0:inst2|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_3e6.tdf"/>
@@ -145,12 +145,10 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst139|lpm_constant1:inst1|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_4e6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst141|Tag_and_string:inst12|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|lpm_counter4:inst82|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_r3i.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|main|CPU:inst8|Command_decoder:inst104|lpm_constant1:inst36|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_4e6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|CPU:inst8|lpm_decode1:inst71|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst133|Tag_and_string:inst12|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst133|Tag_and_string:inst|String_cash:inst|lpm_mux1:inst7|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_l5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|lpm_counter5:inst19|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_7oi.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|main|CPU:inst8|Command_decoder:inst104|lpm_counter2:inst7|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_9ck.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|CPU:inst8|lpm_constant1:inst25|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_4e6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst133|Tag_and_string:inst|lpm_constant0:inst2|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_3e6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst134|Tag_and_string:inst|String_cash:inst|lpm_mux1:inst7|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_l5e.tdf"/>
@@ -164,12 +162,12 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst140|Tag_and_string:inst12|lpm_constant0:inst2|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_3e6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|CPU:inst8|lpm_decode1:inst56|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst136|Tag_and_string:inst|String_cash:inst|lpm_mux1:inst7|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_l5e.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|main|CPU:inst8|Command_decoder:inst104|lpm_decode0:inst|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|CPU:inst8|lpm_counter2:inst34|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_9ck.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst142|Tag_and_string:inst12|lpm_constant0:inst2|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_3e6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|lpm_mux0:inst32|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_i5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Memory:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_a9e1.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst138|Tag_and_string:inst|String_cash:inst|lpm_mux1:inst7|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_l5e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|CPU:inst8|Command_decoder:inst141|lpm_compare14:inst3|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_g8j.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|CPU:inst8|lpm_counter2:inst72|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_9ck.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst131|lpm_mux0:inst10|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_i5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst139|Tag_and_string:inst12|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
@@ -201,10 +199,12 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst130|Tag_and_string:inst12|lpm_constant0:inst2|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_3e6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst131|Tag_and_string:inst12|String_cash:inst|lpm_mux1:inst7|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_l5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst143|Tag_and_string:inst|String_cash:inst|lpm_mux1:inst7|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_l5e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|CPU:inst8|Command_decoder:inst141|lpm_counter2:inst7|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_9ck.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst144|Tag_and_string:inst12|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst133|Tag_and_string:inst12|String_cash:inst|lpm_mux1:inst7|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_l5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst136|Tag_and_string:inst12|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst134|Tag_and_string:inst12|String_cash:inst|lpm_mux1:inst7|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_l5e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|CPU:inst8|Command_decoder:inst141|lpm_decode0:inst|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst134|Tag_and_string:inst12|lpm_constant0:inst2|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_3e6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|One_Set:inst135|Tag_and_string:inst12|String_cash:inst|lpm_mux1:inst7|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_l5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|main|Cash:inst16|lpm_compare7:inst125|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_j8j.tdf"/>

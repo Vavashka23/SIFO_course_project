@@ -315,7 +315,7 @@ Cash:inst16|Changing_Flags:inst18|lpm_decode3:inst1|lpm_decode:lpm_decode_compon
 Cash:inst16|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
 Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst2|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
 Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
-CPU:inst8|Command_decoder:inst104|lpm_decode0:inst|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CPU:inst8|Command_decoder:inst141|lpm_decode0:inst|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
 CPU:inst8|lpm_decode3:inst29|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
 CPU:inst8|RON_Block:inst8|lpm_decode4:inst19|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
 CPU:inst8|STEAK:inst7|lpm_decode5:inst19|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
@@ -596,7 +596,7 @@ Cash:inst16|One_Set:inst137|Tag_and_string:inst12|String_cash:inst|lpm_decode1:i
 Cash:inst16|One_Set:inst138|Tag_and_string:inst|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 CPU:inst8|lpm_decode1:inst33|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CPU:inst8|Command_decoder:inst104|lpm_decode1:inst9|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CPU:inst8|Command_decoder:inst141|lpm_decode1:inst9|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 CPU:inst8|lpm_decode1:inst56|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 CPU:inst8|lpm_decode1:inst71|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 }
@@ -1983,7 +1983,7 @@ aeb
 3
 }
 # hierarchies {
-CPU:inst8|Command_decoder:inst104|lpm_compare14:inst3|lpm_compare:lpm_compare_component|cmpr_g8j:auto_generated
+CPU:inst8|Command_decoder:inst141|lpm_compare14:inst3|lpm_compare:lpm_compare_component|cmpr_g8j:auto_generated
 }
 # macro_sequence
 
@@ -3031,7 +3031,7 @@ Cash:inst16|One_Set:inst138|lpm_dff3:inst14
 Cash:inst16|lpm_dff3:inst87
 CPU:inst8|lpm_dff3:inst24
 CPU:inst8|lpm_dff3:inst20
-CPU:inst8|Command_decoder:inst104|lpm_dff3:inst11
+CPU:inst8|Command_decoder:inst141|lpm_dff3:inst11
 CPU:inst8|lpm_dff3:inst95
 CPU:inst8|ALU:inst14|lpm_dff3:inst4
 CPU:inst8|ALU:inst14|lpm_dff3:inst3
@@ -3198,7 +3198,7 @@ Cash:inst16|One_Set:inst138|lpm_dff3:inst14|lpm_ff:lpm_ff_component
 Cash:inst16|lpm_dff3:inst87|lpm_ff:lpm_ff_component
 CPU:inst8|lpm_dff3:inst24|lpm_ff:lpm_ff_component
 CPU:inst8|lpm_dff3:inst20|lpm_ff:lpm_ff_component
-CPU:inst8|Command_decoder:inst104|lpm_dff3:inst11|lpm_ff:lpm_ff_component
+CPU:inst8|Command_decoder:inst141|lpm_dff3:inst11|lpm_ff:lpm_ff_component
 CPU:inst8|lpm_dff3:inst95|lpm_ff:lpm_ff_component
 CPU:inst8|ALU:inst14|lpm_dff3:inst4|lpm_ff:lpm_ff_component
 CPU:inst8|ALU:inst14|lpm_dff3:inst3|lpm_ff:lpm_ff_component
@@ -3268,7 +3268,7 @@ Cash:inst16|One_Set:inst133|lpm_constant1:inst1
 Cash:inst16|One_Set:inst137|lpm_constant1:inst1
 Cash:inst16|One_Set:inst138|lpm_constant1:inst1
 Cash:inst16|lpm_constant1:inst88
-CPU:inst8|Command_decoder:inst104|lpm_constant1:inst36
+CPU:inst8|Command_decoder:inst141|lpm_constant1:inst36
 CPU:inst8|lpm_constant1:inst23
 CPU:inst8|lpm_constant1:inst96
 CPU:inst8|ALU:inst14|lpm_constant1:inst16
@@ -3343,7 +3343,7 @@ Cash:inst16|One_Set:inst133|lpm_constant1:inst1|lpm_constant:lpm_constant_compon
 Cash:inst16|One_Set:inst137|lpm_constant1:inst1|lpm_constant:lpm_constant_component
 Cash:inst16|One_Set:inst138|lpm_constant1:inst1|lpm_constant:lpm_constant_component
 Cash:inst16|lpm_constant1:inst88|lpm_constant:lpm_constant_component
-CPU:inst8|Command_decoder:inst104|lpm_constant1:inst36|lpm_constant:lpm_constant_component
+CPU:inst8|Command_decoder:inst141|lpm_constant1:inst36|lpm_constant:lpm_constant_component
 CPU:inst8|lpm_constant1:inst23|lpm_constant:lpm_constant_component
 CPU:inst8|lpm_constant1:inst96|lpm_constant:lpm_constant_component
 CPU:inst8|ALU:inst14|lpm_constant1:inst16|lpm_constant:lpm_constant_component
@@ -3619,9 +3619,11 @@ ON
 Cash:inst16|lpm_bustri0:inst93
 CPU:inst8|RON_Block:inst8|lpm_bustri0:inst21
 CPU:inst8|ALU:inst14|lpm_bustri0:inst25
+CPU:inst8|lpm_bustri0:inst159
+CPU:inst8|lpm_bustri0:inst161
+CPU:inst8|lpm_bustri0:inst78
 CPU:inst8|lpm_bustri0:inst74
 CPU:inst8|lpm_bustri0:inst89
-CPU:inst8|lpm_bustri0:inst78
 CPU:inst8|STEAK:inst7|lpm_bustri0:inst17
 CPU:inst8|lpm_bustri0:inst41
 CPU:inst8|lpm_bustri0:inst40
@@ -3720,9 +3722,11 @@ data0
 Cash:inst16|lpm_bustri0:inst93|lpm_bustri:lpm_bustri_component
 CPU:inst8|RON_Block:inst8|lpm_bustri0:inst21|lpm_bustri:lpm_bustri_component
 CPU:inst8|ALU:inst14|lpm_bustri0:inst25|lpm_bustri:lpm_bustri_component
+CPU:inst8|lpm_bustri0:inst159|lpm_bustri:lpm_bustri_component
+CPU:inst8|lpm_bustri0:inst161|lpm_bustri:lpm_bustri_component
+CPU:inst8|lpm_bustri0:inst78|lpm_bustri:lpm_bustri_component
 CPU:inst8|lpm_bustri0:inst74|lpm_bustri:lpm_bustri_component
 CPU:inst8|lpm_bustri0:inst89|lpm_bustri:lpm_bustri_component
-CPU:inst8|lpm_bustri0:inst78|lpm_bustri:lpm_bustri_component
 CPU:inst8|STEAK:inst7|lpm_bustri0:inst17|lpm_bustri:lpm_bustri_component
 CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component
 CPU:inst8|lpm_bustri0:inst40|lpm_bustri:lpm_bustri_component
@@ -4505,8 +4509,8 @@ Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_dff0:inst
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_dff0:inst1
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_dff0:inst2
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_dff0:inst3
-CPU:inst8|Command_decoder:inst104|lpm_dff0:inst1
-CPU:inst8|Command_decoder:inst104|lpm_dff0:inst2
+CPU:inst8|Command_decoder:inst141|lpm_dff0:inst1
+CPU:inst8|Command_decoder:inst141|lpm_dff0:inst2
 CPU:inst8|lpm_dff0:inst30
 CPU:inst8|RON_Block:inst8|lpm_dff0:inst
 CPU:inst8|RON_Block:inst8|lpm_dff0:inst10
@@ -4523,8 +4527,8 @@ CPU:inst8|RON_Block:inst8|lpm_dff0:inst7
 CPU:inst8|RON_Block:inst8|lpm_dff0:inst8
 CPU:inst8|RON_Block:inst8|lpm_dff0:inst9
 CPU:inst8|ALU:inst14|lpm_dff0:inst2
-CPU:inst8|lpm_dff0:inst31
 CPU:inst8|lpm_dff0:inst87
+CPU:inst8|lpm_dff0:inst31
 CPU:inst8|STEAK:inst7|lpm_dff0:inst
 CPU:inst8|STEAK:inst7|lpm_dff0:inst6
 CPU:inst8|STEAK:inst7|lpm_dff0:inst7
@@ -4792,8 +4796,8 @@ Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_dff0:inst
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_dff0:inst1|lpm_ff:lpm_ff_component
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_dff0:inst2|lpm_ff:lpm_ff_component
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_dff0:inst3|lpm_ff:lpm_ff_component
-CPU:inst8|Command_decoder:inst104|lpm_dff0:inst1|lpm_ff:lpm_ff_component
-CPU:inst8|Command_decoder:inst104|lpm_dff0:inst2|lpm_ff:lpm_ff_component
+CPU:inst8|Command_decoder:inst141|lpm_dff0:inst1|lpm_ff:lpm_ff_component
+CPU:inst8|Command_decoder:inst141|lpm_dff0:inst2|lpm_ff:lpm_ff_component
 CPU:inst8|lpm_dff0:inst30|lpm_ff:lpm_ff_component
 CPU:inst8|RON_Block:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component
 CPU:inst8|RON_Block:inst8|lpm_dff0:inst10|lpm_ff:lpm_ff_component
@@ -4810,8 +4814,8 @@ CPU:inst8|RON_Block:inst8|lpm_dff0:inst7|lpm_ff:lpm_ff_component
 CPU:inst8|RON_Block:inst8|lpm_dff0:inst8|lpm_ff:lpm_ff_component
 CPU:inst8|RON_Block:inst8|lpm_dff0:inst9|lpm_ff:lpm_ff_component
 CPU:inst8|ALU:inst14|lpm_dff0:inst2|lpm_ff:lpm_ff_component
-CPU:inst8|lpm_dff0:inst31|lpm_ff:lpm_ff_component
 CPU:inst8|lpm_dff0:inst87|lpm_ff:lpm_ff_component
+CPU:inst8|lpm_dff0:inst31|lpm_ff:lpm_ff_component
 CPU:inst8|STEAK:inst7|lpm_dff0:inst|lpm_ff:lpm_ff_component
 CPU:inst8|STEAK:inst7|lpm_dff0:inst6|lpm_ff:lpm_ff_component
 CPU:inst8|STEAK:inst7|lpm_dff0:inst7|lpm_ff:lpm_ff_component
@@ -7665,7 +7669,7 @@ Cash:inst16|Changing_Flags:inst18|lpm_decode3:inst1|lpm_decode:lpm_decode_compon
 Cash:inst16|lpm_decode0:inst1|lpm_decode:lpm_decode_component
 Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst2|lpm_decode:lpm_decode_component
 Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst1|lpm_decode:lpm_decode_component
-CPU:inst8|Command_decoder:inst104|lpm_decode0:inst|lpm_decode:lpm_decode_component
+CPU:inst8|Command_decoder:inst141|lpm_decode0:inst|lpm_decode:lpm_decode_component
 CPU:inst8|lpm_decode3:inst29|lpm_decode:lpm_decode_component
 }
 # macro_sequence
@@ -8054,7 +8058,7 @@ Cash:inst16|One_Set:inst137|Tag_and_string:inst12|String_cash:inst|lpm_decode1:i
 Cash:inst16|One_Set:inst138|Tag_and_string:inst|String_cash:inst|lpm_decode1:inst6
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_decode1:inst6
 CPU:inst8|lpm_decode1:inst33
-CPU:inst8|Command_decoder:inst104|lpm_decode1:inst9
+CPU:inst8|Command_decoder:inst141|lpm_decode1:inst9
 CPU:inst8|lpm_decode1:inst56
 CPU:inst8|lpm_decode1:inst71
 }
@@ -8173,7 +8177,7 @@ Cash:inst16|One_Set:inst137|Tag_and_string:inst12|String_cash:inst|lpm_decode1:i
 Cash:inst16|One_Set:inst138|Tag_and_string:inst|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component
 Cash:inst16|One_Set:inst138|Tag_and_string:inst12|String_cash:inst|lpm_decode1:inst6|lpm_decode:lpm_decode_component
 CPU:inst8|lpm_decode1:inst33|lpm_decode:lpm_decode_component
-CPU:inst8|Command_decoder:inst104|lpm_decode1:inst9|lpm_decode:lpm_decode_component
+CPU:inst8|Command_decoder:inst141|lpm_decode1:inst9|lpm_decode:lpm_decode_component
 CPU:inst8|lpm_decode1:inst56|lpm_decode:lpm_decode_component
 CPU:inst8|lpm_decode1:inst71|lpm_decode:lpm_decode_component
 }
@@ -8426,7 +8430,7 @@ ON
 }
 # hierarchies {
 Cash:inst16|lpm_decode0:inst1
-CPU:inst8|Command_decoder:inst104|lpm_decode0:inst
+CPU:inst8|Command_decoder:inst141|lpm_decode0:inst
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -10074,8 +10078,8 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19
-CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst18
+CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19
+CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst18
 CPU:inst8|lpm_bustri3:inst2
 CPU:inst8|lpm_bustri3:inst3
 CPU:inst8|lpm_bustri3:inst21
@@ -10175,8 +10179,8 @@ data0
 3
 }
 # hierarchies {
-CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component
-CPU:inst8|Command_decoder:inst104|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component
+CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component
+CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component
 CPU:inst8|lpm_bustri3:inst2|lpm_bustri:lpm_bustri_component
 CPU:inst8|lpm_bustri3:inst3|lpm_bustri:lpm_bustri_component
 CPU:inst8|lpm_bustri3:inst21|lpm_bustri:lpm_bustri_component
@@ -12018,13 +12022,15 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst16
-CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst28
-CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst17
+CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst16
+CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst28
+CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst17
 CPU:inst8|lpm_bustri4:inst37
 CPU:inst8|lpm_bustri4:inst36
 CPU:inst8|lpm_bustri4:inst59
 CPU:inst8|lpm_bustri4:inst67
+CPU:inst8|lpm_bustri4:inst153
+CPU:inst8|lpm_bustri4:inst154
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -12078,13 +12084,15 @@ data0
 3
 }
 # hierarchies {
-CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst16|lpm_bustri:lpm_bustri_component
-CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst28|lpm_bustri:lpm_bustri_component
-CPU:inst8|Command_decoder:inst104|lpm_bustri4:inst17|lpm_bustri:lpm_bustri_component
+CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst16|lpm_bustri:lpm_bustri_component
+CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst28|lpm_bustri:lpm_bustri_component
+CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst17|lpm_bustri:lpm_bustri_component
 CPU:inst8|lpm_bustri4:inst37|lpm_bustri:lpm_bustri_component
 CPU:inst8|lpm_bustri4:inst36|lpm_bustri:lpm_bustri_component
 CPU:inst8|lpm_bustri4:inst59|lpm_bustri:lpm_bustri_component
 CPU:inst8|lpm_bustri4:inst67|lpm_bustri:lpm_bustri_component
+CPU:inst8|lpm_bustri4:inst153|lpm_bustri:lpm_bustri_component
+CPU:inst8|lpm_bustri4:inst154|lpm_bustri:lpm_bustri_component
 }
 # macro_sequence
 
@@ -13125,7 +13133,7 @@ ON
 # hierarchies {
 Cash:inst16|lpm_counter2:inst36
 Cash:inst16|lpm_counter2:inst105
-CPU:inst8|Command_decoder:inst104|lpm_counter2:inst7
+CPU:inst8|Command_decoder:inst141|lpm_counter2:inst7
 CPU:inst8|lpm_counter2:inst57
 CPU:inst8|lpm_counter2:inst72
 CPU:inst8|lpm_counter2:inst34
@@ -13243,7 +13251,7 @@ aclr
 # hierarchies {
 Cash:inst16|lpm_counter2:inst36|lpm_counter:lpm_counter_component
 Cash:inst16|lpm_counter2:inst105|lpm_counter:lpm_counter_component
-CPU:inst8|Command_decoder:inst104|lpm_counter2:inst7|lpm_counter:lpm_counter_component
+CPU:inst8|Command_decoder:inst141|lpm_counter2:inst7|lpm_counter:lpm_counter_component
 CPU:inst8|lpm_counter2:inst57|lpm_counter:lpm_counter_component
 CPU:inst8|lpm_counter2:inst72|lpm_counter:lpm_counter_component
 CPU:inst8|lpm_counter2:inst34|lpm_counter:lpm_counter_component
@@ -13284,7 +13292,7 @@ aclr
 # hierarchies {
 Cash:inst16|lpm_counter2:inst36|lpm_counter:lpm_counter_component|cntr_9ck:auto_generated
 Cash:inst16|lpm_counter2:inst105|lpm_counter:lpm_counter_component|cntr_9ck:auto_generated
-CPU:inst8|Command_decoder:inst104|lpm_counter2:inst7|lpm_counter:lpm_counter_component|cntr_9ck:auto_generated
+CPU:inst8|Command_decoder:inst141|lpm_counter2:inst7|lpm_counter:lpm_counter_component|cntr_9ck:auto_generated
 CPU:inst8|lpm_counter2:inst57|lpm_counter:lpm_counter_component|cntr_9ck:auto_generated
 CPU:inst8|lpm_counter2:inst72|lpm_counter:lpm_counter_component|cntr_9ck:auto_generated
 CPU:inst8|lpm_counter2:inst34|lpm_counter:lpm_counter_component|cntr_9ck:auto_generated
@@ -13317,7 +13325,7 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-CPU:inst8|Command_decoder:inst104|lpm_compare14:inst3
+CPU:inst8|Command_decoder:inst141|lpm_compare14:inst3
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -13415,7 +13423,7 @@ datab0
 2
 }
 # hierarchies {
-CPU:inst8|Command_decoder:inst104|lpm_compare14:inst3|lpm_compare:lpm_compare_component
+CPU:inst8|Command_decoder:inst141|lpm_compare14:inst3|lpm_compare:lpm_compare_component
 }
 # macro_sequence
 
@@ -13922,6 +13930,106 @@ AUTO
 
 # end
 # entity
+Command_decoder
+# storage
+db|main.(149).cnf
+db|main.(149).cnf
+# case_insensitive
+# source_file
+command_decoder.bdf
+f43cd94951cd2dcdc4fabb5b11871175
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+CPU:inst8|Command_decoder:inst141
+}
+# macro_sequence
+
+# end
+# entity
+lpm_bustri5
+# storage
+db|main.(178).cnf
+db|main.(178).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_bustri5.vhd
+927ab90c1ccb6657ef3e80277c0fd
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+CPU:inst8|lpm_bustri5:inst156
+CPU:inst8|lpm_bustri5:inst158
+}
+# lmf
+d:|games|quartus|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_bustri
+# storage
+db|main.(179).cnf
+db|main.(179).cnf
+# case_insensitive
+# source_file
+d:|games|quartus|quartus|libraries|megafunctions|lpm_bustri.tdf
+9e81b53c45b3aeaef540b95aa6d11233
+7
+# user_parameter {
+LPM_WIDTH
+3
+PARAMETER_SIGNED_DEC
+USR
+}
+# used_port {
+tridata2
+-1
+3
+tridata1
+-1
+3
+tridata0
+-1
+3
+enabledt
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+CPU:inst8|lpm_bustri5:inst156|lpm_bustri:lpm_bustri_component
+CPU:inst8|lpm_bustri5:inst158|lpm_bustri:lpm_bustri_component
+}
+# macro_sequence
+
+# end
+# entity
 altsyncram_l691
 # storage
 db|main.(177).cnf
@@ -14001,30 +14109,10 @@ address_a0
 }
 # memory_file {
 rom_memory.mif
-10efbe2e5e05ccbea6f61f44685970
+a58af61cd49d6f868760c5246a22ecc
 }
 # hierarchies {
 Memory:inst|lpm_rom0:inst1|altsyncram:altsyncram_component|altsyncram_l691:auto_generated
-}
-# macro_sequence
-
-# end
-# entity
-Command_decoder
-# storage
-db|main.(149).cnf
-db|main.(149).cnf
-# case_insensitive
-# source_file
-command_decoder.bdf
-b1d120322b4d1f1b88fb1599ef11cc
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-CPU:inst8|Command_decoder:inst104
 }
 # macro_sequence
 
@@ -14037,7 +14125,7 @@ db|main.(125).cnf
 # case_insensitive
 # source_file
 cpu.bdf
-db2252d99b217e20559235f542b9c2
+9c21e8a3ffe8da9e1d28542cc1e89
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
