@@ -12031,6 +12031,7 @@ CPU:inst8|lpm_bustri4:inst59
 CPU:inst8|lpm_bustri4:inst67
 CPU:inst8|lpm_bustri4:inst153
 CPU:inst8|lpm_bustri4:inst154
+CPU:inst8|lpm_bustri4:inst171
 }
 # lmf
 d:|games|quartus|quartus|lmf|maxplus2.lmf
@@ -12093,6 +12094,7 @@ CPU:inst8|lpm_bustri4:inst59|lpm_bustri:lpm_bustri_component
 CPU:inst8|lpm_bustri4:inst67|lpm_bustri:lpm_bustri_component
 CPU:inst8|lpm_bustri4:inst153|lpm_bustri:lpm_bustri_component
 CPU:inst8|lpm_bustri4:inst154|lpm_bustri:lpm_bustri_component
+CPU:inst8|lpm_bustri4:inst171|lpm_bustri:lpm_bustri_component
 }
 # macro_sequence
 
@@ -14125,7 +14127,7 @@ db|main.(125).cnf
 # case_insensitive
 # source_file
 cpu.bdf
-9c21e8a3ffe8da9e1d28542cc1e89
+e0cd7dec426cf5911d551f19efee5a
 26
 # internal_option {
 BLOCK_DESIGN_NAMING

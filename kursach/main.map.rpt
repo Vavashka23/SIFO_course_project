@@ -1,5 +1,5 @@
 Analysis & Synthesis report for main
-Mon May 13 12:24:06 2019
+Mon May 13 16:00:54 2019
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -535,40 +535,41 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 527. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri4:inst67|lpm_bustri:lpm_bustri_component
 528. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri4:inst153|lpm_bustri:lpm_bustri_component
 529. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri4:inst154|lpm_bustri:lpm_bustri_component
-530. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst19|lpm_constant:lpm_constant_component
-531. Parameter Settings for User Entity Instance: CPU:inst8|lpm_counter2:inst34|lpm_counter:lpm_counter_component
-532. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst97|lpm_ff:lpm_ff_component
-533. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst98|lpm_constant:lpm_constant_component
-534. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst61|lpm_ff:lpm_ff_component
-535. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst92|lpm_constant:lpm_constant_component
-536. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst119|lpm_ff:lpm_ff_component
-537. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst110|lpm_constant:lpm_constant_component
-538. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst109|lpm_ff:lpm_ff_component
-539. Parameter Settings for User Entity Instance: CPU:inst8|lpm_compare5:inst108|lpm_compare:lpm_compare_component
-540. Parameter Settings for User Entity Instance: CPU:inst8|lpm_counter5:inst107|lpm_counter:lpm_counter_component
-541. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst51|lpm_ff:lpm_ff_component
-542. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst52|lpm_constant:lpm_constant_component
-543. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst53|lpm_ff:lpm_ff_component
-544. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst45|lpm_ff:lpm_ff_component
-545. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst112|lpm_ff:lpm_ff_component
-546. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri3:inst2|lpm_bustri:lpm_bustri_component
-547. Parameter Settings for User Entity Instance: CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component
-548. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri3:inst3|lpm_bustri:lpm_bustri_component
-549. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri3:inst21|lpm_bustri:lpm_bustri_component
-550. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri3:inst75|lpm_bustri:lpm_bustri_component
-551. Parameter Settings for User Entity Instance: CPU:inst8|RegSm:inst70|lpm_add_sub3:inst3|lpm_add_sub:lpm_add_sub_component
-552. Parameter Settings for User Entity Instance: CPU:inst8|RegSm:inst70|lpm_add_sub3:inst|lpm_add_sub:lpm_add_sub_component
-553. Parameter Settings for User Entity Instance: CPU:inst8|RegSm:inst70|lpm_constant3:inst9|lpm_constant:lpm_constant_component
-554. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri5:inst156|lpm_bustri:lpm_bustri_component
-555. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri5:inst158|lpm_bustri:lpm_bustri_component
-556. Parameter Settings for User Entity Instance: Memory:inst|lpm_bustri1:inst2|lpm_bustri:lpm_bustri_component
-557. Parameter Settings for User Entity Instance: Memory:inst|lpm_mux0:inst12|LPM_MUX:lpm_mux_component
-558. Parameter Settings for User Entity Instance: Memory:inst|lpm_compare0:inst8|lpm_compare:lpm_compare_component
-559. Parameter Settings for User Entity Instance: Memory:inst|lpm_rom0:inst1|altsyncram:altsyncram_component
-560. Parameter Settings for User Entity Instance: Memory:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component
-561. lpm_shiftreg Parameter Settings by Entity Instance
-562. altsyncram Parameter Settings by Entity Instance
-563. Analysis & Synthesis Messages
+530. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri4:inst171|lpm_bustri:lpm_bustri_component
+531. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst19|lpm_constant:lpm_constant_component
+532. Parameter Settings for User Entity Instance: CPU:inst8|lpm_counter2:inst34|lpm_counter:lpm_counter_component
+533. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst97|lpm_ff:lpm_ff_component
+534. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst98|lpm_constant:lpm_constant_component
+535. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst61|lpm_ff:lpm_ff_component
+536. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst92|lpm_constant:lpm_constant_component
+537. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst119|lpm_ff:lpm_ff_component
+538. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst110|lpm_constant:lpm_constant_component
+539. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst109|lpm_ff:lpm_ff_component
+540. Parameter Settings for User Entity Instance: CPU:inst8|lpm_compare5:inst108|lpm_compare:lpm_compare_component
+541. Parameter Settings for User Entity Instance: CPU:inst8|lpm_counter5:inst107|lpm_counter:lpm_counter_component
+542. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst51|lpm_ff:lpm_ff_component
+543. Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst52|lpm_constant:lpm_constant_component
+544. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst53|lpm_ff:lpm_ff_component
+545. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst45|lpm_ff:lpm_ff_component
+546. Parameter Settings for User Entity Instance: CPU:inst8|lpm_dff3:inst112|lpm_ff:lpm_ff_component
+547. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri3:inst2|lpm_bustri:lpm_bustri_component
+548. Parameter Settings for User Entity Instance: CPU:inst8|lpm_counter7:inst|lpm_counter:lpm_counter_component
+549. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri3:inst3|lpm_bustri:lpm_bustri_component
+550. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri3:inst21|lpm_bustri:lpm_bustri_component
+551. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri3:inst75|lpm_bustri:lpm_bustri_component
+552. Parameter Settings for User Entity Instance: CPU:inst8|RegSm:inst70|lpm_add_sub3:inst3|lpm_add_sub:lpm_add_sub_component
+553. Parameter Settings for User Entity Instance: CPU:inst8|RegSm:inst70|lpm_add_sub3:inst|lpm_add_sub:lpm_add_sub_component
+554. Parameter Settings for User Entity Instance: CPU:inst8|RegSm:inst70|lpm_constant3:inst9|lpm_constant:lpm_constant_component
+555. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri5:inst156|lpm_bustri:lpm_bustri_component
+556. Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri5:inst158|lpm_bustri:lpm_bustri_component
+557. Parameter Settings for User Entity Instance: Memory:inst|lpm_bustri1:inst2|lpm_bustri:lpm_bustri_component
+558. Parameter Settings for User Entity Instance: Memory:inst|lpm_mux0:inst12|LPM_MUX:lpm_mux_component
+559. Parameter Settings for User Entity Instance: Memory:inst|lpm_compare0:inst8|lpm_compare:lpm_compare_component
+560. Parameter Settings for User Entity Instance: Memory:inst|lpm_rom0:inst1|altsyncram:altsyncram_component
+561. Parameter Settings for User Entity Instance: Memory:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component
+562. lpm_shiftreg Parameter Settings by Entity Instance
+563. altsyncram Parameter Settings by Entity Instance
+564. Analysis & Synthesis Messages
 
 
 
@@ -594,13 +595,13 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                            ;
 +-------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Mon May 13 12:24:06 2019   ;
+; Analysis & Synthesis Status   ; Successful - Mon May 13 16:00:54 2019   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; main                                    ;
 ; Top-level Entity Name         ; main                                    ;
 ; Family                        ; Stratix II                              ;
 ; Logic utilization             ; N/A                                     ;
-;     Combinational ALUTs       ; 1,167                                   ;
+;     Combinational ALUTs       ; 1,168                                   ;
 ;     Dedicated logic registers ; 1,927                                   ;
 ; Total registers               ; 1927                                    ;
 ; Total pins                    ; 136                                     ;
@@ -824,39 +825,39 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-----------------------------------------------+-------------------+
 ; Resource                                      ; Usage             ;
 +-----------------------------------------------+-------------------+
-; Estimated ALUTs Used                          ; 1167              ;
+; Estimated ALUTs Used                          ; 1168              ;
 ; Dedicated logic registers                     ; 1927              ;
 ;                                               ;                   ;
 ; Estimated ALUTs Unavailable                   ; 9                 ;
 ;                                               ;                   ;
-; Total combinational functions                 ; 1167              ;
+; Total combinational functions                 ; 1168              ;
 ; Combinational ALUT usage by number of inputs  ;                   ;
 ;     -- 7 input functions                      ; 9                 ;
-;     -- 6 input functions                      ; 691               ;
-;     -- 5 input functions                      ; 122               ;
-;     -- 4 input functions                      ; 125               ;
-;     -- <=3 input functions                    ; 220               ;
+;     -- 6 input functions                      ; 682               ;
+;     -- 5 input functions                      ; 142               ;
+;     -- 4 input functions                      ; 107               ;
+;     -- <=3 input functions                    ; 228               ;
 ;                                               ;                   ;
 ; Combinational ALUTs by mode                   ;                   ;
-;     -- normal mode                            ; 1096              ;
+;     -- normal mode                            ; 1097              ;
 ;     -- extended LUT mode                      ; 9                 ;
 ;     -- arithmetic mode                        ; 51                ;
 ;     -- shared arithmetic mode                 ; 11                ;
 ;                                               ;                   ;
-; Estimated ALUT/register pairs used            ; 2770              ;
+; Estimated ALUT/register pairs used            ; 2777              ;
 ;                                               ;                   ;
 ; Total registers                               ; 1927              ;
 ;     -- Dedicated logic registers              ; 1927              ;
 ;     -- I/O registers                          ; 0                 ;
 ;                                               ;                   ;
-; Estimated ALMs:  partially or completely used ; 1,385             ;
+; Estimated ALMs:  partially or completely used ; 1,389             ;
 ;                                               ;                   ;
 ; I/O pins                                      ; 136               ;
 ; Total block memory bits                       ; 20480             ;
 ; Maximum fan-out node                          ; CPU:inst8|inst105 ;
 ; Maximum fan-out                               ; 441               ;
-; Total fan-out                                 ; 12013             ;
-; Average fan-out                               ; 3.70              ;
+; Total fan-out                                 ; 12010             ;
+; Average fan-out                               ; 3.69              ;
 +-----------------------------------------------+-------------------+
 
 
@@ -865,8 +866,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-----------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                          ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                             ; Library Name ;
 +-----------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |main                                               ; 1167 (0)          ; 1927 (0)     ; 20480             ; 0            ; 0       ; 0         ; 0         ; 136  ; 0            ; |main                                                                                                                                           ; work         ;
-;    |CPU:inst8|                                      ; 388 (58)          ; 370 (1)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8                                                                                                                                 ; work         ;
+; |main                                               ; 1168 (0)          ; 1927 (0)     ; 20480             ; 0            ; 0       ; 0         ; 0         ; 136  ; 0            ; |main                                                                                                                                           ; work         ;
+;    |CPU:inst8|                                      ; 388 (57)          ; 370 (1)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8                                                                                                                                 ; work         ;
 ;       |ALU:inst14|                                  ; 48 (5)            ; 25 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14                                                                                                                      ; work         ;
 ;          |lpm_add_sub1:inst9|                       ; 12 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14|lpm_add_sub1:inst9                                                                                                   ; work         ;
 ;             |lpm_add_sub:lpm_add_sub_component|     ; 12 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14|lpm_add_sub1:inst9|lpm_add_sub:lpm_add_sub_component                                                                 ; work         ;
@@ -892,11 +893,11 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_or:lpm_or_component|               ; 10 (10)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14|lpm_or0:inst27|lpm_or:lpm_or_component                                                                               ; work         ;
 ;          |lpm_shiftreg0:inst1|                      ; 0 (0)             ; 10 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14|lpm_shiftreg0:inst1                                                                                                  ; work         ;
 ;             |lpm_shiftreg:lpm_shiftreg_component|   ; 0 (0)             ; 10 (10)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|ALU:inst14|lpm_shiftreg0:inst1|lpm_shiftreg:lpm_shiftreg_component                                                              ; work         ;
-;       |Command_decoder:inst141|                     ; 31 (4)            ; 23 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141                                                                                                         ; work         ;
-;          |lpm_bustri3:inst18|                       ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst18                                                                                      ; work         ;
-;             |lpm_bustri:lpm_bustri_component|       ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component                                                      ; work         ;
-;          |lpm_bustri3:inst19|                       ; 13 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19                                                                                      ; work         ;
-;             |lpm_bustri:lpm_bustri_component|       ; 13 (13)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component                                                      ; work         ;
+;       |Command_decoder:inst141|                     ; 33 (3)            ; 23 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141                                                                                                         ; work         ;
+;          |lpm_bustri3:inst18|                       ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst18                                                                                      ; work         ;
+;             |lpm_bustri:lpm_bustri_component|       ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component                                                      ; work         ;
+;          |lpm_bustri3:inst19|                       ; 15 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19                                                                                      ; work         ;
+;             |lpm_bustri:lpm_bustri_component|       ; 15 (15)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_bustri3:inst19|lpm_bustri:lpm_bustri_component                                                      ; work         ;
 ;          |lpm_bustri4:inst16|                       ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst16                                                                                      ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|       ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst16|lpm_bustri:lpm_bustri_component                                                      ; work         ;
 ;          |lpm_bustri4:inst28|                       ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|Command_decoder:inst141|lpm_bustri4:inst28                                                                                      ; work         ;
@@ -991,8 +992,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |lpm_mux5:inst16|                          ; 41 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|STEAK:inst7|lpm_mux5:inst16                                                                                                     ; work         ;
 ;             |lpm_mux:lpm_mux_component|             ; 41 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|STEAK:inst7|lpm_mux5:inst16|lpm_mux:lpm_mux_component                                                                           ; work         ;
 ;                |mux_a7e:auto_generated|             ; 41 (41)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|STEAK:inst7|lpm_mux5:inst16|lpm_mux:lpm_mux_component|mux_a7e:auto_generated                                                    ; work         ;
-;       |lpm_bustri0:inst41|                          ; 33 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri0:inst41                                                                                                              ; work         ;
-;          |lpm_bustri:lpm_bustri_component|          ; 33 (33)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component                                                                              ; work         ;
+;       |lpm_bustri0:inst41|                          ; 32 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri0:inst41                                                                                                              ; work         ;
+;          |lpm_bustri:lpm_bustri_component|          ; 32 (32)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri0:inst41|lpm_bustri:lpm_bustri_component                                                                              ; work         ;
 ;       |lpm_bustri3:inst2|                           ; 33 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri3:inst2                                                                                                               ; work         ;
 ;          |lpm_bustri:lpm_bustri_component|          ; 33 (33)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri3:inst2|lpm_bustri:lpm_bustri_component                                                                               ; work         ;
 ;       |lpm_bustri4:inst37|                          ; 12 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_bustri4:inst37                                                                                                              ; work         ;
@@ -1061,7 +1062,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |lpm_ff:lpm_ff_component|                  ; 0 (0)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_dff3:inst95|lpm_ff:lpm_ff_component                                                                                         ; work         ;
 ;       |lpm_dff3:inst97|                             ; 0 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_dff3:inst97                                                                                                                 ; work         ;
 ;          |lpm_ff:lpm_ff_component|                  ; 0 (0)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|CPU:inst8|lpm_dff3:inst97|lpm_ff:lpm_ff_component                                                                                         ; work         ;
-;    |Cash:inst16|                                    ; 759 (32)          ; 1557 (0)     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16                                                                                                                               ;              ;
+;    |Cash:inst16|                                    ; 760 (32)          ; 1557 (0)     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16                                                                                                                               ;              ;
 ;       |Changing_Flags:inst16|                       ; 54 (40)           ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16                                                                                                         ; work         ;
 ;          |lpm_decode3:inst1|                        ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst1                                                                                       ; work         ;
 ;             |lpm_decode:lpm_decode_component|       ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|Changing_Flags:inst16|lpm_decode3:inst1|lpm_decode:lpm_decode_component                                                       ; work         ;
@@ -1671,9 +1672,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;       |lpm_mux4:inst94|                             ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux4:inst94                                                                                                               ; work         ;
 ;          |lpm_mux:lpm_mux_component|                ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux4:inst94|lpm_mux:lpm_mux_component                                                                                     ; work         ;
 ;             |mux_q5e:auto_generated|                ; 5 (5)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux4:inst94|lpm_mux:lpm_mux_component|mux_q5e:auto_generated                                                              ; work         ;
-;       |lpm_mux5:inst60|                             ; 440 (0)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux5:inst60                                                                                                               ; work         ;
-;          |lpm_mux:lpm_mux_component|                ; 440 (0)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux5:inst60|lpm_mux:lpm_mux_component                                                                                     ; work         ;
-;             |mux_a7e:auto_generated|                ; 440 (440)         ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux5:inst60|lpm_mux:lpm_mux_component|mux_a7e:auto_generated                                                              ; work         ;
+;       |lpm_mux5:inst60|                             ; 441 (0)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux5:inst60                                                                                                               ; work         ;
+;          |lpm_mux:lpm_mux_component|                ; 441 (0)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux5:inst60|lpm_mux:lpm_mux_component                                                                                     ; work         ;
+;             |mux_a7e:auto_generated|                ; 441 (441)         ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux5:inst60|lpm_mux:lpm_mux_component|mux_a7e:auto_generated                                                              ; work         ;
 ;       |lpm_mux6:inst86|                             ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux6:inst86                                                                                                               ; work         ;
 ;          |lpm_mux:lpm_mux_component|                ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux6:inst86|lpm_mux:lpm_mux_component                                                                                     ; work         ;
 ;             |mux_34e:auto_generated|                ; 4 (4)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |main|Cash:inst16|lpm_mux6:inst86|lpm_mux:lpm_mux_component|mux_34e:auto_generated                                                              ; work         ;
@@ -10982,6 +10983,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst8|lpm_bustri4:inst171|lpm_bustri:lpm_bustri_component ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                              ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; LPM_WIDTH      ; 4     ; Signed Integer                                                                    ;
++----------------+-------+-----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +-----------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: CPU:inst8|lpm_constant1:inst19|lpm_constant:lpm_constant_component ;
 +--------------------+------------------+-------------------------------------------------------------------------+
@@ -11653,7 +11664,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Mon May 13 12:23:45 2019
+    Info: Processing started: Mon May 13 16:00:30 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off main -c main
 Info: Found 1 design units, including 1 entities, in source file main.bdf
     Info: Found entity 1: main
@@ -12170,6 +12181,7 @@ Info: Found 1 design units, including 1 entities, in source file db/cmpr_tbj.tdf
 Info: Elaborating entity "cmpr_tbj" for hierarchy "Cash:inst16|lpm_compare8:inst127|lpm_compare:lpm_compare_component|cmpr_tbj:auto_generated"
 Info: Elaborating entity "CPU" for hierarchy "CPU:inst8"
 Warning: Pin "MISS_from_cash" not connected
+Warning: Primitive "AND2" of instance "inst170" not used
 Info: Elaborating entity "Command_decoder" for hierarchy "CPU:inst8|Command_decoder:inst141"
 Warning: Primitive "NOT" of instance "inst25" not used
 Info: Elaborating entity "lpm_compare14" for hierarchy "CPU:inst8|Command_decoder:inst141|lpm_compare14:inst3"
@@ -12542,16 +12554,16 @@ Warning: Output pins are stuck at VCC or GND
     Warning (13410): Pin "ControlFromCPU[4]" is stuck at GND
     Warning (13410): Pin "ControlFromCPU[3]" is stuck at GND
     Warning (13410): Pin "controlMem[3]" is stuck at GND
-Info: Implemented 3149 device resources after synthesis - the final resource count might be different
+Info: Implemented 3143 device resources after synthesis - the final resource count might be different
     Info: Implemented 4 input pins
     Info: Implemented 112 output pins
     Info: Implemented 20 bidirectional pins
-    Info: Implemented 2993 logic cells
+    Info: Implemented 2987 logic cells
     Info: Implemented 20 RAM segments
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 152 warnings
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 153 warnings
     Info: Peak virtual memory: 310 megabytes
-    Info: Processing ended: Mon May 13 12:24:06 2019
-    Info: Elapsed time: 00:00:21
-    Info: Total CPU time (on all processors): 00:00:22
+    Info: Processing ended: Mon May 13 16:00:54 2019
+    Info: Elapsed time: 00:00:24
+    Info: Total CPU time (on all processors): 00:00:25
 
 
