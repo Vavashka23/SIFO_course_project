@@ -142,4 +142,10 @@ set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
 set_global_assignment -name QIP_FILE lpm_bustri5.qip
+set_global_assignment -name QIP_FILE lpm_counter9.qip
+set_global_assignment -name QIP_FILE lpm_compare15.qip
+set_global_assignment -name QIP_FILE lpm_compare16.qip
+set_global_assignment -name QIP_FILE lpm_compare17.qip
+set_global_assignment -name QIP_FILE lpm_compare18.qip
+set_global_assignment -name QIP_FILE lpm_compare19.qip
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

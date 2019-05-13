@@ -20,9 +20,9 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 328 304)
+	(rect 16 16 328 336)
 	(text "CPU" (rect 5 0 28 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 272 25 284)(font "Arial" ))
+	(text "inst" (rect 8 304 25 316)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -47,23 +47,16 @@ applicable agreement for further details.
 	(port
 		(pt 0 80)
 		(input)
-		(text "control" (rect 0 0 38 14)(font "Arial" (font_size 8)))
-		(text "control" (rect 21 75 59 89)(font "Arial" (font_size 8)))
+		(text "read_from_cash" (rect 0 0 94 14)(font "Arial" (font_size 8)))
+		(text "read_from_cash" (rect 21 75 115 89)(font "Arial" (font_size 8)))
 		(line (pt 0 80)(pt 16 80)(line_width 1))
 	)
 	(port
 		(pt 0 96)
 		(input)
-		(text "read_from_cash" (rect 0 0 94 14)(font "Arial" (font_size 8)))
-		(text "read_from_cash" (rect 21 91 115 105)(font "Arial" (font_size 8)))
-		(line (pt 0 96)(pt 16 96)(line_width 1))
-	)
-	(port
-		(pt 0 112)
-		(input)
 		(text "write_for_cash" (rect 0 0 88 14)(font "Arial" (font_size 8)))
-		(text "write_for_cash" (rect 21 107 109 121)(font "Arial" (font_size 8)))
-		(line (pt 0 112)(pt 16 112)(line_width 1))
+		(text "write_for_cash" (rect 21 91 109 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
 	)
 	(port
 		(pt 312 32)
@@ -157,6 +150,20 @@ applicable agreement for further details.
 		(line (pt 312 240)(pt 296 240)(line_width 3))
 	)
 	(port
+		(pt 312 256)
+		(output)
+		(text "read_kk" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "read_kk" (rect 247 251 291 265)(font "Arial" (font_size 8)))
+		(line (pt 312 256)(pt 296 256)(line_width 1))
+	)
+	(port
+		(pt 312 272)
+		(output)
+		(text "ppp[29..0]" (rect 0 0 56 14)(font "Arial" (font_size 8)))
+		(text "ppp[29..0]" (rect 235 267 291 281)(font "Arial" (font_size 8)))
+		(line (pt 312 272)(pt 296 272)(line_width 3))
+	)
+	(port
 		(pt 312 64)
 		(bidir)
 		(text "DATA_CPU[9..0]" (rect 0 0 93 14)(font "Arial" (font_size 8)))
@@ -164,6 +171,6 @@ applicable agreement for further details.
 		(line (pt 312 64)(pt 296 64)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 296 272)(line_width 1))
+		(rectangle (rect 16 16 296 304)(line_width 1))
 	)
 )
