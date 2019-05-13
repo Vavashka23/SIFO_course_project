@@ -66,13 +66,6 @@ applicable agreement for further details.
 		(line (pt 0 112)(pt 16 112)(line_width 1))
 	)
 	(port
-		(pt 0 128)
-		(input)
-		(text "command_finish" (rect 0 0 92 14)(font "Arial" (font_size 8)))
-		(text "command_finish" (rect 21 123 113 137)(font "Arial" (font_size 8)))
-		(line (pt 0 128)(pt 16 128)(line_width 1))
-	)
-	(port
 		(pt 312 32)
 		(output)
 		(text "ADDRESS_OUT[10..0]" (rect 0 0 125 14)(font "Arial" (font_size 8)))

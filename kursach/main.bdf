@@ -54,22 +54,6 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 1536 792 1712 808)
-	(text "INPUT" (rect 141 0 169 10)(font "Arial" (font_size 6)))
-	(text "command_finish" (rect 5 0 86 12)(font "Arial" ))
-	(pt 176 8)
-	(drawing
-		(line (pt 100 12)(pt 125 12)(line_width 1))
-		(line (pt 100 4)(pt 125 4)(line_width 1))
-		(line (pt 129 8)(pt 176 8)(line_width 1))
-		(line (pt 100 12)(pt 100 4)(line_width 1))
-		(line (pt 125 4)(pt 129 8)(line_width 1))
-		(line (pt 125 12)(pt 129 8)(line_width 1))
-	)
-	(text "VCC" (rect 144 7 164 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
 	(rect 1520 760 1712 776)
 	(text "INPUT" (rect 157 0 185 10)(font "Arial" (font_size 6)))
 	(text "READ_FROM_CASH" (rect 5 0 110 12)(font "Arial" ))
@@ -525,7 +509,7 @@ applicable agreement for further details.
 (symbol
 	(rect 1776 672 2088 960)
 	(text "CPU" (rect 5 0 28 14)(font "Arial" (font_size 8)))
-	(text "inst7" (rect 8 272 31 284)(font "Arial" ))
+	(text "inst8" (rect 8 272 31 284)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -567,13 +551,6 @@ applicable agreement for further details.
 		(text "write_for_cash" (rect 0 0 88 14)(font "Arial" (font_size 8)))
 		(text "write_for_cash" (rect 21 107 109 121)(font "Arial" (font_size 8)))
 		(line (pt 0 112)(pt 16 112)(line_width 1))
-	)
-	(port
-		(pt 0 128)
-		(input)
-		(text "command_finish" (rect 0 0 92 14)(font "Arial" (font_size 8)))
-		(text "command_finish" (rect 21 123 113 137)(font "Arial" (font_size 8)))
-		(line (pt 0 128)(pt 16 128)(line_width 1))
 	)
 	(port
 		(pt 312 32)
@@ -890,10 +867,6 @@ applicable agreement for further details.
 	(pt 1720 952)
 	(pt 2128 952)
 	(bus)
-)
-(connector
-	(pt 1712 800)
-	(pt 1776 800)
 )
 (connector
 	(pt 1712 784)

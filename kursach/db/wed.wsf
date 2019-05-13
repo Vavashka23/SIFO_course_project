@@ -6081,7 +6081,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "command_finish";
+		SIGNAL = "control";
 		INDEX = 131;
 		FORMAT = E;
 		SCALE = 1;
@@ -6089,7 +6089,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "control";
+		SIGNAL = "READ_FROM_CASH";
 		INDEX = 132;
 		FORMAT = E;
 		SCALE = 1;
@@ -6097,7 +6097,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "READ_FROM_CASH";
+		SIGNAL = "WRITE_FOR_CASH";
 		INDEX = 133;
 		FORMAT = E;
 		SCALE = 1;
@@ -6105,16 +6105,8 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "WRITE_FOR_CASH";
-		INDEX = 134;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
 		SIGNAL = "count_check";
-		INDEX = 135;
+		INDEX = 134;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6122,7 +6114,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "count_check[1]";
-		INDEX = 136;
+		INDEX = 135;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6130,7 +6122,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "count_check[0]";
-		INDEX = 137;
+		INDEX = 136;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6138,7 +6130,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "data_from_RON";
-		INDEX = 138;
+		INDEX = 137;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6146,7 +6138,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "data_from_RON[9]";
-		INDEX = 139;
+		INDEX = 138;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6154,7 +6146,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "data_from_RON[8]";
-		INDEX = 140;
+		INDEX = 139;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6162,7 +6154,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "data_from_RON[7]";
-		INDEX = 141;
+		INDEX = 140;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6170,7 +6162,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "data_from_RON[6]";
-		INDEX = 142;
+		INDEX = 141;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6178,7 +6170,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "data_from_RON[5]";
-		INDEX = 143;
+		INDEX = 142;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6186,7 +6178,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "data_from_RON[4]";
-		INDEX = 144;
+		INDEX = 143;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6194,7 +6186,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "data_from_RON[3]";
-		INDEX = 145;
+		INDEX = 144;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6202,7 +6194,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "data_from_RON[2]";
-		INDEX = 146;
+		INDEX = 145;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6210,7 +6202,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "data_from_RON[1]";
-		INDEX = 147;
+		INDEX = 146;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6218,7 +6210,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "data_from_RON[0]";
-		INDEX = 148;
+		INDEX = 147;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6226,7 +6218,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "ALU_data";
-		INDEX = 149;
+		INDEX = 148;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6234,7 +6226,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "ALU_data[9]";
-		INDEX = 150;
+		INDEX = 149;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6242,7 +6234,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "ALU_data[8]";
-		INDEX = 151;
+		INDEX = 150;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6250,7 +6242,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "ALU_data[7]";
-		INDEX = 152;
+		INDEX = 151;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6258,7 +6250,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "ALU_data[6]";
-		INDEX = 153;
+		INDEX = 152;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6266,7 +6258,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "ALU_data[5]";
-		INDEX = 154;
+		INDEX = 153;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6274,7 +6266,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "ALU_data[4]";
-		INDEX = 155;
+		INDEX = 154;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6282,7 +6274,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "ALU_data[3]";
-		INDEX = 156;
+		INDEX = 155;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6290,7 +6282,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "ALU_data[2]";
-		INDEX = 157;
+		INDEX = 156;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6298,7 +6290,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "ALU_data[1]";
-		INDEX = 158;
+		INDEX = 157;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6306,7 +6298,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "ALU_data[0]";
-		INDEX = 159;
+		INDEX = 158;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6314,7 +6306,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "final_commands";
-		INDEX = 160;
+		INDEX = 159;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6322,7 +6314,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "STEAK_data";
-		INDEX = 161;
+		INDEX = 160;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6330,7 +6322,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "STEAK_data[9]";
-		INDEX = 162;
+		INDEX = 161;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6338,7 +6330,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "STEAK_data[8]";
-		INDEX = 163;
+		INDEX = 162;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6346,7 +6338,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "STEAK_data[7]";
-		INDEX = 164;
+		INDEX = 163;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6354,7 +6346,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "STEAK_data[6]";
-		INDEX = 165;
+		INDEX = 164;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6362,7 +6354,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "STEAK_data[5]";
-		INDEX = 166;
+		INDEX = 165;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6370,7 +6362,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "STEAK_data[4]";
-		INDEX = 167;
+		INDEX = 166;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6378,7 +6370,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "STEAK_data[3]";
-		INDEX = 168;
+		INDEX = 167;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6386,7 +6378,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "STEAK_data[2]";
-		INDEX = 169;
+		INDEX = 168;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6394,7 +6386,7 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "STEAK_data[1]";
-		INDEX = 170;
+		INDEX = 169;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6402,103 +6394,15 @@ VECTOR("C:/Users/Vavashka23/Documents/GitHub/SIFO_course_project/kursach/main.vw
 	}
 	LINE{
 		SIGNAL = "STEAK_data[0]";
+		INDEX = 170;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "HLT";
 		INDEX = 171;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "sec_lol";
-		INDEX = 172;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "sec_lol[10]";
-		INDEX = 173;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "sec_lol[9]";
-		INDEX = 174;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "sec_lol[8]";
-		INDEX = 175;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "sec_lol[7]";
-		INDEX = 176;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "sec_lol[6]";
-		INDEX = 177;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "sec_lol[5]";
-		INDEX = 178;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "sec_lol[4]";
-		INDEX = 179;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "sec_lol[3]";
-		INDEX = 180;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "sec_lol[2]";
-		INDEX = 181;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "sec_lol[1]";
-		INDEX = 182;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "sec_lol[0]";
-		INDEX = 183;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;

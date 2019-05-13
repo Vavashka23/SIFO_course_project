@@ -5,9 +5,9 @@ Timing Analyzer Summary
 Type           : Worst-case tsu
 Slack          : N/A
 Required Time  : None
-Actual Time    : 9.408 ns
+Actual Time    : 10.394 ns
 From           : control
-To             : CPU:inst7|lpm_dff0:inst31|lpm_ff:lpm_ff_component|dffs[3]
+To             : CPU:inst8|lpm_dff0:inst30|lpm_ff:lpm_ff_component|dffs[3]
 From Clock     : --
 To Clock       : clk
 Failed Paths   : 0
@@ -15,9 +15,9 @@ Failed Paths   : 0
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 28.951 ns
-From           : Cash:inst16|One_Set:inst131|Tag_and_string:inst|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[4]
-To             : MEM_DATA[8]
+Actual Time    : 29.710 ns
+From           : Cash:inst16|One_Set:inst134|Tag_and_string:inst|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[4]
+To             : CPU_DATA[0]
 From Clock     : clk
 To Clock       : --
 Failed Paths   : 0
@@ -25,9 +25,9 @@ Failed Paths   : 0
 Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : 21.022 ns
+Actual Time    : 22.094 ns
 From           : control
-To             : MEM_DATA[8]
+To             : CPU_DATA[0]
 From Clock     : --
 To Clock       : --
 Failed Paths   : 0
@@ -35,9 +35,9 @@ Failed Paths   : 0
 Type           : Worst-case th
 Slack          : N/A
 Required Time  : None
-Actual Time    : 9.733 ns
-From           : control
-To             : Cash:inst16|One_Set:inst131|Tag_and_string:inst|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[3]
+Actual Time    : 10.576 ns
+From           : READ_FROM_CASH
+To             : Cash:inst16|One_Set:inst|Tag_and_string:inst12|String_cash:inst|lpm_dff0:inst3|lpm_ff:lpm_ff_component|dffs[2]
 From Clock     : --
 To Clock       : clk
 Failed Paths   : 0
@@ -45,9 +45,9 @@ Failed Paths   : 0
 Type           : Clock Setup: 'clk'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 28.84 MHz ( period = 34.674 ns )
-From           : Cash:inst16|One_Set:inst131|Tag_and_string:inst|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[4]
-To             : CPU:inst7|lpm_dff0:inst31|lpm_ff:lpm_ff_component|dffs[3]
+Actual Time    : 27.76 MHz ( period = 36.022 ns )
+From           : Cash:inst16|One_Set:inst134|Tag_and_string:inst|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[4]
+To             : CPU:inst8|lpm_dff0:inst30|lpm_ff:lpm_ff_component|dffs[3]
 From Clock     : clk
 To Clock       : clk
 Failed Paths   : 0
@@ -55,8 +55,8 @@ Failed Paths   : 0
 Type           : Clock Setup: 'control'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 92.10 MHz ( period = 10.858 ns )
-From           : Cash:inst16|One_Set:inst131|Tag_and_string:inst|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[4]
+Actual Time    : 94.64 MHz ( period = 10.566 ns )
+From           : Cash:inst16|One_Set:inst134|Tag_and_string:inst12|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[2]
 To             : Cash:inst16|One_Set:inst137|lpm_dff3:inst14|lpm_ff:lpm_ff_component|dffs[0]
 From Clock     : control
 To Clock       : control
@@ -65,9 +65,9 @@ Failed Paths   : 0
 Type           : Clock Setup: 'WRITE_FOR_CASH'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 108.66 MHz ( period = 9.203 ns )
-From           : Cash:inst16|One_Set:inst131|Tag_and_string:inst|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[4]
-To             : Cash:inst16|One_Set:inst137|lpm_dff3:inst14|lpm_ff:lpm_ff_component|dffs[0]
+Actual Time    : 109.41 MHz ( period = 9.140 ns )
+From           : Cash:inst16|One_Set:inst144|Tag_and_string:inst12|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[2]
+To             : Cash:inst16|One_Set:inst131|lpm_dff3:inst14|lpm_ff:lpm_ff_component|dffs[0]
 From Clock     : WRITE_FOR_CASH
 To Clock       : WRITE_FOR_CASH
 Failed Paths   : 0
@@ -75,9 +75,9 @@ Failed Paths   : 0
 Type           : Clock Setup: 'READ_FROM_CASH'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 108.66 MHz ( period = 9.203 ns )
-From           : Cash:inst16|One_Set:inst131|Tag_and_string:inst|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[4]
-To             : Cash:inst16|One_Set:inst137|lpm_dff3:inst14|lpm_ff:lpm_ff_component|dffs[0]
+Actual Time    : 109.41 MHz ( period = 9.140 ns )
+From           : Cash:inst16|One_Set:inst144|Tag_and_string:inst12|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[2]
+To             : Cash:inst16|One_Set:inst131|lpm_dff3:inst14|lpm_ff:lpm_ff_component|dffs[0]
 From Clock     : READ_FROM_CASH
 To Clock       : READ_FROM_CASH
 Failed Paths   : 0
@@ -86,8 +86,8 @@ Type           : Clock Hold: 'clk'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : CPU:inst7|inst79
-To             : Cash:inst16|One_Set:inst131|Tag_and_string:inst|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[3]
+From           : Cash:inst16|lpm_dff3:inst75|lpm_ff:lpm_ff_component|dffs[0]
+To             : Cash:inst16|One_Set:inst|Tag_and_string:inst12|String_cash:inst|lpm_dff0:inst3|lpm_ff:lpm_ff_component|dffs[0]
 From Clock     : clk
 To Clock       : clk
 Failed Paths   : 10000
@@ -96,11 +96,11 @@ Type           : Clock Hold: 'control'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : Cash:inst16|One_Set:inst141|lpm_dff3:inst2|lpm_ff:lpm_ff_component|dffs[0]
-To             : Cash:inst16|One_Set:inst141|lpm_dff3:inst2|lpm_ff:lpm_ff_component|dffs[0]
+From           : Cash:inst16|One_Set:inst134|lpm_dff3:inst2|lpm_ff:lpm_ff_component|dffs[0]
+To             : Cash:inst16|One_Set:inst134|lpm_dff3:inst2|lpm_ff:lpm_ff_component|dffs[0]
 From Clock     : control
 To Clock       : control
-Failed Paths   : 10000
+Failed Paths   : 931
 
 Type           : Total number of failed paths
 Slack          : 
@@ -110,7 +110,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 20000
+Failed Paths   : 10931
 
 --------------------------------------------------------------------------------------
 
