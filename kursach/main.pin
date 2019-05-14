@@ -78,20 +78,20 @@ GND                          : A1        : gnd    :                   :         
 TEMPDIODEp                   : A2        :        :                   :         :           :                
 VCCIO4                       : A3        : power  :                   : 3.3V    : 4         :                
 MSEL3                        : A4        :        :                   :         : 4         :                
-GND*                         : A5        :        :                   :         : 4         :                
+sec_op[4]                    : A5        : output : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : A6        :        :                   :         : 4         :                
-sec_op[10]                   : A7        : output : 3.3-V LVTTL       :         : 4         : N              
-AddressFromCPU[6]            : A8        : output : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : A7        :        :                   :         : 4         :                
+GND*                         : A8        :        :                   :         : 4         :                
 GND                          : A9        : gnd    :                   :         :           :                
-sec_op[9]                    : A10       : output : 3.3-V LVTTL       :         : 9         : N              
+CPU_DATA[6]                  : A10       : bidir  : 3.3-V LVTTL       :         : 9         : N              
 VCCIO4                       : A11       : power  :                   : 3.3V    : 4         :                
 VCCIO3                       : A12       : power  :                   : 3.3V    : 3         :                
-ALU_data[0]                  : A13       : output : 3.3-V LVTTL       :         : 3         : N              
+MEM_DATA[6]                  : A13       : bidir  : 3.3-V LVTTL       :         : 3         : N              
 GND                          : A14       : gnd    :                   :         :           :                
-opopp[10]                    : A15       : output : 3.3-V LVTTL       :         : 3         : N              
-opopp[11]                    : A16       : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : A15       :        :                   :         : 3         :                
+GND*                         : A16       :        :                   :         : 3         :                
 GND*                         : A17       :        :                   :         : 3         :                
-opopp[17]                    : A18       : output : 3.3-V LVTTL       :         : 3         : N              
+sec_op[3]                    : A18       : output : 3.3-V LVTTL       :         : 3         : N              
 GND*                         : A19       :        :                   :         : 3         :                
 VCCIO3                       : A20       : power  :                   : 3.3V    : 3         :                
 nCE                          : A21       :        :                   :         : 3         :                
@@ -100,18 +100,18 @@ VCCIO6                       : AA1       : power  :                   : 3.3V    
 GND                          : AA2       : gnd    :                   :         :           :                
 nCEO                         : AA3       :        :                   :         : 7         :                
 GND*                         : AA4       :        :                   :         : 7         :                
-data_from_RON[9]             : AA5       : output : 3.3-V LVTTL       :         : 7         : N              
-GND*                         : AA6       :        :                   :         : 7         :                
-sec_op[6]                    : AA7       : output : 3.3-V LVTTL       :         : 7         : N              
-f_op_adr[2]                  : AA8       : output : 3.3-V LVTTL       :         : 7         : N              
-final_commands               : AA9       : output : 3.3-V LVTTL       :         : 10        : N              
-AddressMeme[0]               : AA10      : output : 3.3-V LVTTL       :         : 10        : N              
-first_op[3]                  : AA11      : output : 3.3-V LVTTL       :         : 7         : N              
-controlMem[1]                : AA12      : output : 3.3-V LVTTL       :         : 8         : N              
-ControlFromCPU[2]            : AA13      : output : 3.3-V LVTTL       :         : 8         : N              
+AddressMeme[5]               : AA5       : output : 3.3-V LVTTL       :         : 7         : N              
+AddressFromCPU[5]            : AA6       : output : 3.3-V LVTTL       :         : 7         : N              
+AddressFromCPU[1]            : AA7       : output : 3.3-V LVTTL       :         : 7         : N              
+AddressFromCPU[0]            : AA8       : output : 3.3-V LVTTL       :         : 7         : N              
+CPU_DATA[5]                  : AA9       : bidir  : 3.3-V LVTTL       :         : 10        : N              
+AddressMeme[4]               : AA10      : output : 3.3-V LVTTL       :         : 10        : N              
+AddressFromCPU[4]            : AA11      : output : 3.3-V LVTTL       :         : 7         : N              
+AddressFromCPU[2]            : AA12      : output : 3.3-V LVTTL       :         : 8         : N              
+AddressMeme[9]               : AA13      : output : 3.3-V LVTTL       :         : 8         : N              
 VREFB8                       : AA14      : power  :                   :         : 8         :                
 GND*                         : AA15      :        :                   :         : 8         :                
-MEM_DATA[0]                  : AA16      : bidir  : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : AA16      :        :                   :         : 8         :                
 GND*                         : AA17      :        :                   :         : 8         :                
 GND*                         : AA18      :        :                   :         : 8         :                
 TCK                          : AA19      : input  :                   :         : 8         :                
@@ -122,18 +122,18 @@ GND                          : AB1       : gnd    :                   :         
 nIO_PULLUP                   : AB2       :        :                   :         : 7         :                
 VCCIO7                       : AB3       : power  :                   : 3.3V    : 7         :                
 GND                          : AB4       : gnd    :                   :         :           :                
-f_op_adr[8]                  : AB5       : output : 3.3-V LVTTL       :         : 7         : N              
-f_op_adr[10]                 : AB6       : output : 3.3-V LVTTL       :         : 7         : N              
-GND*                         : AB7       :        :                   :         : 7         :                
-sec_op[5]                    : AB8       : output : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AB5       :        :                   :         : 7         :                
+AddressFromCPU[3]            : AB6       : output : 3.3-V LVTTL       :         : 7         : N              
+AddressFromCPU[10]           : AB7       : output : 3.3-V LVTTL       :         : 7         : N              
+read_kk                      : AB8       : output : 3.3-V LVTTL       :         : 7         : N              
 GND                          : AB9       : gnd    :                   :         :           :                
-first_op[2]                  : AB10      : output : 3.3-V LVTTL       :         : 10        : N              
+AddressMeme[10]              : AB10      : output : 3.3-V LVTTL       :         : 10        : N              
 VCCIO7                       : AB11      : power  :                   : 3.3V    : 7         :                
 VCCIO8                       : AB12      : power  :                   : 3.3V    : 8         :                
-AddressMeme[1]               : AB13      : output : 3.3-V LVTTL       :         : 8         : N              
+AddressMeme[0]               : AB13      : output : 3.3-V LVTTL       :         : 8         : N              
 GND                          : AB14      : gnd    :                   :         :           :                
 GND*                         : AB15      :        :                   :         : 8         :                
-GND*                         : AB16      :        :                   :         : 8         :                
+AddressMeme[1]               : AB16      : output : 3.3-V LVTTL       :         : 8         : N              
 GND*                         : AB17      :        :                   :         : 8         :                
 GND*                         : AB18      :        :                   :         : 8         :                
 TRST                         : AB19      : input  :                   :         : 8         :                
@@ -144,106 +144,106 @@ VCCIO5                       : B1        : power  :                   : 3.3V    
 GND                          : B2        : gnd    :                   :         :           :                
 TDO                          : B3        : output :                   :         : 4         :                
 MSEL2                        : B4        :        :                   :         : 4         :                
-sec_op[7]                    : B5        : output : 3.3-V LVTTL       :         : 4         : N              
-GND*                         : B6        :        :                   :         : 4         :                
-f_op_adr[6]                  : B7        : output : 3.3-V LVTTL       :         : 4         : N              
-f_op_adr[3]                  : B8        : output : 3.3-V LVTTL       :         : 4         : N              
-f_op_adr[0]                  : B9        : output : 3.3-V LVTTL       :         : 9         : N              
-opopp[3]                     : B10       : output : 3.3-V LVTTL       :         : 9         : N              
-AddressMeme[5]               : B11       : output : 3.3-V LVTTL       :         : 4         : N              
-ControlFromCPU[1]            : B12       : output : 3.3-V LVTTL       :         : 4         : N              
-GND*                         : B13       :        :                   :         : 3         :                
+CPU_DATA[2]                  : B5        : bidir  : 3.3-V LVTTL       :         : 4         : N              
+data_from_RON[5]             : B6        : output : 3.3-V LVTTL       :         : 4         : N              
+CPU_DATA[9]                  : B7        : bidir  : 3.3-V LVTTL       :         : 4         : N              
+f_op_adr[0]                  : B8        : output : 3.3-V LVTTL       :         : 4         : N              
+data_from_RON[0]             : B9        : output : 3.3-V LVTTL       :         : 9         : N              
+data_from_RON[8]             : B10       : output : 3.3-V LVTTL       :         : 9         : N              
+f_op_adr[3]                  : B11       : output : 3.3-V LVTTL       :         : 4         : N              
+MEM_DATA[3]                  : B12       : bidir  : 3.3-V LVTTL       :         : 4         : N              
+controlMem[1]                : B13       : output : 3.3-V LVTTL       :         : 3         : N              
 VREFB3                       : B14       : power  :                   :         : 3         :                
-opopp[4]                     : B15       : output : 3.3-V LVTTL       :         : 3         : N              
-opopp[22]                    : B16       : output : 3.3-V LVTTL       :         : 3         : N              
-opopp[23]                    : B17       : output : 3.3-V LVTTL       :         : 3         : N              
-GND*                         : B18       :        :                   :         : 3         :                
+GND*                         : B15       :        :                   :         : 3         :                
+GND*                         : B16       :        :                   :         : 3         :                
+GND*                         : B17       :        :                   :         : 3         :                
+ALU_data[7]                  : B18       : output : 3.3-V LVTTL       :         : 3         : N              
 GND*                         : B19       :        :                   :         : 3         :                
 nSTATUS                      : B20       :        :                   :         : 3         :                
 GND                          : B21       : gnd    :                   :         :           :                
 VCCIO2                       : B22       : power  :                   : 3.3V    : 2         :                
 GND*                         : C1        :        :                   :         : 5         :                
-opopp[14]                    : C2        : output : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : C2        :        :                   :         : 5         :                
 TEMPDIODEn                   : C3        :        :                   :         :           :                
 GND*                         : C4        :        :                   :         : 4         :                
-AddressMeme[8]               : C5        : output : 3.3-V LVTTL       :         : 4         : N              
-AddressFromCPU[8]            : C6        : output : 3.3-V LVTTL       :         : 4         : N              
-f_op_adr[5]                  : C7        : output : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : C5        :        :                   :         : 4         :                
+GND*                         : C6        :        :                   :         : 4         :                
+data_from_RON[1]             : C7        : output : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : C8        :        :                   :         : 4         :                
-AddressFromCPU[1]            : C9        : output : 3.3-V LVTTL       :         : 9         : N              
-sec_op[4]                    : C10       : output : 3.3-V LVTTL       :         : 9         : N              
-CPU_DATA[9]                  : C11       : bidir  : 3.3-V LVTTL       :         : 4         : N              
+ControlFromCPU[1]            : C9        : output : 3.3-V LVTTL       :         : 9         : N              
+STEAK_data[7]                : C10       : output : 3.3-V LVTTL       :         : 9         : N              
+sec_op[7]                    : C11       : output : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : C12       :        :                   :         : 4         :                
-GND*                         : C13       :        :                   :         : 3         :                
-AddressMeme[6]               : C14       : output : 3.3-V LVTTL       :         : 3         : N              
-opopp[0]                     : C15       : output : 3.3-V LVTTL       :         : 3         : N              
-words_from_cash[1]           : C16       : output : 3.3-V LVTTL       :         : 3         : N              
-words_from_cash[0]           : C17       : output : 3.3-V LVTTL       :         : 3         : N              
-AddressFromCPU[7]            : C18       : output : 3.3-V LVTTL       :         : 3         : N              
-AddressMeme[10]              : C19       : output : 3.3-V LVTTL       :         : 3         : N              
+READ_FROM_CASH               : C13       : input  : 3.3-V LVTTL       :         : 3         : N              
+CPU_DATA[1]                  : C14       : bidir  : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : C15       :        :                   :         : 3         :                
+GND*                         : C16       :        :                   :         : 3         :                
+STEAK_data[4]                : C17       : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : C18       :        :                   :         : 3         :                
+GND*                         : C19       :        :                   :         : 3         :                
 CONF_DONE                    : C20       :        :                   :         : 3         :                
-opopp[8]                     : C21       : output : 3.3-V LVTTL       :         : 2         : N              
-opopp[1]                     : C22       : output : 3.3-V LVTTL       :         : 2         : N              
-opopp[19]                    : D1        : output : 3.3-V LVTTL       :         : 5         : N              
-opopp[16]                    : D2        : output : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : C21       :        :                   :         : 2         :                
+GND*                         : C22       :        :                   :         : 2         :                
+GND*                         : D1        :        :                   :         : 5         :                
+GND*                         : D2        :        :                   :         : 5         :                
 GND*                         : D3        :        :                   :         : 4         :                
 MSEL1                        : D4        :        :                   :         : 4         :                
 GND*                         : D5        :        :                   :         : 4         :                
-controlMem[3]                : D6        : output : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : D6        :        :                   :         : 4         :                
 VREFB4                       : D7        : power  :                   :         : 4         :                
-GND*                         : D8        :        :                   :         : 4         :                
+STEAK_data[3]                : D8        : output : 3.3-V LVTTL       :         : 4         : N              
 VREFB4                       : D9        : power  :                   :         : 4         :                
-AddressFromCPU[5]            : D10       : output : 3.3-V LVTTL       :         : 9         : N              
-opopp[15]                    : D11       : output : 3.3-V LVTTL       :         : 3         : N              
-HLT                          : D12       : output : 3.3-V LVTTL       :         : 3         : N              
-GND*                         : D13       :        :                   :         : 3         :                
+data_from_RON[3]             : D10       : output : 3.3-V LVTTL       :         : 9         : N              
+GND*                         : D11       :        :                   :         : 3         :                
+GND*                         : D12       :        :                   :         : 3         :                
+sec_op[2]                    : D13       : output : 3.3-V LVTTL       :         : 3         : N              
 GND*                         : D14       :        :                   :         : 3         :                
 GND*                         : D15       :        :                   :         : 3         :                
 VREFB3                       : D16       : power  :                   :         : 3         :                
-words_from_cash[4]           : D17       : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : D17       :        :                   :         : 3         :                
 GND*                         : D18       :        :                   :         : 3         :                
 DCLK                         : D19       :        :                   :         : 3         :                
 GND*                         : D20       :        :                   :         : 3         :                
-opopp[21]                    : D21       : output : 3.3-V LVTTL       :         : 2         : N              
-opopp[20]                    : D22       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : D21       :        :                   :         : 2         :                
+GND*                         : D22       :        :                   :         : 2         :                
 GND*                         : E1        :        :                   :         : 5         :                
-ALU_data[5]                  : E2        : output : 3.3-V LVTTL       :         : 5         : N              
-GND*                         : E3        :        :                   :         : 5         :                
-opopp[24]                    : E4        : output : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : E2        :        :                   :         : 5         :                
+STEAK_data[2]                : E3        : output : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : E4        :        :                   :         : 5         :                
 MSEL0                        : E5        :        :                   :         : 4         :                
 GND*                         : E6        :        :                   :         : 4         :                
-GND*                         : E7        :        :                   :         : 4         :                
-GND*                         : E8        :        :                   :         : 4         :                
+STEAK_data[8]                : E7        : output : 3.3-V LVTTL       :         : 4         : N              
+STEAK_data[9]                : E8        : output : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : E9        :        :                   :         : 4         :                
 GND*                         : E10       :        :                   :         : 4         :                
-ALU_data[4]                  : E11       : output : 3.3-V LVTTL       :         : 3         : N              
-opopp[6]                     : E12       : output : 3.3-V LVTTL       :         : 3         : N              
+final_commands               : E11       : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : E12       :        :                   :         : 3         :                
 ~DATA0~ / RESERVED_INPUT     : E13       : input  : 3.3-V LVTTL       :         : 3         : N              
 GND*                         : E14       :        :                   :         : 3         :                
 GND*                         : E15       :        :                   :         : 3         :                
 GND*                         : E16       :        :                   :         : 3         :                
 GND*                         : E17       :        :                   :         : 3         :                
 GND*                         : E18       :        :                   :         : 3         :                
-opopp[2]                     : E19       : output : 3.3-V LVTTL       :         : 2         : N              
-opopp[5]                     : E20       : output : 3.3-V LVTTL       :         : 2         : N              
-opopp[28]                    : E21       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : E19       :        :                   :         : 2         :                
+GND*                         : E20       :        :                   :         : 2         :                
+GND*                         : E21       :        :                   :         : 2         :                
 GND*                         : E22       :        :                   :         : 2         :                
 GND*                         : F1        :        :                   :         : 5         :                
-GND*                         : F2        :        :                   :         : 5         :                
+ALU_data[3]                  : F2        : output : 3.3-V LVTTL       :         : 5         : N              
 VREFB5                       : F3        : power  :                   :         : 5         :                
 GND*                         : F4        :        :                   :         : 5         :                
-GND*                         : F5        :        :                   :         : 5         :                
-ControlFromCPU[3]            : F6        : output : 3.3-V LVTTL       :         : 4         : N              
-opopp[29]                    : F7        : output : 3.3-V LVTTL       :         : 4         : N              
+ControlFromCPU[5]            : F5        : output : 3.3-V LVTTL       :         : 5         : N              
+STEAK_data[6]                : F6        : output : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : F7        :        :                   :         : 4         :                
 GND*                         : F8        :        :                   :         : 4         :                
-ALU_data[8]                  : F9        : output : 3.3-V LVTTL       :         : 4         : N              
+sec_op[0]                    : F9        : output : 3.3-V LVTTL       :         : 4         : N              
 GNDA_PLL5                    : F10       : gnd    :                   :         :           :                
 GNDA_PLL5                    : F11       : gnd    :                   :         :           :                
 VCCA_PLL5                    : F12       : power  :                   : 1.2V    :           :                
-opopp[27]                    : F13       : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : F13       :        :                   :         : 3         :                
 GND*                         : F14       :        :                   :         : 3         :                
 GND*                         : F15       :        :                   :         : 3         :                
-ControlFromCPU[4]            : F16       : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : F16       :        :                   :         : 3         :                
 GND*                         : F17       :        :                   :         : 3         :                
 VREFB2                       : F18       : power  :                   :         : 2         :                
 GND*                         : F19       :        :                   :         : 2         :                
@@ -251,54 +251,54 @@ GND*                         : F20       :        :                   :         
 GND*                         : F21       :        :                   :         : 2         :                
 GND*                         : F22       :        :                   :         : 2         :                
 GND*                         : G1        :        :                   :         : 5         :                
-ALU_data[1]                  : G2        : output : 3.3-V LVTTL       :         : 5         : N              
+STEAK_data[5]                : G2        : output : 3.3-V LVTTL       :         : 5         : N              
 GND*                         : G3        :        :                   :         : 5         :                
 GND*                         : G4        :        :                   :         : 5         :                
 GND*                         : G5        :        :                   :         : 5         :                
 GND*                         : G6        :        :                   :         : 5         :                
-GND*                         : G7        :        :                   :         : 4         :                
+STEAK_data[1]                : G7        : output : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : G8        :        :                   :         : 4         :                
-ALU_data[9]                  : G9        : output : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : G9        :        :                   :         : 4         :                
 VCC_PLL5_OUT                 : G10       : power  :                   : 3.3V    : 9         :                
 VCCD_PLL5                    : G11       : power  :                   : 1.2V    :           :                
-opopp[18]                    : G12       : output : 3.3-V LVTTL       :         : 3         : N              
-opopp[7]                     : G13       : output : 3.3-V LVTTL       :         : 3         : N              
+f_op_adr[9]                  : G12       : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : G13       :        :                   :         : 3         :                
 GND*                         : G14       :        :                   :         : 3         :                
-AddressFromCPU[10]           : G15       : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : G15       :        :                   :         : 3         :                
 GND*                         : G16       :        :                   :         : 3         :                
-opopp[26]                    : G17       : output : 3.3-V LVTTL       :         : 2         : N              
-opopp[9]                     : G18       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : G17       :        :                   :         : 2         :                
+GND*                         : G18       :        :                   :         : 2         :                
 GND*                         : G19       :        :                   :         : 2         :                
 GND*                         : G20       :        :                   :         : 2         :                
-GND*                         : G21       :        :                   :         : 2         :                
+data_from_RON[7]             : G21       : output : 3.3-V LVTTL       :         : 2         : N              
 GND*                         : G22       :        :                   :         : 2         :                
 GND*                         : H1        :        :                   :         : 5         :                
 GND*                         : H2        :        :                   :         : 5         :                
-data_from_RON[4]             : H3        : output : 3.3-V LVTTL       :         : 5         : N              
-GND*                         : H4        :        :                   :         : 5         :                
+GND*                         : H3        :        :                   :         : 5         :                
+ALU_data[6]                  : H4        : output : 3.3-V LVTTL       :         : 5         : N              
 GND*                         : H5        :        :                   :         : 5         :                
 GND*                         : H6        :        :                   :         : 5         :                
 GND*                         : H7        :        :                   :         : 4         :                
 VCCINT                       : H8        : power  :                   : 1.2V    :           :                
 GND*                         : H9        :        :                   :         : 4         :                
 VCCPD4                       : H10       : power  :                   : 3.3V    : 4         :                
-AddressMeme[7]               : H11       : output : 3.3-V LVTTL       :         : 3         : N              
-opopp[25]                    : H12       : output : 3.3-V LVTTL       :         : 3         : N              
+CPU_DATA[7]                  : H11       : bidir  : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : H12       :        :                   :         : 3         :                
 VCCPD3                       : H13       : power  :                   : 3.3V    : 3         :                
 GND*                         : H14       :        :                   :         : 3         :                
 GND                          : H15       : gnd    :                   :         :           :                
-GND*                         : H16       :        :                   :         : 3         :                
-ControlFromCPU[5]            : H17       : output : 3.3-V LVTTL       :         : 2         : N              
-opopp[12]                    : H18       : output : 3.3-V LVTTL       :         : 2         : N              
+ControlFromCPU[3]            : H16       : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : H17       :        :                   :         : 2         :                
+MEM_DATA[5]                  : H18       : bidir  : 3.3-V LVTTL       :         : 2         : N              
 GND*                         : H19       :        :                   :         : 2         :                
 GND*                         : H20       :        :                   :         : 2         :                
-GND*                         : H21       :        :                   :         : 2         :                
+f_op_adr[1]                  : H21       : output : 3.3-V LVTTL       :         : 2         : N              
 GND*                         : H22       :        :                   :         : 2         :                
 GND                          : J1        : gnd    :                   :         :           :                
-data_from_RON[5]             : J2        : output : 3.3-V LVTTL       :         : 5         : N              
-data_from_RON[3]             : J3        : output : 3.3-V LVTTL       :         : 5         : N              
+f_op_adr[8]                  : J2        : output : 3.3-V LVTTL       :         : 5         : N              
+f_op_adr[2]                  : J3        : output : 3.3-V LVTTL       :         : 5         : N              
 VREFB5                       : J4        : power  :                   :         : 5         :                
-ALU_data[2]                  : J5        : output : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : J5        :        :                   :         : 5         :                
 GND*                         : J6        :        :                   :         : 5         :                
 GND*                         : J7        :        :                   :         : 5         :                
 GND*                         : J8        :        :                   :         : 5         :                
@@ -311,54 +311,54 @@ GND                          : J14       : gnd    :                   :         
 GND*                         : J15       :        :                   :         : 3         :                
 GND*                         : J16       :        :                   :         : 2         :                
 GND*                         : J17       :        :                   :         : 2         :                
-GND*                         : J18       :        :                   :         : 2         :                
-GND*                         : J19       :        :                   :         : 2         :                
-GND*                         : J20       :        :                   :         : 2         :                
-AddressFromCPU[4]            : J21       : output : 3.3-V LVTTL       :         : 2         : N              
+count_check[0]               : J18       : output : 3.3-V LVTTL       :         : 2         : N              
+sec_op[5]                    : J19       : output : 3.3-V LVTTL       :         : 2         : N              
+words_from_cash[2]           : J20       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : J21       :        :                   :         : 2         :                
 GND                          : J22       : gnd    :                   :         :           :                
-CPU_DATA[8]                  : K1        : bidir  : 3.3-V LVTTL       :         : 5         : N              
-CPU_DATA[2]                  : K2        : bidir  : 3.3-V LVTTL       :         : 5         : N              
-ALU_data[6]                  : K3        : output : 3.3-V LVTTL       :         : 5         : N              
-GND*                         : K4        :        :                   :         : 5         :                
+words_from_cash[5]           : K1        : output : 3.3-V LVTTL       :         : 5         : N              
+command[0]                   : K2        : output : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : K3        :        :                   :         : 5         :                
+ALU_data[5]                  : K4        : output : 3.3-V LVTTL       :         : 5         : N              
 GND*                         : K5        :        :                   :         : 5         :                
-data_from_RON[2]             : K6        : output : 3.3-V LVTTL       :         : 5         : N              
-sec_op[2]                    : K7        : output : 3.3-V LVTTL       :         : 5         : N              
-ALU_data[7]                  : K8        : output : 3.3-V LVTTL       :         : 5         : N              
+ControlFromCPU[4]            : K6        : output : 3.3-V LVTTL       :         : 5         : N              
+data_from_RON[9]             : K7        : output : 3.3-V LVTTL       :         : 5         : N              
+sec_op[6]                    : K8        : output : 3.3-V LVTTL       :         : 5         : N              
 GND                          : K9        : gnd    :                   :         :           :                
 VCCINT                       : K10       : power  :                   : 1.2V    :           :                
 GND                          : K11       : gnd    :                   :         :           :                
 VCCINT                       : K12       : power  :                   : 1.2V    :           :                
 GND                          : K13       : gnd    :                   :         :           :                
 VCCPD2                       : K14       : power  :                   : 3.3V    : 2         :                
-GND*                         : K15       :        :                   :         : 2         :                
+words_from_cash[4]           : K15       : output : 3.3-V LVTTL       :         : 2         : N              
 GND*                         : K16       :        :                   :         : 2         :                
 GND*                         : K17       :        :                   :         : 2         :                
-command[0]                   : K18       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : K18       :        :                   :         : 2         :                
 GND*                         : K19       :        :                   :         : 2         :                
 GND*                         : K20       :        :                   :         : 2         :                
-AddressMeme[9]               : K21       : output : 3.3-V LVTTL       :         : 2         : N              
-GND*                         : K22       :        :                   :         : 2         :                
+GND*                         : K21       :        :                   :         : 2         :                
+sec_op[1]                    : K22       : output : 3.3-V LVTTL       :         : 2         : N              
 VCCIO5                       : L1        : power  :                   : 3.3V    : 5         :                
-sec_op[3]                    : L2        : output : 3.3-V LVTTL       :         : 5         : N              
-count_check[1]               : L3        : output : 3.3-V LVTTL       :         : 5         : N              
+first_op[0]                  : L2        : output : 3.3-V LVTTL       :         : 5         : N              
+CPU_DATA[3]                  : L3        : bidir  : 3.3-V LVTTL       :         : 5         : N              
 GNDA_PLL4                    : L4        : gnd    :                   :         :           :                
 GNDA_PLL4                    : L5        : gnd    :                   :         :           :                
 VCCD_PLL4                    : L6        : power  :                   : 1.2V    :           :                
-words_from_cash[8]           : L7        : output : 3.3-V LVTTL       :         : 5         : N              
-data_from_RON[7]             : L8        : output : 3.3-V LVTTL       :         : 5         : N              
+data_from_RON[2]             : L7        : output : 3.3-V LVTTL       :         : 5         : N              
+sec_op[10]                   : L8        : output : 3.3-V LVTTL       :         : 5         : N              
 VCCPD5                       : L9        : power  :                   : 3.3V    : 5         :                
 GND                          : L10       : gnd    :                   :         :           :                
 VCCINT                       : L11       : power  :                   : 1.2V    :           :                
 GND                          : L12       : gnd    :                   :         :           :                
 VCCINT                       : L13       : power  :                   : 1.2V    :           :                
 GND                          : L14       : gnd    :                   :         :           :                
-GND*                         : L15       :        :                   :         : 2         :                
-AddressMeme[4]               : L16       : output : 3.3-V LVTTL       :         : 2         : N              
+sec_op[9]                    : L15       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : L16       :        :                   :         : 2         :                
 GNDA_PLL1                    : L17       : gnd    :                   :         :           :                
 GNDA_PLL1                    : L18       : gnd    :                   :         :           :                
 VREFB2                       : L19       : power  :                   :         : 2         :                
-GND*                         : L20       :        :                   :         : 2         :                
-words_from_cash[2]           : L21       : output : 3.3-V LVTTL       :         : 2         : N              
+MEM_DATA[7]                  : L20       : bidir  : 3.3-V LVTTL       :         : 2         : N              
+words_from_cash[7]           : L21       : output : 3.3-V LVTTL       :         : 2         : N              
 VCCIO2                       : L22       : power  :                   : 3.3V    : 2         :                
 VCCIO6                       : M1        : power  :                   : 3.3V    : 6         :                
 GND+                         : M2        :        :                   :         : 5         :                
@@ -379,38 +379,38 @@ VCCD_PLL1                    : M16       : power  :                   : 1.2V    
 VCCA_PLL1                    : M17       : power  :                   : 1.2V    :           :                
 VCCD_PLL2                    : M18       : power  :                   : 1.2V    :           :                
 VCCA_PLL2                    : M19       : power  :                   : 1.2V    :           :                
-GND+                         : M20       :        :                   :         : 2         :                
+WRITE_FOR_CASH               : M20       : input  : 3.3-V LVTTL       :         : 2         : N              
 GND+                         : M21       :        :                   :         : 2         :                
 VCCIO1                       : M22       : power  :                   : 3.3V    : 1         :                
-STEAK_data[3]                : N1        : output : 3.3-V LVTTL       :         : 6         : N              
-STEAK_data[7]                : N2        : output : 3.3-V LVTTL       :         : 6         : N              
+data_from_RON[6]             : N1        : output : 3.3-V LVTTL       :         : 6         : N              
+words_from_cash[0]           : N2        : output : 3.3-V LVTTL       :         : 6         : N              
 GND+                         : N3        :        :                   :         : 6         :                
 GND+                         : N4        :        :                   :         : 6         :                
 GNDA_PLL3                    : N5        : gnd    :                   :         :           :                
 GNDA_PLL3                    : N6        : gnd    :                   :         :           :                
-words_from_cash[7]           : N7        : output : 3.3-V LVTTL       :         : 6         : N              
-STEAK_data[6]                : N8        : output : 3.3-V LVTTL       :         : 6         : N              
+MEM_DATA[8]                  : N7        : bidir  : 3.3-V LVTTL       :         : 6         : N              
+controlMem[0]                : N8        : output : 3.3-V LVTTL       :         : 6         : N              
 VCCPD6                       : N9        : power  :                   : 3.3V    : 6         :                
 GND                          : N10       : gnd    :                   :         :           :                
 VCCINT                       : N11       : power  :                   : 1.2V    :           :                
 GND                          : N12       : gnd    :                   :         :           :                
 VCCINT                       : N13       : power  :                   : 1.2V    :           :                
 GND                          : N14       : gnd    :                   :         :           :                
-command[1]                   : N15       : output : 3.3-V LVTTL       :         : 1         : N              
-sec_op_register[1]           : N16       : output : 3.3-V LVTTL       :         : 1         : N              
+command[3]                   : N15       : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : N16       :        :                   :         : 1         :                
 GNDA_PLL2                    : N17       : gnd    :                   :         :           :                
 GNDA_PLL2                    : N18       : gnd    :                   :         :           :                
 GND+                         : N19       :        :                   :         : 1         :                
 clk                          : N20       : input  : 3.3-V LVTTL       :         : 1         : N              
-command[2]                   : N21       : output : 3.3-V LVTTL       :         : 1         : N              
-MEM_DATA[9]                  : N22       : bidir  : 3.3-V LVTTL       :         : 1         : N              
+words_from_cash[1]           : N21       : output : 3.3-V LVTTL       :         : 1         : N              
+ControlFromCPU[2]            : N22       : output : 3.3-V LVTTL       :         : 1         : N              
 GND                          : P1        : gnd    :                   :         :           :                
-CPU_DATA[6]                  : P2        : bidir  : 3.3-V LVTTL       :         : 6         : N              
+words_from_cash[3]           : P2        : output : 3.3-V LVTTL       :         : 6         : N              
 words_from_cash[6]           : P3        : output : 3.3-V LVTTL       :         : 6         : N              
 VREFB6                       : P4        : power  :                   :         : 6         :                
-STEAK_data[1]                : P5        : output : 3.3-V LVTTL       :         : 6         : N              
-sec_op[0]                    : P6        : output : 3.3-V LVTTL       :         : 6         : N              
-STEAK_data[5]                : P7        : output : 3.3-V LVTTL       :         : 6         : N              
+CPU_DATA[0]                  : P5        : bidir  : 3.3-V LVTTL       :         : 6         : N              
+ControlFromCPU[0]            : P6        : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : P7        :        :                   :         : 6         :                
 GND*                         : P8        :        :                   :         : 6         :                
 VCCINT                       : P9        : power  :                   : 1.2V    :           :                
 VCCPD7                       : P10       : power  :                   : 3.3V    : 7         :                
@@ -419,22 +419,22 @@ VCCINT                       : P12       : power  :                   : 1.2V    
 GND                          : P13       : gnd    :                   :         :           :                
 VCCINT                       : P14       : power  :                   : 1.2V    :           :                
 VCCPD1                       : P15       : power  :                   : 3.3V    : 1         :                
-ControlFromCPU[0]            : P16       : output : 3.3-V LVTTL       :         : 1         : N              
-MISS                         : P17       : output : 3.3-V LVTTL       :         : 1         : N              
-GND*                         : P18       :        :                   :         : 1         :                
-GND*                         : P19       :        :                   :         : 1         :                
-MEM_DATA[8]                  : P20       : bidir  : 3.3-V LVTTL       :         : 1         : N              
-sec_op_register[2]           : P21       : output : 3.3-V LVTTL       :         : 1         : N              
+command[1]                   : P16       : output : 3.3-V LVTTL       :         : 1         : N              
+sec_op_register[2]           : P17       : output : 3.3-V LVTTL       :         : 1         : N              
+sec_op_register[3]           : P18       : output : 3.3-V LVTTL       :         : 1         : N              
+HLT                          : P19       : output : 3.3-V LVTTL       :         : 1         : N              
+words_from_cash[8]           : P20       : output : 3.3-V LVTTL       :         : 1         : N              
+sec_op_register[1]           : P21       : output : 3.3-V LVTTL       :         : 1         : N              
 GND                          : P22       : gnd    :                   :         :           :                
-STEAK_data[2]                : R1        : output : 3.3-V LVTTL       :         : 6         : N              
-controlMem[2]                : R2        : output : 3.3-V LVTTL       :         : 6         : N              
-sec_op[8]                    : R3        : output : 3.3-V LVTTL       :         : 6         : N              
-f_op_adr[4]                  : R4        : output : 3.3-V LVTTL       :         : 6         : N              
-CPU_DATA[4]                  : R5        : bidir  : 3.3-V LVTTL       :         : 6         : N              
-ALU_data[3]                  : R6        : output : 3.3-V LVTTL       :         : 6         : N              
+STEAK_data[0]                : R1        : output : 3.3-V LVTTL       :         : 6         : N              
+ALU_data[4]                  : R2        : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : R3        :        :                   :         : 6         :                
+first_op[1]                  : R4        : output : 3.3-V LVTTL       :         : 6         : N              
+f_op_adr[4]                  : R5        : output : 3.3-V LVTTL       :         : 6         : N              
+f_op_adr[6]                  : R6        : output : 3.3-V LVTTL       :         : 6         : N              
 GND*                         : R7        :        :                   :         : 6         :                
-sec_op[1]                    : R8        : output : 3.3-V LVTTL       :         : 6         : N              
-CPU_DATA[7]                  : R9        : bidir  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : R8        :        :                   :         : 6         :                
+GND*                         : R9        :        :                   :         : 7         :                
 GND                          : R10       : gnd    :                   :         :           :                
 VCC_PLL6_OUT                 : R11       : power  :                   : 3.3V    : 10        :                
 VCCA_PLL6                    : R12       : power  :                   : 1.2V    :           :                
@@ -446,64 +446,64 @@ GND*                         : R17       :        :                   :         
 GND*                         : R18       :        :                   :         : 1         :                
 GND*                         : R19       :        :                   :         : 1         :                
 VREFB1                       : R20       : power  :                   :         : 1         :                
-sec_op_register[0]           : R21       : output : 3.3-V LVTTL       :         : 1         : N              
-sec_op_register[3]           : R22       : output : 3.3-V LVTTL       :         : 1         : N              
-CPU_DATA[3]                  : T1        : bidir  : 3.3-V LVTTL       :         : 6         : N              
-read_kk                      : T2        : output : 3.3-V LVTTL       :         : 6         : N              
-GND*                         : T3        :        :                   :         : 6         :                
+count_check[1]               : R21       : output : 3.3-V LVTTL       :         : 1         : N              
+sec_op_register[0]           : R22       : output : 3.3-V LVTTL       :         : 1         : N              
+words_from_cash[9]           : T1        : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : T2        :        :                   :         : 6         :                
+ALU_data[1]                  : T3        : output : 3.3-V LVTTL       :         : 6         : N              
 GND*                         : T4        :        :                   :         : 6         :                
-GND*                         : T5        :        :                   :         : 6         :                
-HIT                          : T6        : output : 3.3-V LVTTL       :         : 6         : N              
-data_from_RON[6]             : T7        : output : 3.3-V LVTTL       :         : 7         : N              
-data_from_RON[8]             : T8        : output : 3.3-V LVTTL       :         : 7         : N              
-f_op_adr[7]                  : T9        : output : 3.3-V LVTTL       :         : 7         : N              
-GND*                         : T10       :        :                   :         : 7         :                
+sec_op[8]                    : T5        : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : T6        :        :                   :         : 6         :                
+GND*                         : T7        :        :                   :         : 7         :                
+first_op[3]                  : T8        : output : 3.3-V LVTTL       :         : 7         : N              
+ALU_data[0]                  : T9        : output : 3.3-V LVTTL       :         : 7         : N              
+CPU_DATA[4]                  : T10       : bidir  : 3.3-V LVTTL       :         : 7         : N              
 GNDA_PLL6                    : T11       : gnd    :                   :         :           :                
 GNDA_PLL6                    : T12       : gnd    :                   :         :           :                
-GND*                         : T13       :        :                   :         : 8         :                
-GND*                         : T14       :        :                   :         : 8         :                
+MEM_DATA[9]                  : T13       : bidir  : 3.3-V LVTTL       :         : 8         : N              
+AddressFromCPU[7]            : T14       : output : 3.3-V LVTTL       :         : 8         : N              
 GND*                         : T15       :        :                   :         : 8         :                
 GND*                         : T16       :        :                   :         : 8         :                
 GND*                         : T17       :        :                   :         : 1         :                
-AddressFromCPU[9]            : T18       : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : T18       :        :                   :         : 1         :                
 GND*                         : T19       :        :                   :         : 1         :                
 GND*                         : T20       :        :                   :         : 1         :                
-AddressFromCPU[0]            : T21       : output : 3.3-V LVTTL       :         : 1         : N              
-controlMem[0]                : T22       : output : 3.3-V LVTTL       :         : 1         : N              
-GND*                         : U1        :        :                   :         : 6         :                
+GND*                         : T21       :        :                   :         : 1         :                
+MEM_DATA[1]                  : T22       : bidir  : 3.3-V LVTTL       :         : 1         : N              
+command[2]                   : U1        : output : 3.3-V LVTTL       :         : 6         : N              
 GND*                         : U2        :        :                   :         : 6         :                
 VREFB6                       : U3        : power  :                   :         : 6         :                
 GND*                         : U4        :        :                   :         : 6         :                
-STEAK_data[8]                : U5        : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : U5        :        :                   :         : 6         :                
 GND*                         : U6        :        :                   :         : 7         :                
-AddressMeme[2]               : U7        : output : 3.3-V LVTTL       :         : 7         : N              
-f_op_adr[9]                  : U8        : output : 3.3-V LVTTL       :         : 7         : N              
-first_op[0]                  : U9        : output : 3.3-V LVTTL       :         : 7         : N              
-data_from_RON[1]             : U10       : output : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : U7        :        :                   :         : 7         :                
+HIT                          : U8        : output : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : U9        :        :                   :         : 7         :                
+AddressMeme[3]               : U10       : output : 3.3-V LVTTL       :         : 7         : N              
 VCCD_PLL6                    : U11       : power  :                   : 1.2V    :           :                
-opopp[13]                    : U12       : output : 3.3-V LVTTL       :         : 8         : N              
+MEM_DATA[4]                  : U12       : bidir  : 3.3-V LVTTL       :         : 8         : N              
 GND*                         : U13       :        :                   :         : 8         :                
-GND*                         : U14       :        :                   :         : 8         :                
+controlMem[3]                : U14       : output : 3.3-V LVTTL       :         : 8         : N              
 GND*                         : U15       :        :                   :         : 8         :                
 GND*                         : U16       :        :                   :         : 8         :                
-READ_FROM_CASH               : U17       : input  : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : U17       :        :                   :         : 1         :                
 GND*                         : U18       :        :                   :         : 1         :                
 GND*                         : U19       :        :                   :         : 1         :                
 GND*                         : U20       :        :                   :         : 1         :                
-MEM_DATA[1]                  : U21       : bidir  : 3.3-V LVTTL       :         : 1         : N              
-GND*                         : U22       :        :                   :         : 1         :                
-GND*                         : V1        :        :                   :         : 6         :                
-GND*                         : V2        :        :                   :         : 6         :                
+GND*                         : U21       :        :                   :         : 1         :                
+data_from_RON[4]             : U22       : output : 3.3-V LVTTL       :         : 1         : N              
+f_op_adr[7]                  : V1        : output : 3.3-V LVTTL       :         : 6         : N              
+f_op_adr[5]                  : V2        : output : 3.3-V LVTTL       :         : 6         : N              
 GND*                         : V3        :        :                   :         : 6         :                
 GND*                         : V4        :        :                   :         : 6         :                
 PORSEL                       : V5        :        :                   :         : 7         :                
 GND*                         : V6        :        :                   :         : 7         :                
-GND*                         : V7        :        :                   :         : 7         :                
+ALU_data[9]                  : V7        : output : 3.3-V LVTTL       :         : 7         : N              
 GND*                         : V8        :        :                   :         : 7         :                
-words_from_cash[3]           : V9        : output : 3.3-V LVTTL       :         : 10        : N              
-STEAK_data[9]                : V10       : output : 3.3-V LVTTL       :         : 7         : N              
-CPU_DATA[1]                  : V11       : bidir  : 3.3-V LVTTL       :         : 8         : N              
-AddressFromCPU[3]            : V12       : output : 3.3-V LVTTL       :         : 8         : N              
+AddressFromCPU[8]            : V9        : output : 3.3-V LVTTL       :         : 10        : N              
+ALU_data[2]                  : V10       : output : 3.3-V LVTTL       :         : 7         : N              
+MEM_DATA[2]                  : V11       : bidir  : 3.3-V LVTTL       :         : 8         : N              
+controlMem[2]                : V12       : output : 3.3-V LVTTL       :         : 8         : N              
 GND*                         : V13       :        :                   :         : 8         :                
 GND*                         : V14       :        :                   :         : 8         :                
 GND*                         : V15       :        :                   :         : 8         :                
@@ -512,21 +512,21 @@ VCCSEL                       : V17       :        :                   :         
 GND*                         : V18       :        :                   :         : 1         :                
 GND*                         : V19       :        :                   :         : 1         :                
 VREFB1                       : V20       : power  :                   :         : 1         :                
-MEM_DATA[6]                  : V21       : bidir  : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : V21       :        :                   :         : 1         :                
 GND*                         : V22       :        :                   :         : 1         :                
 GND*                         : W1        :        :                   :         : 6         :                
 GND*                         : W2        :        :                   :         : 6         :                
-STEAK_data[0]                : W3        : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : W3        :        :                   :         : 6         :                
 GND*                         : W4        :        :                   :         : 6         :                
 GND*                         : W5        :        :                   :         : 7         :                
 VREFB7                       : W6        : power  :                   :         : 7         :                
-AddressFromCPU[2]            : W7        : output : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : W7        :        :                   :         : 7         :                
 VREFB7                       : W8        : power  :                   :         : 7         :                
-f_op_adr[1]                  : W9        : output : 3.3-V LVTTL       :         : 10        : N              
-WRITE_FOR_CASH               : W10       : input  : 3.3-V LVTTL       :         : 7         : N              
-GND*                         : W11       :        :                   :         : 8         :                
-MEM_DATA[7]                  : W12       : bidir  : 3.3-V LVTTL       :         : 8         : N              
-CPU_DATA[0]                  : W13       : bidir  : 3.3-V LVTTL       :         : 8         : N              
+f_op_adr[10]                 : W9        : output : 3.3-V LVTTL       :         : 10        : N              
+MEM_DATA[0]                  : W10       : bidir  : 3.3-V LVTTL       :         : 7         : N              
+AddressFromCPU[9]            : W11       : output : 3.3-V LVTTL       :         : 8         : N              
+CPU_DATA[8]                  : W12       : bidir  : 3.3-V LVTTL       :         : 8         : N              
+MISS                         : W13       : output : 3.3-V LVTTL       :         : 8         : N              
 GND*                         : W14       :        :                   :         : 8         :                
 GND*                         : W15       :        :                   :         : 8         :                
 GND*                         : W16       :        :                   :         : 8         :                
@@ -537,23 +537,23 @@ GND*                         : W20       :        :                   :         
 GND*                         : W21       :        :                   :         : 1         :                
 GND*                         : W22       :        :                   :         : 1         :                
 GND*                         : Y1        :        :                   :         : 6         :                
-GND*                         : Y2        :        :                   :         : 6         :                
-data_from_RON[0]             : Y3        : output : 3.3-V LVTTL       :         : 7         : N              
+first_op[2]                  : Y2        : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : Y3        :        :                   :         : 7         :                
 PLL_ENA                      : Y4        :        :                   :         : 7         :                
-STEAK_data[4]                : Y5        : output : 3.3-V LVTTL       :         : 7         : N              
-first_op[1]                  : Y6        : output : 3.3-V LVTTL       :         : 7         : N              
-CPU_DATA[5]                  : Y7        : bidir  : 3.3-V LVTTL       :         : 7         : N              
-command[3]                   : Y8        : output : 3.3-V LVTTL       :         : 7         : N              
-count_check[0]               : Y9        : output : 3.3-V LVTTL       :         : 10        : N              
-words_from_cash[5]           : Y10       : output : 3.3-V LVTTL       :         : 7         : N              
-MEM_DATA[5]                  : Y11       : bidir  : 3.3-V LVTTL       :         : 7         : N              
-MEM_DATA[2]                  : Y12       : bidir  : 3.3-V LVTTL       :         : 8         : N              
-words_from_cash[9]           : Y13       : output : 3.3-V LVTTL       :         : 8         : N              
-MEM_DATA[3]                  : Y14       : bidir  : 3.3-V LVTTL       :         : 8         : N              
-MEM_DATA[4]                  : Y15       : bidir  : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : Y5        :        :                   :         : 7         :                
+GND*                         : Y6        :        :                   :         : 7         :                
+GND*                         : Y7        :        :                   :         : 7         :                
+ALU_data[8]                  : Y8        : output : 3.3-V LVTTL       :         : 7         : N              
+AddressMeme[8]               : Y9        : output : 3.3-V LVTTL       :         : 10        : N              
+AddressMeme[6]               : Y10       : output : 3.3-V LVTTL       :         : 7         : N              
+AddressFromCPU[6]            : Y11       : output : 3.3-V LVTTL       :         : 7         : N              
+AddressMeme[2]               : Y12       : output : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : Y13       :        :                   :         : 8         :                
+GND*                         : Y14       :        :                   :         : 8         :                
+GND*                         : Y15       :        :                   :         : 8         :                
 GND*                         : Y16       :        :                   :         : 8         :                
-AddressMeme[3]               : Y17       : output : 3.3-V LVTTL       :         : 8         : N              
-GND*                         : Y18       :        :                   :         : 8         :                
+GND*                         : Y17       :        :                   :         : 8         :                
+AddressMeme[7]               : Y18       : output : 3.3-V LVTTL       :         : 8         : N              
 VREFB8                       : Y19       : power  :                   :         : 8         :                
 GND*                         : Y20       :        :                   :         : 8         :                
 GND*                         : Y21       :        :                   :         : 1         :                

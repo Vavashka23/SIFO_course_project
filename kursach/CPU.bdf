@@ -325,22 +325,6 @@ applicable agreement for further details.
 	)
 )
 (pin
-	(output)
-	(rect 368 2104 544 2120)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ppp[29..0]" (rect 90 0 139 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
 	(bidir)
 	(rect 384 40 560 56)
 	(text "BIDIR" (rect 153 0 177 10)(font "Arial" (font_size 6)))
@@ -12336,12 +12320,6 @@ applicable agreement for further details.
 	(pt -824 144)
 )
 (connector
-	(text "popp[29..0]" (rect 298 2096 353 2108)(font "Arial" ))
-	(pt 296 2112)
-	(pt 368 2112)
-	(bus)
-)
-(connector
 	(text "dc4" (rect -638 352 -621 364)(font "Arial" ))
 	(pt -584 368)
 	(pt -640 368)
@@ -12522,12 +12500,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "popp[29..0]" (rect -622 -264 -567 -252)(font "Arial" ))
-	(pt -624 -248)
-	(pt -536 -248)
-	(bus)
-)
-(connector
 	(pt -536 -248)
 	(pt -488 -248)
 	(bus)
@@ -12629,7 +12601,6 @@ applicable agreement for further details.
 (junction (pt -216 16))
 (junction (pt -1160 488))
 (junction (pt -536 -344))
-(junction (pt -536 -248))
 (junction (pt -536 -440))
 (junction (pt -536 -536))
 (text "MOV REG ADR" (rect 24 744 252 776)(font "Arial" (font_size 20)))
