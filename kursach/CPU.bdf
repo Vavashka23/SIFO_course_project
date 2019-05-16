@@ -7830,7 +7830,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -696 -384 -552 -320)
+	(rect -704 -184 -560 -120)
 	(text "lpm_counter9" (rect 33 1 125 17)(font "Arial" (font_size 10)))
 	(text "inst207" (rect 8 48 43 60)(font "Arial" ))
 	(port
@@ -7858,7 +7858,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -488 -488 -360 -392)
+	(rect -496 -288 -368 -192)
 	(text "lpm_compare17" (rect 18 1 126 17)(font "Arial" (font_size 10)))
 	(text "inst210" (rect 8 80 43 92)(font "Arial" ))
 	(port
@@ -7885,7 +7885,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -488 -392 -360 -296)
+	(rect -496 -192 -368 -96)
 	(text "lpm_compare15" (rect 18 1 126 17)(font "Arial" (font_size 10)))
 	(text "inst208" (rect 8 80 43 92)(font "Arial" ))
 	(port
@@ -7912,7 +7912,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -488 -296 -360 -200)
+	(rect -496 -96 -368 0)
 	(text "lpm_compare16" (rect 18 1 126 17)(font "Arial" (font_size 10)))
 	(text "inst209" (rect 8 80 43 92)(font "Arial" ))
 	(port
@@ -7939,7 +7939,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -488 -584 -360 -488)
+	(rect -496 -384 -368 -288)
 	(text "lpm_compare18" (rect 18 1 126 17)(font "Arial" (font_size 10)))
 	(text "inst211" (rect 8 80 43 92)(font "Arial" ))
 	(port
@@ -7966,7 +7966,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -288 -488 -184 -376)
+	(rect -296 -288 -192 -176)
 	(text "OR5" (rect 39 -1 67 15)(font "Courier New" (font_size 10)(bold)))
 	(text "inst213" (rect 3 101 38 113)(font "Arial" ))
 	(port
@@ -8076,7 +8076,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -488 -680 -360 -584)
+	(rect -496 -480 -368 -384)
 	(text "lpm_compare19" (rect 18 1 126 17)(font "Arial" (font_size 10)))
 	(text "inst212" (rect 8 80 43 92)(font "Arial" ))
 	(port
@@ -12429,104 +12429,104 @@ applicable agreement for further details.
 	(pt -784 528)
 )
 (connector
-	(pt -488 -440)
-	(pt -536 -440)
+	(pt -496 -240)
+	(pt -544 -240)
 	(bus)
 )
 (connector
-	(text "clk_o" (rect -734 -368 -709 -356)(font "Arial" ))
-	(pt -736 -352)
-	(pt -696 -352)
+	(text "clk_o" (rect -742 -168 -717 -156)(font "Arial" ))
+	(pt -744 -152)
+	(pt -704 -152)
 )
 (connector
-	(pt -488 -536)
-	(pt -536 -536)
+	(pt -496 -336)
+	(pt -544 -336)
 	(bus)
 )
 (connector
-	(pt -488 -632)
-	(pt -536 -632)
+	(pt -496 -432)
+	(pt -544 -432)
 	(bus)
 )
 (connector
-	(pt -360 -624)
-	(pt -288 -624)
+	(pt -368 -424)
+	(pt -296 -424)
 )
 (connector
-	(pt -360 -448)
-	(pt -288 -448)
+	(pt -368 -248)
+	(pt -296 -248)
 )
 (connector
-	(pt -360 -432)
-	(pt -288 -432)
+	(pt -368 -232)
+	(pt -296 -232)
 )
 (connector
-	(pt -288 -624)
-	(pt -288 -464)
+	(pt -296 -424)
+	(pt -296 -264)
 )
 (connector
-	(pt -288 -416)
-	(pt -360 -416)
+	(pt -296 -216)
+	(pt -368 -216)
 )
 (connector
-	(pt -360 -416)
-	(pt -360 -336)
+	(pt -368 -216)
+	(pt -368 -136)
 )
 (connector
-	(pt -288 -400)
-	(pt -336 -400)
+	(pt -296 -200)
+	(pt -344 -200)
 )
 (connector
-	(pt -336 -400)
-	(pt -336 -240)
+	(pt -344 -200)
+	(pt -344 -40)
 )
 (connector
-	(pt -336 -240)
-	(pt -360 -240)
+	(pt -344 -40)
+	(pt -368 -40)
 )
 (connector
-	(text "del" (rect -182 -432 -168 -420)(font "Arial" ))
-	(pt -152 -416)
-	(pt -184 -416)
+	(text "del" (rect -190 -232 -176 -220)(font "Arial" ))
+	(pt -160 -216)
+	(pt -192 -216)
 )
 (connector
-	(pt -552 -344)
-	(pt -536 -344)
+	(pt -544 -48)
+	(pt -496 -48)
 	(bus)
 )
 (connector
-	(pt -536 -344)
-	(pt -488 -344)
+	(pt -368 -328)
+	(pt -368 -248)
+)
+(connector
+	(pt -560 -144)
+	(pt -544 -144)
 	(bus)
 )
 (connector
-	(pt -536 -248)
-	(pt -488 -248)
+	(pt -544 -144)
+	(pt -496 -144)
 	(bus)
 )
 (connector
-	(pt -536 -344)
-	(pt -536 -248)
+	(pt -544 -432)
+	(pt -544 -336)
 	(bus)
 )
 (connector
-	(pt -536 -632)
-	(pt -536 -536)
+	(pt -544 -336)
+	(pt -544 -240)
 	(bus)
 )
 (connector
-	(pt -536 -536)
-	(pt -536 -440)
+	(pt -544 -240)
+	(pt -544 -144)
 	(bus)
 )
 (connector
-	(pt -536 -440)
-	(pt -536 -344)
+	(pt -544 -144)
+	(pt -544 -48)
 	(bus)
-)
-(connector
-	(pt -360 -528)
-	(pt -360 -448)
 )
 (junction (pt 384 744))
 (junction (pt 928 328))
@@ -12600,9 +12600,9 @@ applicable agreement for further details.
 (junction (pt -216 24))
 (junction (pt -216 16))
 (junction (pt -1160 488))
-(junction (pt -536 -344))
-(junction (pt -536 -440))
-(junction (pt -536 -536))
+(junction (pt -544 -144))
+(junction (pt -544 -336))
+(junction (pt -544 -240))
 (text "MOV REG ADR" (rect 24 744 252 776)(font "Arial" (font_size 20)))
 (text "r_after_wr" (rect 330 1008 379 1020)(font "Arial" ))
 (text "comm3_en" (rect 330 992 384 1004)(font "Arial" ))
